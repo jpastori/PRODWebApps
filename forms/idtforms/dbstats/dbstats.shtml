@@ -1,0 +1,26 @@
+<!--#config timefmt="%D %H:%M %Z" -->
+<!--#set var="page_section" value="default" -->
+<!--#set var="page_type" value="default" -->
+<!--#set var="page_title" value="Article Databases Usage Statistics" -->
+<!--#set var="use_title_as_content_header" value="no" -->
+<!--#set var="author_name" value="John R. Pastori" -->
+<!--#set var="author_email" value="pastori@rohan.sdsu.edu" -->
+<!--#set var="content_updated" value="dynamically" -->
+<!--#if expr="$QUERY_STRING = print" -->
+	<center><h2><!--#echo var="page_title" --></h2><br>
+	http://<!--#echo var="SERVER_NAME" --><!--#echo var="DOCUMENT_URI" --></center>
+<!--#else -->
+	<!--#include virtual="/include/dbstatsheader.shtml" -->
+<!--#endif -->
+<!--#if expr="$QUERY_STRING = print" --><!--#else --><div align='center'><h1>LIBRARY ARTICLE DATABASES USAGE STATISTICS REPORT</h1></div><!--#endif --><div align='center'><h3>ANNUAL PROCESS:  JULY 1, 2003 thru JUNE 30, 2004</h3></div><font size= '50%' pointsize='4' face='Helvetica,Verdana,Arial'><small><!--#if expr="$QUERY_STRING = print" --><table border='0' width='100%' cellpadding='3' cellspacing='0'><!--#else --><table border='3' width='100%' cellpadding='3' cellspacing='0'><!--#endif --><tr>
+	<th><strong><u>Site Name</u></strong></th>
+	<th><strong><u>Hits In Library</u></strong></th>
+	<th><strong><u>Hits In Computing Labs</u></strong></th>
+	<th><strong><u>Hits On Campus (Not In Library)</u></strong></th>
+	<th><strong><u>Hits Off Campus</u></strong></th>
+	<th><strong><u>DB Totals</u></strong></th>
+</tr>
+<tr> <td colspan='6'> <hr width = '100%'></td></tr><tr> <td align='left'> <strong><u>GRAND TOTALS:</u></strong> </td><td align='right'>0</td><td align='right'>0</td>
+			<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></table></font>
+
+<br><br></small><!--#if expr="$QUERY_STRING = print" --><div align="center"><a href="#TOP">Top of Document</a> | <a href="/forms/istforms/dbstats/dbstatreq.shtml">Return to Request Form</a> | <a href="http://<!--#echo var="server_name" --><!--#echo var="DOCUMENT_URI" -->">Display Web browser version</a></div><!--#else --><div align="center"><a href="#TOP">Top of Document</a> | <a href="/forms/istforms/dbstats/dbstatreq.shtml">Return to Request Form</a> | <img src="/images/printer.gif" alt="Printer Icon" align="absbottom"><a href="http://<!--#echo var="server_name" --><!--#echo var="DOCUMENT_URI" -->?print">Display Printer-friendly version</a></div><br><br><!--#include virtual="/include/footer.shtml" --><!--#endif --><br><br>

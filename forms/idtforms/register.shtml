@@ -1,0 +1,375 @@
+<!doctype html public "-//w3c//dtd html 3.2//en">
+
+<html>
+
+<head>
+<link rel="STYLESHEET" href="/style/main.css" type="text/css">
+<style type="text/css"></style>
+<title>InfoSys Training Registration</title>
+<meta name="GENERATOR" content="Arachnophilia 4.0">
+<meta name="FORMATTER" content="Arachnophilia 4.0">
+</head>
+
+<body>
+
+<!--#config timefmt="%A %B %d, %Y %H:%M %Z" -->
+<!--#include virtual="/include/header.shtml"-->
+
+<!--#set var="author_name" value="Carol Phillips" -->
+<!--#set var="author_email" value="phillips@rohan.sdsu.edu" -->
+<!--#set var="content_updated" value="Febrary 11, 2003" -->
+
+<A NAME="top"></A>
+<H2>Information Systems and Technology <br>
+Training Registration</H2>
+<!--Framing Table-->
+<CENTER>
+<TABLE WIDTH=540 BORDER=0 CELLSPACING=0 CELLPADDING=0>
+<TR>
+<TD>
+<BR>
+<!--Content Table-->
+<TABLE WIDTH=100% BORDER=0 CELLSPACING=0 CELLPADDING=5>
+
+<!--Intro-->
+<TR>
+<TD COLSPAN=2>
+
+</TD>
+</TR>
+
+<FORM method=post action=http://www.sdsu.edu/cgi-bin/MailForm/submit/infosys@library.sdsu.edu> 
+
+</form><TD><strong>Your Name:</strong> (required)  </td><td>
+<SELECT NAME="Name">
+<option selected value="click here">Please click here to select your Name.</OPTION>
+<option selected value="AMY TSUJI">AMY TSUJI</OPTION>
+<option selected value="ANN NEVITT">ANN NEVITT</OPTION>
+<option selected value="ANNALYNN AVENDANO">ANNALYNN AVENDANO</OPTION>
+<option selected value="BARRY DWORAK">BARRY DWORAK</OPTION>
+<option selected value="BEATRICE BRIGGS">BEATRICE BRIGGS</OPTION>
+<option selected value="BONNIE MADSEN">BONNIE MADSEN</OPTION>
+<option selected value="BRIAN LENZ">BRIAN LENZ</OPTION>
+<option selected value="BRIAN MOORE">BRIAN MOORE</OPTION>
+<option selected value="BRUCE HARLEY">BRUCE HARLEY</OPTION>
+<option selected value="C. ANNE TURHOLLOW">C. ANNE TURHOLLOW</OPTION>
+<option selected value="CAROL PHILLIPS">CAROL PHILLIPS</OPTION>
+<option selected value="CAROL "MARIPOSA" VARELA-HAAGER">CAROL "MARIPOSA" VARELA-HAAGER</option>
+<option selected value="CAROLE F. WILSON">CAROLE F. WILSON</OPTION>
+<option selected value="CAROLYN BABER">CAROLYN BABER</OPTION>
+<option selected value="CATHERINE COOK">CATHERINE COOK</OPTION>
+<option selected value="CECILIA PUERTO">CECILIA PUERTO</OPTION>
+<option selected value="CECILIA PUERTO">CHIMENE TUCKER</OPTION>
+<option selected value="CHUCK DINTRONE">CHUCK DINTRONE</OPTION>
+<option selected value="CLIFTON GUO">CLIFTON GUO</OPTION>
+<option selected value="CONNIE V. DOWELL">CONNIE V. DOWELL</OPTION>
+<option selected value="CRISTINA FAVRETTO">CRISTINA FAVRETTO</OPTION>
+<option selected value="DAN MCCREADY">DAN MCCREADY</OPTION>
+<option selected value="DANIEL RIVERA">DANIEL RIVERA</OPTION>
+<option selected value="DARLENE NOWAK">DARLENE NOWAK</OPTION>
+<option selected value="DENNIS SHANNON">DENNIS SHANNON</OPTION>
+<option selected value="DOROTHY PATTERSON">DOROTHY PATTERSON</OPTION>
+<option selected value="EDWARD DI BELLA">EDWARD DI BELLA</OPTION>
+<option selected value="ELKE ZOBL">ELKE ZOBL</OPTION>
+<option selected value="ESTELITA TATUM">ESTELITA TATUM</OPTION>
+<option selected value="GLORIA H. ROGERS">GLORIA H. ROGERS</OPTION>
+<option selected value="GLORIA RHODES">GLORIA RHODES</OPTION>
+<option selected value="GWEN PATRICK-BUIE">GWEN PATRICK-BUIE</OPTION>
+<option selected value="HANNELORE HEVESY">HANNELORE HEVESY</OPTION>
+<option selected value="HARRY KEEHAN">HARRY KEEHAN</OPTION>
+<option selected value="HELEN K. HENRY">HELEN K. HENRY</OPTION>
+<option selected value="INFOSYS SERVICE DESK">INFOSYS SERVICE DESK</OPTION>
+<option selected value="JAMIE BOYER">JAMIE BOYER</OPTION>
+<option selected value="JENNIFER A. CLARK">JENNIFER A. CLARK</OPTION>
+<option selected value="JENNIFER ANDERSON">JENNIFER ANDERSON</OPTION>
+<option selected value="JENNIFER MARTINEZ">JENNIFER MARTINEZ</OPTION>
+<option selected value="JENNIFER RONAYNE">JENNIFER RONAYNE</OPTION>
+<option selected value="JERRY PALSSON">JERRY PALSSON</OPTION>
+<option selected value="JESICA BRUBAKER">JESICA BRUBAKER</OPTION>
+<option selected value="JOAN FREEMAN GOODWIN">JOAN FREEMAN GOODWIN</OPTION>
+<option selected value="JOAN SHELBY">JOAN SHELBY</OPTION>
+<option selected value="JOHN PASTORI">JOHN PASTORI</OPTION>
+<option selected value="JOHN ROSS">JOHN ROSS</OPTION>
+<option selected value="JON CAWTHORNE">JON CAWTHORNE</OPTION>
+<option selected value="JOSIE ACEVEDO">JOSIE ACEVEDO</OPTION>
+<option selected value="JOSSIE CHAVEZ">JOSSIE CHAVEZ</OPTION>
+<option selected value="JOYCE GREEN">JOYCE GREEN</OPTION>
+<option selected value="JULIE SU">JULIE SU</OPTION>
+<option selected value="KATALIN HARKANYI">KATALIN HARKANYI</OPTION>
+<option selected value="KATHLEEN TAYLOR">KATHLEEN TAYLOR</OPTION>
+<option selected value="KATHRYN NEAL">KATHRYN NEAL</OPTION>
+<option selected value="KELLEY MARTIN">KELLEY MARTIN</OPTION>
+<option selected value="LAURA HUDSON">LAURA HUDSON</OPTION>
+<option selected value="LEON GEIS">LEON GEIS</OPTION>
+<option selected value="LINDA JACKSON-COYLE">LINDA JACKSON-COYLE</OPTION>
+<option selected value="LINDA S. MUROI">LINDA S. MUROI</OPTION>
+<option selected value="LINDA SALEM">LINDA SALEM</OPTION>
+<option selected value="LISA ELKINS">LISA ELKINS</OPTION>
+<option selected value="LISA PETERS">LISA PETERS</OPTION>
+<option selected value="LORRAINE QUINTERO">LORRAINE QUINTERO</OPTION>
+<option selected value="LUPITA  LOPEZ">LUPITA  LOPEZ</OPTION>
+<option selected value="LYN OLSSON">LYN OLSSON</OPTION>
+<option selected value="LYNN HAWKES">LYNN HAWKES</OPTION>
+<option selected value="MARCIA PULLIN">MARCIA PULLIN</OPTION>
+<option selected value="MARGARET KARNYSKI">MARGARET KARNYSKI</OPTION>
+<option selected value="MARGARET THEALL">MARGARET THEALL</OPTION>
+<option selected value="MARILYN E. HALL">MARILYN E. HALL</OPTION>
+<option selected value="MARK BURGESON">MARK BURGESON</OPTION>
+<option selected value="MARK FIGUEROA">MARK FIGUEROA</OPTION>
+<option selected value="MARK LESTER">MARK LESTER</OPTION>
+<option selected value="MARK STOVER">MARK STOVER</OPTION>
+<option selected value="MARKEL TUMLIN">MARKEL TUMLIN</OPTION>
+<option selected value="MARSHA SHEA">MARSHA SHEA</OPTION>
+<option selected value="MARTHA MCPHAIL">MARTHA MCPHAIL</OPTION>
+<option selected value="MARY BETH LINK">MARY BETH LINK</OPTION>
+<option selected value="MAUREEN DOTSON">MAUREEN DOTSON</OPTION>
+<option selected value="MEGAN DREGER">MEGAN DREGER</OPTION>
+<option selected value="MICHAEL DIMAIO">MICHAEL DIMAIO</OPTION>
+<option selected value="MICHAEL J. PERKINS">MICHAEL J. PERKINS</OPTION>
+<option selected value="MICHAEL MCGOVERN">MICHAEL MCGOVERN</OPTION>
+<option selected value="MINA MUESSIGMANN">MINA MUESSIGMANN</OPTION>
+<option selected value="MIRIAM GITCHOFF">MIRIAM GITCHOFF</OPTION>
+<option selected value="MORLIN BROWN">MORLIN BROWN</OPTION>
+<option selected value="NATALIE PASTOR">NATALIE PASTOR</OPTION>
+<option selected value="PAMELA HALL">PAMELA HALL</OPTION>
+<option selected value="PATRICIA JONES">PATRICIA JONES</OPTION>
+<option selected value="PATRICK SULLIVAN">PATRICK SULLIVAN</OPTION>
+<option selected value="PEG WILLIAMS">PEG WILLIAMS</OPTION>
+<option selected value="PHILLIP M. WHITE">PHILLIP M. WHITE</OPTION>
+<option selected value="RACHEL BRYSON">RACHEL BRYSON</OPTION>
+<option selected value="REBECCA SMITH">REBECCA SMITH</OPTION>
+<option selected value="ROBERT CARANDE">ROBERT CARANDE</OPTION>
+<option selected value="ROBERT FIKES">ROBERT FIKES</OPTION>
+<option selected value="ROBERTA NIEDERJOHN">ROBERTA NIEDERJOHN</OPTION>
+<option selected value="RON NASH">RON NASH</OPTION>
+<option selected value="SANDY NEER">SANDY NEER</OPTION>
+<option selected value="SARA BAIRD">SARA BAIRD</OPTION>
+<option selected value="SHARON WATSON">SHARON WATSON</OPTION>
+<option selected value="STEVE VOELKER">STEVE VOELKER</OPTION>
+<option selected value="STEVEN SAVAGE">STEVEN SAVAGE</OPTION>
+<option selected value="SUSAN SOTO">SUSAN SOTO</OPTION>
+<option selected value="TERRY VENTURA">TERRY VENTURA</OPTION>
+<option selected value="TONI WHITLEY">TONI WHITLEY</OPTION>
+<option selected value="WENDY SCHMIDT">WENDY SCHMIDT</OPTION>
+<option selected value="WILLIAM STANINGER">WILLIAM STANINGER</OPTION>
+<option selected value="YUAN LIANG">YUAN LIANG</OPTION>
+<option selected value="click here">Please click here to select your Name.</OPTION>
+</SELECT><p></p>
+</TD></TR>
+<TR>
+<TD><strong>Your Library Unit</strong>  (required) </TD><TD>
+<SELECT NAME="Unit">
+<option selected value="click here">Please click here to select your Unit.</OPTION>
+<option selected value="CIRC">CIRC</OPTION>
+<option selected value="COLLDEV">COLLDEV</OPTION>
+<option selected value="COPY">COPY</OPTION>
+<option selected value="CPMC">CPMC</OPTION>
+<option selected value="GPM-CATLGS">GPM-CATLGS</OPTION>
+<option selected value="ILL">ILL</OPTION>
+<option selected value="INFO SUP">INFO SUP</OPTION>
+<option selected value="INFOSYS">INFOSYS</OPTION>
+<option selected value="INSTR">INSTR</OPTION>
+<option selected value="IVC-LIB">IVC-LIB</OPTION>
+<option selected value="LIBADMIN">LIBADMIN</OPTION>
+<option selected value="MEDIA">MEDIA</OPTION>
+<option selected value="MONOGRAPHS">MONOGRAPHS</OPTION>
+<option selected value="PAC SUP">PAC SUP</OPTION>
+<option selected value="REF_SRV">REF_SRV</OPTION>
+<option selected value="RBR">RBR</OPTION>
+<option selected value="SANS">SANS</OPTION>
+<option selected value="SAT">SAT</OPTION>
+<option selected value="SERIALS">SERIALS</OPTION>
+<option selected value="SCC">SCC</OPTION>
+<option selected value="SPECCOLL">SPECCOLL</OPTION>
+<option selected value="STKMAIN">STKMAIN</OPTION>
+<option selected value="click here">Please click here to select your Unit.</OPTION>
+</SELECT><p></p>
+</TD></TR>
+<TR><TD><strong>Your Email address:</strong>  (required) </TD><TD><INPUT TYPE=text NAME="Email" size=35><p></p></TD></TR>
+<TR><TD><strong>Your Phone:</strong>  (required) </TD><TD><INPUT TYPE=text NAME="Phone" size=20><p></p>
+</TD></TR>
+
+<TR><TD COLSPAN=2><HR></TD></TR>
+
+<TR>
+<TD WIDTH=200 VALIGN=TOP><B>Which workshop(s) are you registering for?</B><BR>
+<FONT SIZE=-1>(Check all that apply, then click 'Send Registration' below.)</FONT>
+</TD>
+<TD>
+
+<BR>
+<B><FONT COLOR="#990000">Windows 98/Office 97/Office 2000/<BR>
+HTML and Procite Workshops in LL-490</FONT></B><BR>
+<FONT SIZE=-1><b>(Limited to 4 persons per session except where noted)</b></FONT>
+<BR>
+
+<!--WINDOWS TABLE-->
+<TABLE WIDTH=100% BORDER=0 CELLSPACING=0 CELLPADDING=4>
+
+<TR>
+<TD VALIGN=TOP>
+<B>HTML Skills</B> <FONT SIZE=-1>(Win 98) </FONT><BR>
+<INPUT TYPE="checkbox" NAME="HTMLSkills"  VALUE="6/11-9">Tue X/XX/XX, 9-11 am<BR>
+<INPUT TYPE="checkbox" NAME="HTMLSkills"  VALUE="6/11-1">Tue X/XX/XX, 1-3 pm<BR>
+</TD>
+</TR>
+
+<TR>
+<TD VALIGN=TOP>
+<B>HTML Basic Code, Pt. 1</B> <FONT SIZE=-1>(Win 98) </FONT><BR>
+<INPUT TYPE="checkbox" NAME="HTMLBasic1"  VALUE="6/12-9">Wed X/XX/XX, 9-11 am<BR>
+<INPUT TYPE="checkbox" NAME="HTMLBasic1"  VALUE="6/12-1">Wed X/XX/XX, 1-3 pm<BR>
+</TD>
+</TR>
+
+<TR>
+<TD VALIGN=TOP>
+<B>HTML Basic Code, Pt. 2</B> <FONT SIZE=-1>(Win 98) </FONT><BR>
+<INPUT TYPE="checkbox" NAME="HTMLBasic2"  VALUE="6/14-9">Fri X/XX/XX, 9-11 am<BR>
+<INPUT TYPE="checkbox" NAME="HTMLBasic2"  VALUE="6/14-1">Fri X/XX/XX, 1-3 pm<BR>
+</TD>
+</TR>
+
+<TR>
+<TD VALIGN=TOP>
+<B>Website Training</B> <FONT SIZE=-1>(Win 98) </FONT><BR>
+<INPUT TYPE="checkbox" NAME="Website"  VALUE="5/29-9">Wed X/XX/XX, 9-11 am<BR>
+<INPUT TYPE="checkbox" NAME="Website"  VALUE="5/29-1">Wed X/XX/XX, 1-3 pm<BR>
+<INPUT TYPE="checkbox" NAME="WebSite" VALUE="6/26-9">Tue X/XX/XX, 9-11 am<BR>
+<INPUT TYPE="checkbox" NAME="WebSite" VALUE="6/26-1">Tue X/XX/XX, 1-3 pm<BR>
+</TD>
+</TR>
+
+<TR>
+<TD VALIGN=TOP>
+<B>Dreamweaver</B> <FONT SIZE=-1>(Win 98) </FONT><BR>
+<INPUT TYPE="checkbox" NAME="Dreamweaver"  VALUE="6/17-9">Mon X/XX/XX, 9-11 am <BR>
+<INPUT TYPE="checkbox" NAME="Dreamweaver"  VALUE="6/17-1">Mon X/XX/XX, 1-3 pm <BR>
+</TD>
+</TR>
+
+<TR>
+<TD VALIGN=TOP>
+<B>Excel - Basics</B> <FONT SIZE=-1>(Off 97/2K) </FONT><BR>
+<INPUT TYPE="checkbox" NAME="ExcelBasic" VALUE="6/4-9">Tue X/XX/XX, 9-11 am<BR>
+<INPUT TYPE="checkbox" NAME="ExcelBasic" VALUE="6/4-1">Tue X/XX/XX, 1-3 pm<BR>
+</TD>
+</TR>
+
+<TR>
+<TD VALIGN=TOP>
+<B>Excel - Intermediate</B> <FONT SIZE=-1>(Off 97/2K) </FONT><BR>
+<INPUT TYPE="checkbox" NAME="ExcelInter" VALUE="6/5-9">Wed X/XX/XX, 9-11 am<BR>
+<INPUT TYPE="checkbox" NAME="ExcelInter" VALUE="6/5-1">Wed X/XX/XX, 1-3 pm<BR>
+</TD>
+</TR>
+
+<TR>
+<TD VALIGN=TOP>
+<B>Word - Basics</B> <FONT SIZE=-1>(Off 97/2K) </FONT><BR>
+<INPUT TYPE="checkbox" NAME="WordBasics" VALUE="6/18-9">Tue X/XX/XX, 9-11 am<BR>
+<INPUT TYPE="checkbox" NAME="WordBasics" VALUE="6/18-1">Tue X/XX/XX, 1-3 pm<BR>
+</TD>
+</TR>
+
+<TR>
+<TD VALIGN=TOP>
+<B>Word - Intermediate</B> <FONT SIZE=-1>(Off 97/2K) </FONT><BR>
+<INPUT TYPE="checkbox" NAME="WordInter" VALUE="6/19-9">Wed X/XX/XX, 9-11 am<BR>
+<INPUT TYPE="checkbox" NAME="WordInter" VALUE="6/19-1">Wed X/XX/XX, 1-3 pm<BR>
+</TD>
+</TR>
+
+<TR>
+<TD VALIGN=TOP>
+<B>Word 2000 Art Tools</B> <FONT SIZE=-1>(Off 2K) </FONT><BR>
+<INPUT TYPE="checkbox" NAME="Drawing" VALUE="5/28-9">Tue X/XX/XX, 9-11 am<BR>
+<INPUT TYPE="checkbox" NAME="Drawing" VALUE="5/28-1">Tue X/XX/XX, 1-3 pm<BR>
+</TD>
+</TR>
+
+<TR>
+<TD VALIGN=TOP>
+<B>Eudora </B> <FONT SIZE=-1>(Win 98) </FONT><BR>
+<INPUT TYPE="checkbox" NAME="Eudora"  VALUE="6/24-9">Mon X/XX/XX, 9-11 pm<BR>
+<INPUT TYPE="checkbox" NAME="Eudora"  VALUE="6/24-1">Mon X/XX/XX, 1-3 pm<BR>
+</TD>
+</TR>
+
+<TR>
+<TD VALIGN=TOP>
+<B>My Computer/Explorer</B> <FONT SIZE=-1>(Win 98) </FONT><BR>
+<INPUT TYPE="checkbox" NAME="MyComputer" VALUE="6/25-9">Tue X/XX/XX, 9-10 am<BR>
+<INPUT TYPE="checkbox" NAME="MyComputer" VALUE="6/25-11">Tue X/XX/XX, 11 am-12 pm<BR>
+<INPUT TYPE="checkbox" NAME="MyComputer" VALUE="6/25-2">Tue X/XX/XX, 2-3 pm<BR>
+</TD>
+</TR>
+
+<TR>
+<TD VALIGN=TOP>
+<B>Meeting Maker (You must have a Meeting Maker account)</B> <FONT SIZE=-1>(Win 98) </FONT><BR>
+<INPUT TYPE="checkbox" NAME="Meeting"  VALUE="5/31-9">Fri X/XX/XX, 9-11 am<BR>
+<INPUT TYPE="checkbox" NAME="Meeting"  VALUE="5/31-1">Fri X/XX/XX, 1-3 pm<BR>
+<INPUT TYPE="checkbox" NAME="Meeting"  VALUE="6/10-9">Mon X/XX/XX, 9-11 am<BR>
+<INPUT TYPE="checkbox" NAME="Meeting"  VALUE="6/10-1">Mon X/XX/XX, 1-3 pm<BR>
+</TD>
+</TR>
+
+
+</TABLE>
+<!--END WINDOWS TABLE-->
+</TD>
+</TR>
+
+<TR>
+<TD WIDTH=200><BR>
+<INPUT TYPE=hidden NAME=MF_cc VALUE="$Email">
+<INPUT type=hidden name=MF_reply_to value="$Email">
+<INPUT TYPE=hidden NAME=MF_next_url VALUE="http://lfolkstest.sdsu.edu/forms/istforms/rthanks.shtml">
+<INPUT type=hidden name=MF_subject value="Training Registration">
+<INPUT type=hidden name=MF_title value="Training Registration Received">
+<INPUT type=hidden name=MF_output_format value="verbose">
+<INPUT type=hidden name=MF_indent value="40">
+<INPUT TYPE=hidden NAME=MF_required VALUE="Name,Unit,Email,Phone">
+</TD>
+<TD>
+<BR>
+
+<INPUT TYPE="Submit" VALUE="Send Registration"> &nbsp; &nbsp;
+<INPUT TYPE="Reset" VALUE="Clear Form"><p></p>
+
+</TD>
+</TR>
+
+
+<!--Close Content Table-->
+</TABLE>
+
+<!--Footer-->
+
+<BR>
+
+<P ALIGN=Center>
+<FONT SIZE=-1>
+<A HREF="/ist/units/services2a.shtml#Training">Back to InfoSys Training</A> | 
+<A HREF="#top">Top of This Page</A>  |  
+<A HREF="/ist/requests.shtml">InfoSys Request Forms</A><BR>
+<BR>
+</FONT>
+<BR><BR>
+</P>
+
+<!--Close Framing Table-->
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+<p>
+</p>
+
+<!--#include virtual="/include/footer.shtml"-->
+
+</body>
+
+</html>
+

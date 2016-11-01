@@ -1,0 +1,123 @@
+<HTML>
+
+<head>
+<link rel="STYLESHEET" href="/style/main.css" type="text/css">
+<style type="text/css"></style>
+<title>LFOLKS Student Assistant Termination Notice</title>
+<meta name="GENERATOR" content="Arachnophilia 4.0">
+<meta name="FORMATTER" content="Arachnophilia 4.0">
+</head>
+
+
+<body>
+
+<!--#config timefmt="%A %B %d, %Y %H:%M %Z" -->
+<!--#include virtual="/include/header.shtml"-->
+
+<!--#set var="author_name" value="Brian Lenz" -->
+<!--#set var="author_email" value="blenz@mail.sdsu.edu" -->
+<!--#set var="content_updated" value="May 31,2005" -->
+
+
+<h2>Student Assistant Termination Notice</h2>
+
+
+
+
+<P><FORM method=post action=http://www.sdsu.edu/cgi-bin/MailForm/submit/lpeters@mail.sdsu.edu>
+
+<CENTER><TABLE CELLPADDING=2 >
+
+<TR VALIGN=TOP>
+
+<TD>
+
+
+
+<TABLE CELLPADDING=5 WIDTH="100%" >
+
+
+<TR>
+
+<TD><B><FONT FACE="Tahoma">NAME:</font></B></TD>
+
+
+
+<TD><INPUT TYPE=text NAME="name" size=40></TD>
+
+</TR>
+
+
+
+<TR>
+
+<TD><B><FONT FACE="Tahoma">RED ID:</font></B></TD>
+
+
+
+<TD><INPUT TYPE=text NAME="redid" size=40></TD>
+
+</TR>
+
+<TR>
+
+<TD><B><FONT FACE="Tahoma">Last Day of Work:</font></B></TD>
+
+
+
+<TD><INPUT TYPE=text NAME="last" size=40></TD>
+
+</TR>
+
+
+<TR>
+
+<TD><B><FONT FACE="Tahoma">Reason for Leaving:</font></B></TD>
+
+
+
+<TD><INPUT TYPE=text NAME="reason" size=40></TD>
+
+</TR>
+
+<TR>
+
+<TD><B><FONT FACE="Tahoma">Supervisor Name:</font></B></TD>
+
+
+
+<TD><INPUT TYPE=text NAME="super" size=40></TD>
+
+</TR>
+
+<TR>
+
+<TD><B><FONT FACE="Tahoma">Department:</font></B></TD>
+
+
+
+<TD><INPUT TYPE=text NAME="dept" size=40></TD>
+
+</TR>
+
+
+</TABLE>
+
+<INPUT TYPE=hidden NAME=MF_reply_to VALUE=$Email><INPUT TYPE=hidden NAME=MF_next_url VALUE="http://lfolkstest.sdsu.edu/forms/thanks.shtml"><INPUT TYPE=hidden NAME=MF_indent VALUE=20><INPUT TYPE=hidden NAME=MF_order VALUE="name,redid,last,reason,super,dept">
+
+<CENTER><INPUT type=submit value="Send Form to Lisa Peters"><INPUT type=reset value="Clear form"></CENTER>
+
+</FORM></TD>
+
+</TR>
+
+</TABLE></CENTER>
+<p>
+</p>
+
+<!--#include virtual="/include/footer.shtml"-->
+
+</body>
+
+</html>
+

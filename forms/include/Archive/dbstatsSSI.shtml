@@ -1,0 +1,18 @@
+<!--#config timefmt="%D %H:%M %Z" -->
+
+<!--#set var="page_section" value="default" -->
+<!--#set var="page_type" value="default" -->
+
+<!--#set var="page_title" value="Article Databases Usage Statistics" -->
+<!--#set var="use_title_as_content_header" value="no" -->
+
+<!--#set var="author_name" value="John R. Pastori" -->
+<!--#set var="author_email" value="pastori@rohan.sdsu.edu" -->
+<!--#set var="content_updated" value="dynamically" -->
+
+<!--#if expr="$QUERY_STRING = print" -->
+	<center><h2><!--#echo var="page_title" --></h2><br>
+	http://<!--#echo var="SERVER_NAME" --><!--#echo var="DOCUMENT_URI" --></center>
+<!--#else -->
+	<!--#include virtual="/include/dbstatsheader.shtml" -->
+<!--#endif -->

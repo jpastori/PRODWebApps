@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="Application.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128637164460000000" remote="128637164460000000" Dst="-1" />
+<file name="custappaccmoddelloop.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128939860682656250" remote="128939858070000000" Dst="-1" />
+<file name="custappaccmultipledel.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128808615447031250" remote="128808613400000000" Dst="-1" />
+<file name="customerappaccess.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128735144840000000" remote="129549115130000000" Dst="1" />
+<file name="customerappaccessdbreport.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128728206240000000" remote="128728206240000000" Dst="-1" />
+<file name="dbsystemsdbreport.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128463924150000000" remote="128463924150000000" Dst="-1" />
+<file name="dbsystemsinfo.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128728247730000000" remote="128728247730000000" Dst="-1" />
+<file name="encryptcustomerpasswords.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="130191924458309227" remote="130191924520000000" Dst="2" />
+<file name="index.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128831943462968750" remote="128831947400000000" Dst="-1" />
+<file name="libsec_global_variables.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128463924170000000" remote="128463924170000000" Dst="-1" />
+<file name="passwordchange.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="131141330661357718" remote="131141330680000000" Dst="2" />
+<file name="processcustomerappaccess.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128492491210000000" remote="129549115140000000" Dst="1" />
+<file name="processdbsystemsinfo.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128463857673437500" remote="128463924170000000" Dst="-1" />
+<file name="processpasswordchange.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128463857784531250" remote="129549079140000000" Dst="2" />
+<file name="processsecuritylevelsinfo.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128463858070937500" remote="128463924180000000" Dst="-1" />
+<file name="securitylevelsdbreport.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128463924180000000" remote="128463924180000000" Dst="-1" />
+<file name="securitylevelsinfo.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128728248500000000" remote="128728248500000000" Dst="-1" />
+</dwsync>

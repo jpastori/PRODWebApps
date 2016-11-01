@@ -1,0 +1,39 @@
+/*
+    CSS for Oracle9i Database Release 2 (9.2.0.2) documentation
+*/
+
+/* Standard Element Selectors */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #309;
+    background: white;
+}
+
+th {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Class Selectors */
+
+.ProductTitle {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.BookTitle {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.VersionNumber {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.PrintDate {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}
+
+.PartNumber {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}

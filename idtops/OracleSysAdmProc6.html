@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- Last modified by John R. Pastori on 02/28/2006 using ColdFusion Studio. -->
+<html>
+<head>
+	<title>Procedure 6:  Clean up archive and limit number of archive files (purgearchivefiles).</title>
+	<link rel="stylesheet" type="text/css" href="/webapps.css">
+</head>
+
+<body>
+<DIV ALIGN="center"><H1>Procedure 6:  Clean up archive and limit number of archive files <BR>(purgearchivefiles).</H1></DIV>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The purgearchivefiles Perl program is run on GANDALF.SDSU.EDU as a cron job.  
+The Perl program deletes any *.dbf and *.trc files older than 15 days in the devapps development instance and the PRODAPPS production instance.
+<BR><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The *.dbf files are deleted from the following directory:
+<UL>
+	<OL>
+		<LI>		<u>/ora/archive/</u>.</LI>
+	</OL>
+</UL>
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The *.trc files are deleted from the following directories:
+
+<UL>
+	<OL>
+		<LI>		<u>/oracle/oracle102gserver/admin/PRODAPPS/bdump/</u>,</LI><BR>
+
+		<LI>		<u>/oracle/oracle102gserver/admin/PRODAPPS/udump/</u>,</LI><BR>
+
+		<LI>		<u>/oracle/oracle102gserver/admin/devapps/bdump/</u>,</LI><BR>
+
+		<LI>		<u>/oracle/oracle102gserver/admin/devapps/udump/</u>.</LI>
+	</OL>
+</UL>
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The purgearchivefiles Perl program is stored in the /oracle/oracle102gserver/dbexports directory.
+It can be run manually from this directory.
+<BR><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To look at or change the timing of the cron job:
+
+<UL>
+	<OL>
+		<LI>		Start the secure shell (ssh) software to create a telnet style session.</LI><BR>
+
+		<LI>		Login as user oracle.  (See Barry, Carol, John or Ron for current user account passwords.)</LI><BR>
+
+		<LI>		Change to user root with the su command:  <STRONG><EM>su [return]</EM></STRONG>, Enter root password [return].</LI><BR>
+
+		<LI>		Change to the cron directory by typing: <STRONG><EM>cd /var/spool/cron [return]</EM></STRONG>.</LI><BR>
+
+		<LI>		You can display the contents of the cron file by typing: <STRONG><EM>cat oracle [return]</EM></STRONG>.</LI><BR>
+
+		<LI>		You can change the timing of the cron job by typing: <STRONG><EM>crontab -e -u oracle [return]</EM></STRONG>. 
+				The second line that ends in PRODAPPS is the line to change.  It says that at 45 minutes, 23 hours (11:45pm)  
+				on the 1st and 16th  days of all months, Monday(1) to Friday(5) run the job:  
+				/oracle/oracle102gserver/dbexports/ purgearchivefiles.</LI><BR>
+
+		<LI>		Log out of the secure shell (ssh) software by typing: <STRONG><EM>exit [return]</EM></STRONG> and closing the window.</LI>
+	</OL>
+</UL>
+
+</body>
+</html>

@@ -1,0 +1,252 @@
+<!--#config timefmt="%D %H:%M %Z" -->
+
+<!--#set var="page_section" value="default" -->
+<!--#set var="page_type" value="default" -->
+
+<!--#set var="page_title" value="Article Databases Usage Statistics" -->
+<!--#set var="use_title_as_content_header" value="no" -->
+
+<!--#set var="author_name" value="John R. Pastori" -->
+<!--#set var="author_email" value="pastori@rohan.sdsu.edu" -->
+<!--#set var="content_updated" value="dynamically" -->
+
+<!--#if expr="$QUERY_STRING = print" -->
+	<center><h2><!--#echo var="page_title" --></h2><br>
+	http://<!--#echo var="SERVER_NAME" --><!--#echo var="DOCUMENT_URI" --></center>
+<!--#else -->
+	<!--#include virtual="/include/dbstatsheader.shtml" -->
+<!--#endif -->
+<!--#if expr="$QUERY_STRING = print" --><!--#else --><div align='center'><h1>LIBRARY ARTICLE DATABASE HITS REPORT</h1></div><!--#endif --><div align='right'><h3>PROCESS MONTH/YEAR: April 2003</h3></div><font size= '50%' pointsize='4' face='Helvetica,Verdana,Arial'><small><!--#if expr="$QUERY_STRING = print" --><table border='0' width='100%' cellpadding='3' cellspacing='0'><!--#else --><table border='3' width='100%' cellpadding='3' cellspacing='0'><!--#endif --><tr>
+	<th><strong><u>Site Name</u></strong></th>
+	<th><strong><u>Hits In Library</u></strong></th>
+	<th><strong><u>Hits In Computing Labs</u></strong></th>
+	<th><strong><u>Hits On Campus (Not In Library)</u></strong></th>
+	<th><strong><u>Hits Off Campus</u></strong></th>
+	<th><strong><u>DB Totals</u></strong></th>
+</tr>
+<tr> <td align='left'>ABI/Inform</td><td align='right'>6</td><td align='right'>6</td>
+		<td align='right'>3</td><td align='right'>17</td><td align='right'>32</td></tr></font>
+<tr> <td align='left'>AMSPEC</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>7</td><td align='right'>7</td></tr></font>
+<tr> <td align='left'>AccessUN</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>Alt-Presswatch</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>America History and Life</td><td align='right'>1</td><td align='right'>0</td>
+		<td align='right'>1</td><td align='right'>2</td><td align='right'>4</td></tr></font>
+<tr> <td align='left'>Anthropology Plus</td><td align='right'>5</td><td align='right'>0</td>
+		<td align='right'>3</td><td align='right'>0</td><td align='right'>8</td></tr></font>
+<tr> <td align='left'>Applied Science And Technology Abstracts</td><td align='right'>1</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>1</td></tr></font>
+<tr> <td align='left'>Art Abstracts</td><td align='right'>1</td><td align='right'>1</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>2</td></tr></font>
+<tr> <td align='left'>ArticleFirst</td><td align='right'>3</td><td align='right'>2</td>
+		<td align='right'>4</td><td align='right'>8</td><td align='right'>17</td></tr></font>
+<tr> <td align='left'>Associations Unlimited</td><td align='right'>0</td><td align='right'>1</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>1</td></tr></font>
+<tr> <td align='left'>BAS Online: The Bibliography of Asian Studies Online</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>BBC News World Edition:  Country Profiles</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>Biography and Genealogy Master Index</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>1</td><td align='right'>1</td></tr></font>
+<tr> <td align='left'>Biosis Previews</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>Books in Print</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>1</td><td align='right'>0</td><td align='right'>1</td></tr></font>
+<tr> <td align='left'>Business &amp; Industry Database</td><td align='right'>12</td><td align='right'>5</td>
+		<td align='right'>1</td><td align='right'>5</td><td align='right'>23</td></tr></font>
+<tr> <td align='left'>Business Abstracts</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>1</td><td align='right'>1</td></tr></font>
+<tr> <td align='left'>CINAHL</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>1</td><td align='right'>2</td><td align='right'>3</td></tr></font>
+<tr> <td align='left'>CQ Researcher</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>1</td><td align='right'>1</td><td align='right'>2</td></tr></font>
+<tr> <td align='left'>CQ Weekly</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>Chemistry Citation Index</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>Chicano Database</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>Child Abuse, Child Welfare and Adoption Database</td><td align='right'>2</td><td align='right'>2</td>
+		<td align='right'>0</td><td align='right'>1</td><td align='right'>5</td></tr></font>
+<tr> <td align='left'>Children's Literature Comprehensive Database</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>2</td><td align='right'>2</td></tr></font>
+<tr> <td align='left'>Civil Engineering Database</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>Cochrane Library Online</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>CollegeSource Online</td><td align='right'>1</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>1</td></tr></font>
+<tr> <td align='left'>Columbia International Affairs Online (CIAO)</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>ComAbstracts</td><td align='right'>3</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>6</td><td align='right'>9</td></tr></font>
+<tr> <td align='left'>Communication Journals Index </td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>Congressional Universe</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>2</td><td align='right'>0</td><td align='right'>2</td></tr></font>
+<tr> <td align='left'>CountryWatch Forecasts</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>CountryWatch.com</td><td align='right'>2</td><td align='right'>0</td>
+		<td align='right'>1</td><td align='right'>1</td><td align='right'>4</td></tr></font>
+<tr> <td align='left'>Criminal Justice Abstracts</td><td align='right'>0</td><td align='right'>5</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>5</td></tr></font>
+<tr> <td align='left'>Dissertation Abstracts/Digital Dissertations</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>5</td><td align='right'>5</td></tr></font>
+<tr> <td align='left'>E-Subscribe</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>3</td><td align='right'>3</td></tr></font>
+<tr> <td align='left'>EBSCOhost Academic Search Elite</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>ERIC</td><td align='right'>1</td><td align='right'>1</td>
+		<td align='right'>2</td><td align='right'>4</td><td align='right'>8</td></tr></font>
+<tr> <td align='left'>EcoAmericas</td><td align='right'>1</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>1</td><td align='right'>2</td></tr></font>
+<tr> <td align='left'>Econlit</td><td align='right'>0</td><td align='right'>1</td>
+		<td align='right'>0</td><td align='right'>1</td><td align='right'>2</td></tr></font>
+<tr> <td align='left'>Education Full Text</td><td align='right'>4</td><td align='right'>3</td>
+		<td align='right'>1</td><td align='right'>8</td><td align='right'>16</td></tr></font>
+<tr> <td align='left'>Ei CompendexWeb</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>Electronic Contents Online</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>1</td><td align='right'>1</td></tr></font>
+<tr> <td align='left'>Encyclopedia Britannica</td><td align='right'>2</td><td align='right'>3</td>
+		<td align='right'>4</td><td align='right'>3</td><td align='right'>12</td></tr></font>
+<tr> <td align='left'>Encyclopedia of Life Sciences</td><td align='right'>1</td><td align='right'>1</td>
+		<td align='right'>0</td><td align='right'>2</td><td align='right'>4</td></tr></font>
+<tr> <td align='left'>Ethnic NewsWatch</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>Factiva (Internet Explorer/Windows OS only)</td><td align='right'>0</td><td align='right'>1</td>
+		<td align='right'>0</td><td align='right'>1</td><td align='right'>2</td></tr></font>
+<tr> <td align='left'>GPO (Government Printing Office) Access</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>GenderWatch</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>4</td><td align='right'>3</td><td align='right'>7</td></tr></font>
+<tr> <td align='left'>GeoRef</td><td align='right'>2</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>1</td><td align='right'>3</td></tr></font>
+<tr> <td align='left'>Geography</td><td align='right'>1</td><td align='right'>3</td>
+		<td align='right'>1</td><td align='right'>2</td><td align='right'>7</td></tr></font>
+<tr> <td align='left'>Grove Art</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>Grove Music</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>4</td><td align='right'>4</td></tr></font>
+<tr> <td align='left'>HAPI Online (Hispanic American Periodicals Index)</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>2</td><td align='right'>2</td></tr></font>
+<tr> <td align='left'>Handbook of Latin American Studies (HLAS)</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>Health and Psychosocial Instruments (HaPI)</td><td align='right'>2</td><td align='right'>1</td>
+		<td align='right'>0</td><td align='right'>1</td><td align='right'>4</td></tr></font>
+<tr> <td align='left'>Historical Abstracts</td><td align='right'>3</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>2</td><td align='right'>5</td></tr></font>
+<tr> <td align='left'>IEEE Xplore</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>ISI Web of Science</td><td align='right'>0</td><td align='right'>1</td>
+		<td align='right'>1</td><td align='right'>1</td><td align='right'>3</td></tr></font>
+<tr> <td align='left'>ITER</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>Infoplease.com</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>Ingenta</td><td align='right'>1</td><td align='right'>1</td>
+		<td align='right'>1</td><td align='right'>3</td><td align='right'>6</td></tr></font>
+<tr> <td align='left'>JSTOR</td><td align='right'>8</td><td align='right'>5</td>
+		<td align='right'>3</td><td align='right'>18</td><td align='right'>34</td></tr></font>
+<tr> <td align='left'>Kodansha Encyclopedia of Japan</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>L'Annee Philologique</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>LLBA (Linguistics and Language Behavior Abstracts)</td><td align='right'>3</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>1</td><td align='right'>4</td></tr></font>
+<tr> <td align='left'>Latin America Data Base (LADB)</td><td align='right'>1</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>1</td></tr></font>
+<tr> <td align='left'>Lexis/Nexis Academic</td><td align='right'>36</td><td align='right'>18</td>
+		<td align='right'>28</td><td align='right'>92</td><td align='right'>174</td></tr></font>
+<tr> <td align='left'>MAS Ultra: School Edition</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>MLA Bibliography</td><td align='right'>3</td><td align='right'>0</td>
+		<td align='right'>1</td><td align='right'>4</td><td align='right'>8</td></tr></font>
+<tr> <td align='left'>MathSciNet</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>Medline</td><td align='right'>2</td><td align='right'>4</td>
+		<td align='right'>0</td><td align='right'>10</td><td align='right'>16</td></tr></font>
+<tr> <td align='left'>Mergent Online</td><td align='right'>1</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>1</td><td align='right'>2</td></tr></font>
+<tr> <td align='left'>Military &amp; Government Collection</td><td align='right'>0</td><td align='right'>1</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>1</td></tr></font>
+<tr> <td align='left'>Monthly Catalog of United States Government Publications</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>NASW Clinical Register</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>NewsBank Index</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>NewsBank NewsFile Collection</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>NewspaperLinks: California</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>3</td><td align='right'>3</td></tr></font>
+<tr> <td align='left'>Noticias en Espanol</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>PAIS International</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>PapersFirst</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>Philosopher's Index</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>4</td><td align='right'>4</td></tr></font>
+<tr> <td align='left'>Policy Information Exchange</td><td align='right'>0</td><td align='right'>1</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>1</td></tr></font>
+<tr> <td align='left'>Polling the Nation</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>Premedline</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>Primary Search</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>ProQuest General Reference</td><td align='right'>55</td><td align='right'>37</td>
+		<td align='right'>69</td><td align='right'>128</td><td align='right'>289</td></tr></font>
+<tr> <td align='left'>ProQuest Newspapers</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>ProceedingsFirst</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>Project Muse</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>PsycInfo</td><td align='right'>6</td><td align='right'>11</td>
+		<td align='right'>8</td><td align='right'>40</td><td align='right'>65</td></tr></font>
+<tr> <td align='left'>RAND California</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>RILM Abstracts of Music Literature</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>Reader's Guide Retrospective, 1890-1982</td><td align='right'>2</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>2</td></tr></font>
+<tr> <td align='left'>Review of the Arts</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>1</td><td align='right'>1</td></tr></font>
+<tr> <td align='left'>SPORT Discus</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>STAT-USA</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>1</td><td align='right'>1</td></tr></font>
+<tr> <td align='left'>San Diego Union-Tribune</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>Scirus</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>Serials Directory </td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>Social Work Abstracts</td><td align='right'>6</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>6</td></tr></font>
+<tr> <td align='left'>Sociofile</td><td align='right'>3</td><td align='right'>2</td>
+		<td align='right'>2</td><td align='right'>9</td><td align='right'>16</td></tr></font>
+<tr> <td align='left'>StatRef</td><td align='right'>0</td><td align='right'>1</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>1</td></tr></font>
+<tr> <td align='left'>Thomas</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>United Nations Publications Catalog</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>Web of Science</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>World Almanac</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>World Shakespeare Bibliography</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>WorldCat</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td align='left'>Zoological Record</td><td align='right'>0</td><td align='right'>0</td>
+		<td align='right'>0</td><td align='right'>0</td><td align='right'>0</td></tr></font>
+<tr> <td colspan='6'> <hr width = '100%'></td></tr><tr> <td align='left'> <strong><u>GRAND TOTALS:</u></strong> </td><td align='right'>181</td><td align='right'>118</td>
+			<td align='right'>143</td><td align='right'>414</td><td align='right'>856</td></tr></table></font>
+
+<br><br></small><!--#if expr="$QUERY_STRING = print" --><div align="center"><a href="#top">Top of Document</a> | <a href="/forms/istforms/dbstats/dbstatreq.shtml">Return to Request Form</a> | <a href="http://<!--#echo var="server_name" --><!--#echo var="DOCUMENT_URI" -->">Web browser version</a></div><!--#else --><div align="center"><a href="#top">Top of Document</a> | <a href="/forms/istforms/dbstats/dbstatreq.shtml">Return to Request Form</a> | <img src="/images/printer.gif" alt="Printer Icon" align="absbottom"><a href="http://<!--#echo var="server_name" --><!--#echo var="DOCUMENT_URI" -->?print">Printer-friendly version</a></div><br><br><!--#include virtual="/include/footer.shtml" --><!--#endif --><br><br>

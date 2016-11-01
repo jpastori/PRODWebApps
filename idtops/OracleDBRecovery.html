@@ -1,0 +1,515 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0080)http://oraclesvca2.oracle.com/docs/cd/B19306_01/backup.102/b14191/osrecov008.htm -->
+<HTML lang=en xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><HEAD><TITLE>Performing User-Managed Database Point-in-Time Recovery</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252" />
+<META http-equiv=Content-Language content=en />
+<META http-equiv=Content-Style-Type content=text/css />
+<META http-equiv=Content-Script-Type content=text/javascript />
+<META scheme=http://www.robotstxt.org/ content=all name=robots />
+<META content="MSHTML 6.00.2900.2838" name=GENERATOR />
+<META content="November 10, 2005 16:50:19" name=Date />
+<META 
+content="Oracle® Database Backup and Recovery Advanced User's Guide 10g Release 2 (10.2)" 
+name=doctitle />
+<META content=B14191-02 name=partno />
+<META content=BRADV name=docid /><LINK title=Home 
+href="http://www.oracle.com/pls/db102/homepage" type=text/html rel=Start /><LINK 
+title=Copyright href="file:///L|/ColdfusionSourceContentMgmt/dcommon/html/cpyr.htm" type=text/html 
+rel=Copyright /><LINK title=Default href="OracleDBRecovery_files/blafdoc.css" 
+type=text/css rel=Stylesheet /><LINK title=Contents href="../ops/toc.htm" type=text/html 
+rel=Contents /><LINK title=Index href="../ops/index.htm" type=text/html rel=Index /><LINK 
+title=Previous href="../ops/osrecov007.htm" type=text/html rel=Prev /><LINK title=Next 
+href="../ops/osrecov009.htm" type=text/html rel=Next /><LINK title="PDF version" 
+href="../b14191.pdf" type=application/pdf rel=alternate /></HEAD>
+<BODY>
+<DIV class=header>
+<DIV class=zz-skip-header><A id=top 
+href="http://oraclesvca2.oracle.com/docs/cd/B19306_01/backup.102/b14191/osrecov008.htm#BEGIN" 
+name=top>Skip Headers</A></DIV>
+<TABLE class="simple oac_no_warn" cellspacing=0 cellpadding=0 width="100%" 
+summary="">
+  <TBODY>
+  <TR>
+    <TD valign=top align=left><B>Oracle® Database Backup and Recovery Advanced 
+      User's Guide<BR />10<I>g</I> Release 2 (10.2)</B><BR />Part Number 
+B14191-02</TD>
+    <TD valign=bottom align=right>
+      <TABLE class="icons oac_no_warn" cellspacing=0 cellpadding=0 width=294 
+      summary="">
+        <TBODY>
+        <TR>
+          <TD valign=top align=middle><A 
+            href="http://www.oracle.com/pls/db102/homepage"><IMG 
+            alt="Go to Documentation Home" 
+            src="OracleDBRecovery_files/doclib.gif" border=0 /><BR /><SPAN 
+            class=icon>Home</SPAN></A></TD>
+          <TD valign=top align=middle><A 
+            href="http://www.oracle.com/pls/db102/portal.all_books"><IMG 
+            alt="Go to Book List" src="OracleDBRecovery_files/booklist.gif" 
+            border=0 /><BR /><SPAN class=icon>Book List</SPAN></A></TD>
+          <TD valign=top align=middle><A 
+            href="http://oraclesvca2.oracle.com/docs/cd/B19306_01/backup.102/b14191/toc.htm"><IMG 
+            alt="Go to Table of Contents" src="OracleDBRecovery_files/toc.gif" 
+            border=0 /><BR /><SPAN class=icon>Contents</SPAN></A></TD>
+          <TD valign=top align=middle><A 
+            href="http://oraclesvca2.oracle.com/docs/cd/B19306_01/backup.102/b14191/index.htm"><IMG 
+            alt="Go to Index" src="OracleDBRecovery_files/index.gif" 
+            border=0 /><BR /><SPAN class=icon>Index</SPAN></A></TD>
+          <TD valign=top align=middle><A 
+            href="http://www.oracle.com/pls/db102/show_mindex"><IMG 
+            alt="Go to Master Index" src="OracleDBRecovery_files/masterix.gif" 
+            border=0 /><BR /><SPAN class=icon>Master Index</SPAN></A></TD>
+          <TD valign=top align=middle><A 
+            href="http://oraclesvca2.oracle.com/docs/cd/B19306_01/dcommon/html/feedback.htm"><IMG 
+            alt="Go to Feedback page" src="OracleDBRecovery_files/feedbck2.gif" 
+            border=0 /><BR /><SPAN 
+    class=icon>Feedback</SPAN></A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<HR />
+
+<TABLE class="simple oac_no_warn" cellspacing=0 cellpadding=0 width="100%" 
+summary="">
+  <TBODY>
+  <TR>
+    <TD valign=top align=left>
+      <TABLE class="simple oac_no_warn" cellspacing=0 cellpadding=0 width=98 
+      align=left summary="">
+        <TBODY>
+        <TR>
+          <TD valign=top align=middle><A 
+            href="http://oraclesvca2.oracle.com/docs/cd/B19306_01/backup.102/b14191/osrecov007.htm"><IMG 
+            alt="Go to previous page" src="OracleDBRecovery_files/leftnav.gif" 
+            border=0 /><BR /><SPAN class=icon>Previous</SPAN></A></TD>
+          <TD valign=top align=middle><A 
+            href="http://oraclesvca2.oracle.com/docs/cd/B19306_01/backup.102/b14191/osrecov009.htm"><IMG 
+            alt="Go to next page" src="OracleDBRecovery_files/rightnav.gif" 
+            border=0 /><BR /><SPAN class=icon>Next</SPAN></A></TD></TR></TBODY></TABLE></TD>
+    <TD valign=top align=right><A 
+      href="http://oraclesvca2.oracle.com/docs/cd/B19306_01/backup.102/b14191.pdf">View 
+      PDF</A></TD></TR></TBODY></TABLE><A id=BEGIN name=BEGIN></A></DIV>
+<DIV class=IND><!-- End Header --><A id=i1007175 name=i1007175></A>
+<DIV class=sect1><A id=sthref1743 name=sthref1743></A>
+<H1 class=sect1><A id=BRADV217 name=BRADV217></A>Performing User-Managed 
+Database Point-in-Time Recovery</H1>
+<P><A id=sthref1744 name=sthref1744></A><A id=sthref1745 name=sthref1745></A><A 
+id=sthref1746 name=sthref1746></A><A id=sthref1747 name=sthref1747></A><A 
+id=sthref1748 name=sthref1748></A><A id=sthref1749 name=sthref1749></A><A 
+id=sthref1750 name=sthref1750></A><A id=sthref1751 name=sthref1751></A><A 
+id=sthref1752 name=sthref1752></A></P>
+<UL>
+  <LI type=disc>
+  <P><A 
+  href="http://oraclesvca2.oracle.com/docs/cd/B19306_01/backup.102/b14191/osrecov008.htm#i1007200">Preparing 
+  for Incomplete Recovery</A></P>
+  </LI><LI type=disc>
+  <P><A 
+  href="http://oraclesvca2.oracle.com/docs/cd/B19306_01/backup.102/b14191/osrecov008.htm#i1007210">Restoring 
+  Datafiles Before Performing Incomplete Recovery</A></P>
+  </LI><LI type=disc>
+  <P><A 
+  href="http://oraclesvca2.oracle.com/docs/cd/B19306_01/backup.102/b14191/osrecov008.htm#i1007299">Performing 
+  Cancel-Based Incomplete Recovery</A></P>
+  </LI><LI type=disc>
+  <P><A 
+  href="http://oraclesvca2.oracle.com/docs/cd/B19306_01/backup.102/b14191/osrecov008.htm#i1007361">Performing 
+  Time-Based or Change-Based Incomplete Recovery</A></P>
+  <DIV class=inftblnote><BR />
+  <TABLE class="Note oac_no_warn" dir=ltr 
+  title="This is a layout table to format a note" cellspacing=0 cellpadding=3 
+  rules=groups width="80%" summary="This is a layout table to format a note" 
+  border=1 frame=hsides>
+    <TBODY>
+    <TR>
+      <TD align=left>
+        <P class=notep1>Note:</P>If your database is affected by seasonal time 
+        changes (for example, daylight savings time), then you may experience a 
+        problem if a time appears twice in the redo log and you want to recover 
+        to the second, or later time. To handle time changes, perform 
+        cancel-based or change-based recovery.<A id=sthref1753 
+        name=sthref1753></A></TD></TR></TBODY></TABLE><BR /></DIV><!-- class="inftblnote --></LI></UL><A 
+id=i1007200 name=i1007200></A>
+<DIV class=sect2><A id=sthref1754 name=sthref1754></A>
+<H2 class=sect2>Preparing for Incomplete Recovery</H2>
+<P>In this phase, you examine the source of the media problem.</P>
+<P><SPAN class=bold>To prepare for incomplete recovery:</SPAN></P>
+<OL type=1>
+  <LI>
+  <P>If you are uncertain about performing incomplete recovery, then back up the 
+  whole database—all datafiles, a control file, and the parameter files—as a 
+  precautionary measure in case an error occurs during the recovery 
+  procedure.</P>
+  </LI><LI>
+  <P><A id=sthref1755 name=sthref1755></A><A id=sthref1756 
+  name=sthref1756></A>If the database is still open and incomplete media 
+  recovery is necessary, then terminate the instance:</P><PRE class=oac_no_warn XML:SPACE="preserve">SHUTDOWN ABORT
+
+</PRE>
+  </LI><LI>
+  <P>If a media failure occurred, correct the hardware problem that caused the 
+  failure. If the hardware problem cannot be repaired quickly, then proceed with 
+  database recovery by restoring damaged files to an alternative storage 
+  device.</P></LI></OL></DIV><!-- class="sect2" --><A id=i1007210 
+name=i1007210></A>
+<DIV class=sect2><A id=sthref1757 name=sthref1757></A>
+<H2 class=sect2>Restoring Datafiles Before Performing Incomplete Recovery</H2>
+<P>In this phase, you restore a whole database backup.</P>
+<P><SPAN class=bold>To restore the files necessary for cancel-based recovery and 
+bring them online:</SPAN></P>
+<OL type=1>
+  <LI>
+  <P><A id=sthref1758 name=sthref1758></A>If the current control files do not 
+  match the physical structure of the database at the intended time of recovery, 
+  then restore a backup control file as described in <A 
+  href="http://oraclesvca2.oracle.com/docs/cd/B19306_01/backup.102/b14191/osrecov005.htm#i1011093">"Restore 
+  Control File from Backup After Loss of All Current Control Files"</A>. The 
+  restored control file should reflect the database's physical file structure at 
+  the point at which incomplete media recovery should finish. To determine which 
+  control file backup to use:</P>
+  <UL>
+    <LI type=disc>
+    <P>Review the list of files that corresponds to the current control file and 
+    each control file backup to determine the correct control file to use.</P>
+    </LI><LI type=disc>
+    <P>If necessary, replace all current control files of the database with the 
+    correct control file backup.</P>
+    </LI><LI type=disc>
+    <P>Alternatively, create a new control file to replace the missing one.</P>
+    <DIV class=inftblnote><BR />
+    <TABLE class="Note oac_no_warn" dir=ltr 
+    title="This is a layout table to format a note" cellspacing=0 cellpadding=3 
+    rules=groups width="80%" summary="This is a layout table to format a note" 
+    border=1 frame=hsides>
+      <TBODY>
+      <TR>
+        <TD align=left>
+          <P class=notep1>Note:</P>If you are unable to restore a control file 
+          backup to one of the <CODE>CONTROL_FILES</CODE> locations, then edit 
+          the initialization parameter file so that this 
+          <CODE>CONTROL_FILES</CODE> location is 
+    removed.</TD></TR></TBODY></TABLE><BR /></DIV><!-- class="inftblnote --></LI></UL>
+  </LI><LI><A id=i1007230 name=i1007230></A>
+  <P>Restore backups of <SPAN class=italic>all</SPAN> datafiles of the database. 
+  All backups used to replace existing datafiles must have been taken before the 
+  intended time of recovery. For example, if you intend to recover to January 2 
+  at 2:00 p.m., then restore all datafiles with backups completed before this 
+  time. Follow these guidelines:</P>
+  <DIV class=inftblruleinformal>
+  <TABLE class=RuleInformal dir=ltr cellspacing=0 cellpadding=3 rules=all 
+  width="100%" 
+  summary="This table provides guidelines on restoring lost datafiles." border=1 
+  frame=border>
+    <THEAD>
+    <TR valign=top align=left>
+      <TH id=r1c1-t28 valign=bottom align=left>If . . .</TH>
+      <TH id=r1c2-t28 valign=bottom align=left>Then . . .</TH></TR></THEAD>
+    <TBODY>
+    <TR valign=top align=left>
+      <TD id=r2c1-t28 align=left headers=r1c1-t28>You do not have a backup of 
+        a datafile</TD>
+      <TD align=left headers="r2c1-t28 r1c2-t28">Create an empty replacement 
+        file that can be recovered as described in <A 
+        href="http://oraclesvca2.oracle.com/docs/cd/B19306_01/backup.102/b14191/osrecov007.htm#i1011202">"Restoring 
+        Backups of the Damaged or Missing Files"</A>.</TD></TR>
+    <TR valign=top align=left>
+      <TD id=r3c1-t28 align=left headers=r1c1-t28>A datafile was added after 
+        the intended time of recovery</TD>
+      <TD align=left headers="r3c1-t28 r1c2-t28">Do not restore a backup of 
+        this file because it will no longer be used for the database after 
+        recovery completes.</TD></TR>
+    <TR valign=top align=left>
+      <TD id=r4c1-t28 align=left headers=r1c1-t28>The hardware problem causing 
+        the failure has been solved and all datafiles can be restored to their 
+        default locations</TD>
+      <TD align=left headers="r4c1-t28 r1c2-t28">Restore the files as 
+        described in <A 
+        href="http://oraclesvca2.oracle.com/docs/cd/B19306_01/backup.102/b14191/osrecov004.htm#i1011067">"Restoring 
+        Datafiles and Archived Redo Logs"</A> and skip step 4 of this 
+      procedure.</TD></TR>
+    <TR valign=top align=left>
+      <TD id=r5c1-t28 align=left headers=r1c1-t28>A hardware problem 
+      persists</TD>
+      <TD align=left headers="r5c1-t28 r1c2-t28">Restore damaged datafiles to 
+        an alternative storage device.</TD></TR></TBODY></TABLE><BR /></DIV><!-- class="inftblruleinformal --></LI></OL>
+<DIV align=center>
+<DIV class=inftblnote><BR />
+<TABLE class="Note oac_no_warn" dir=ltr 
+title="This is a layout table to format a note" cellspacing=0 cellpadding=3 
+rules=groups width="80%" summary="This is a layout table to format a note" 
+border=1 frame=hsides>
+  <TBODY>
+  <TR>
+    <TD align=left>
+      <P class=notep1>Note:</P>Files in read-only tablespaces should be offline 
+      if you are using a control file backup. Otherwise, the recovery will try 
+      to update the headers of the read-only 
+files.</TD></TR></TBODY></TABLE><BR /></DIV><!-- class="inftblnote --></DIV>
+<OL type=1>
+  <LI>
+  <P>Start SQL*Plus and connect to the database with administrator privilege, 
+  then <A id=sthref1759 name=sthref1759></A><A id=sthref1760 
+  name=sthref1760></A>start a new instance and mount the database:</P><PRE class=oac_no_warn XML:SPACE="preserve">STARTUP MOUNT
+
+</PRE>
+  </LI><LI><A id=i1007281 name=i1007281></A>
+  <P>If one or more damaged datafiles were restored to alternative locations in 
+  step 2, then indicate the new locations of these files to the control file of 
+  the associated database. For example, enter:</P><PRE class=oac_no_warn XML:SPACE="preserve">ALTER DATABASE RENAME FILE '?/oradata/trgt/users01.dbf' TO 
+                           '/disk2/users01.dbf';
+
+</PRE>
+  </LI><LI>
+  <P>Obtain the datafile names and statuses of all datafiles by checking the 
+  list of datafiles that normally accompanies the current control file or 
+  querying the <CODE>V$DATAFILE</CODE> view. For example, enter:</P><PRE class=oac_no_warn XML:SPACE="preserve">SELECT NAME,STATUS FROM V$DATAFILE;
+
+</PRE>
+  </LI><LI>
+  <P>Ensure that all datafiles of the database are online. All datafiles of the 
+  database requiring recovery must be online unless a tablespace was taken 
+  offline with the <CODE>NORMAL</CODE> option or is a read-only tablespace. For 
+  example, to guarantee that a datafile named 
+  <CODE>?/oradata/trgt/users01.dbf</CODE> is online, enter the following:</P><PRE class=oac_no_warn XML:SPACE="preserve">ALTER DATABASE DATAFILE '?/oradata/trgt/users01.dbf' ONLINE;
+
+</PRE>
+  <P>If a specified datafile is already online, the statement has no effect. If 
+  you prefer, create a script to bring all datafiles online at once as in the 
+  following:</P><PRE class=oac_no_warn XML:SPACE="preserve">SPOOL onlineall.sql
+SELECT 'ALTER DATABASE DATAFILE '''||name||''' ONLINE;' FROM V$DATAFILE;
+SPOOL OFF
+SQL&gt; @onlineall
+</PRE></LI></OL></DIV><!-- class="sect2" --><A id=i1007299 name=i1007299></A>
+<DIV class=sect2><A id=sthref1761 name=sthref1761></A>
+<H2 class=sect2>Performing Cancel-Based Incomplete Recovery</H2>
+<P>In cancel-based recovery, recovery proceeds by prompting you with the 
+suggested filenames of archived redo log files. Recovery stops when you specify 
+<CODE>CANCEL</CODE> instead of a filename or when all redo has been applied to 
+the datafiles.</P>
+<P>Cancel-based recovery is better than change-based or time-based recovery if 
+you want to control which archived log terminates recovery. For example, you may 
+know that you have lost all logs past sequence 1234, so you want to cancel 
+recovery after log 1233 is applied.</P>
+<P>You should perform cancel-based media recovery in these stages:</P>
+<OL type=1>
+  <LI>
+  <P>Prepare for recovery by backing up the database and correct any media 
+  failures as described in <A 
+  href="http://oraclesvca2.oracle.com/docs/cd/B19306_01/backup.102/b14191/osrecov008.htm#i1007200">"Preparing 
+  for Incomplete Recovery"</A>.</P>
+  </LI><LI>
+  <P>Restore backup datafiles as described in <A 
+  href="http://oraclesvca2.oracle.com/docs/cd/B19306_01/backup.102/b14191/osrecov008.htm#i1007210">"Restoring 
+  Datafiles Before Performing Incomplete Recovery"</A>. If you have a current 
+  control file, then do not restore a backup control file.</P>
+  </LI><LI>
+  <P>Perform media recovery on the restored database backup as described in the 
+  following procedure.</P></LI></OL>
+<P><SPAN class=bold>To perform cancel-based recovery:</SPAN></P>
+<OL type=1>
+  <LI>
+  <P>Start SQL*Plus and connect to the database with administrator privileges, 
+  then <A id=sthref1762 name=sthref1762></A><A id=sthref1763 
+  name=sthref1763></A>start a new instance and mount the database:</P><PRE class=oac_no_warn XML:SPACE="preserve">STARTUP MOUNT
+
+</PRE>
+  </LI><LI>
+  <P>Begin cancel-based recovery by issuing the following command:</P><PRE class=oac_no_warn XML:SPACE="preserve">RECOVER DATABASE UNTIL CANCEL
+
+</PRE>
+  <P>If you are using a backup control file with this incomplete recovery, then 
+  specify the <CODE><A id=sthref1764 name=sthref1764></A>USING</CODE> 
+  <CODE>BACKUP</CODE> <CODE>CONTROLFILE</CODE> option in the 
+  <CODE>RECOVER</CODE> command.</P><PRE class=oac_no_warn XML:SPACE="preserve">RECOVER DATABASE UNTIL CANCEL USING BACKUP CONTROLFILE
+</PRE>
+  <DIV class=inftblnote><BR />
+  <TABLE class="Note oac_no_warn" dir=ltr 
+  title="This is a layout table to format a note" cellspacing=0 cellpadding=3 
+  rules=groups width="80%" summary="This is a layout table to format a note" 
+  border=1 frame=hsides>
+    <TBODY>
+    <TR>
+      <TD align=left>
+        <P class=notep1>Note:</P>If you fail to specify the <CODE>UNTIL</CODE> 
+        clause on the <CODE>RECOVER</CODE> command, then the database assumes a 
+        complete recovery and will not open until all redo is 
+    applied.</TD></TR></TBODY></TABLE><BR /></DIV><!-- class="inftblnote -->
+  </LI><LI>
+  <P>The database applies the necessary redo log files to reconstruct the 
+  restored datafiles. The database supplies the name it expects to find from 
+  <CODE>LOG_ARCHIVE_DEST_1</CODE> and requests you to stop or proceed with 
+  applying the log file. Note that if the control file is a backup, then you 
+  must supply the names of the online logs if you want to apply the changes in 
+  these logs.</P>
+  <DIV class=inftblnote><BR />
+  <TABLE class="Note oac_no_warn" dir=ltr 
+  title="This is a layout table to format a note" cellspacing=0 cellpadding=3 
+  rules=groups width="80%" summary="This is a layout table to format a note" 
+  border=1 frame=hsides>
+    <TBODY>
+    <TR>
+      <TD align=left>
+        <P class=notep1>Note:</P>If you use a Real Application Clusters (RAC) 
+        configuration, and you are performing incomplete recovery or using a 
+        backup control file, then the database can only compute the name of the 
+        first archived redo log file from the <SPAN class=italic>first</SPAN> 
+        thread. The first redo log file from the other threads must be supplied 
+        by the user. After the first log file in a given thread has been 
+        supplied, the database can suggest the names of the subsequent log files 
+        in this thread.</TD></TR></TBODY></TABLE><BR /></DIV><!-- class="inftblnote -->
+  </LI><LI>
+  <P>Continue applying redo log files until the last log has been applied to the 
+  restored datafiles, then cancel recovery by executing the following 
+  command:</P><PRE class=oac_no_warn XML:SPACE="preserve">CANCEL
+
+</PRE>
+  <P>The database indicates whether recovery is successful. If you cancel before 
+  all the datafiles have been recovered to a consistent SCN and then try to open 
+  the database, you will get an <CODE>ORA-1113</CODE> error if more recovery is 
+  necessary. As explained in <A 
+  href="http://oraclesvca2.oracle.com/docs/cd/B19306_01/backup.102/b14191/osrecov003.htm#i1011068">"Determining 
+  Which Datafiles Require Recovery"</A>, you can query 
+  <CODE>V$RECOVER_FILE</CODE> to determine whether more recovery is needed, or 
+  if a backup of a datafile was not restored prior to starting incomplete 
+  recovery.</P>
+  </LI><LI>
+  <P>Open the database with the <CODE>RESETLOGS</CODE> option. You must always 
+  reset the logs after incomplete recovery or recovery with a backup control 
+  file. For example:</P><PRE class=oac_no_warn XML:SPACE="preserve">ALTER DATABASE OPEN RESETLOGS;
+</PRE>
+  <DIV class=inftblnotealso><BR />
+  <TABLE class="NoteAlso oac_no_warn" dir=ltr 
+  title="This is a layout table to format a tip" cellspacing=0 cellpadding=3 
+  rules=groups width="80%" summary="This is a layout table to format a tip" 
+  border=1 frame=hsides>
+    <TBODY>
+    <TR>
+      <TD align=left>
+        <P class=notep1>See Also:</P><A 
+        href="http://oraclesvca2.oracle.com/docs/cd/B19306_01/backup.102/b14191/osrecov009.htm#i1007409">"Opening 
+        the Database with the RESETLOGS 
+Option"</A></TD></TR></TBODY></TABLE><BR /></DIV><!-- class="inftblnotealso --></LI></OL></DIV><!-- class="sect2" --><A 
+id=i1007361 name=i1007361></A>
+<DIV class=sect2><A id=sthref1765 name=sthref1765></A>
+<H2 class=sect2>Performing Time-Based or Change-Based Incomplete Recovery<A 
+id=sthref1766 name=sthref1766></A><A id=sthref1767 name=sthref1767></A><A 
+id=sthref1768 name=sthref1768></A></H2>
+<P><A id=sthref1769 name=sthref1769></A><A id=sthref1770 name=sthref1770></A><A 
+id=sthref1771 name=sthref1771></A>This section describes how to perform the 
+time-based media recovery procedure in the following stages:</P>
+<OL type=1>
+  <LI>
+  <P>Prepare for recovery by backing up the database and correct any media 
+  failures as described in <A 
+  href="http://oraclesvca2.oracle.com/docs/cd/B19306_01/backup.102/b14191/osrecov008.htm#i1007200">"Preparing 
+  for Incomplete Recovery"</A>.</P>
+  </LI><LI>
+  <P>Restore backup datafiles as described in <A 
+  href="http://oraclesvca2.oracle.com/docs/cd/B19306_01/backup.102/b14191/osrecov008.htm#i1007210">"Restoring 
+  Datafiles Before Performing Incomplete Recovery"</A>. If you have a current 
+  control file, then do not restore a backup control file.</P>
+  </LI><LI>
+  <P>Perform media recovery with the following procedure.</P></LI></OL>
+<P><SPAN class=bold>To perform change-based or time-based recovery:</SPAN></P>
+<OL type=1>
+  <LI>
+  <P>I<A id=sthref1772 name=sthref1772></A><A id=sthref1773 
+  name=sthref1773></A><A id=sthref1774 name=sthref1774></A><A id=sthref1775 
+  name=sthref1775></A>ssue the <CODE>RECOVER</CODE> <CODE>DATABASE</CODE> 
+  <CODE>UNTIL</CODE> statement to begin recovery. If recovering to an SCN, 
+  specify as a decimal number without quotation marks. For example, to recover 
+  through SCN 10034 issue:</P><PRE class=oac_no_warn XML:SPACE="preserve">RECOVER DATABASE UNTIL CHANGE 10034;
+
+</PRE>
+  <P>If recovering to a time, the time is always specified using the following 
+  format, delimited by single quotation marks: 
+  <CODE>'YYYY-MM-DD:HH24:MI:SS'</CODE>. The following statement recovers the 
+  database up to a specified time:</P><PRE class=oac_no_warn XML:SPACE="preserve">RECOVER DATABASE UNTIL TIME '2000-12-31:12:47:30'
+
+</PRE>
+  </LI><LI>
+  <P>Apply the necessary redo log files to recover the restored datafiles. The 
+  database automatically terminates the recovery when it reaches the correct 
+  time, and returns a message indicating whether recovery is successful.</P>
+  <DIV class=inftblnote><BR />
+  <TABLE class="Note oac_no_warn" dir=ltr 
+  title="This is a layout table to format a note" cellspacing=0 cellpadding=3 
+  rules=groups width="80%" summary="This is a layout table to format a note" 
+  border=1 frame=hsides>
+    <TBODY>
+    <TR>
+      <TD align=left>
+        <P class=notep1>Note:</P>Unless recovery is automated, the database 
+        supplies the name from <CODE>LOG_ARCHIVE_DEST_1</CODE> and asks you to 
+        stop or proceed with after each log. If the control file is a backup, 
+        then after the archived logs are applied you must supply the names of 
+        the online logs.</TD></TR></TBODY></TABLE><BR /></DIV><!-- class="inftblnote -->
+  </LI><LI>
+  <P>Open the database in <CODE>RESETLOGS</CODE> mode. You must always reset the 
+  online logs after incomplete recovery or recovery with a backup control file. 
+  For example:</P><PRE class=oac_no_warn XML:SPACE="preserve">ALTER DATABASE OPEN RESETLOGS;
+</PRE>
+  <DIV class=inftblnotealso><BR />
+  <TABLE class="NoteAlso oac_no_warn" dir=ltr 
+  title="This is a layout table to format a tip" cellspacing=0 cellpadding=3 
+  rules=groups width="80%" summary="This is a layout table to format a tip" 
+  border=1 frame=hsides>
+    <TBODY>
+    <TR>
+      <TD align=left>
+        <P class=notep1>See Also:</P><A 
+        href="http://oraclesvca2.oracle.com/docs/cd/B19306_01/backup.102/b14191/osrecov009.htm#i1007409">"Opening 
+        the Database with the RESETLOGS 
+Option"</A></TD></TR></TBODY></TABLE><BR /></DIV><!-- class="inftblnotealso --></LI></OL></DIV><!-- class="sect2" --></DIV><!-- class="sect1" --></DIV>
+<DIV class=footer>
+<HR />
+
+<TABLE class="simple oac_no_warn" cellspacing=0 cellpadding=0 width="100%" 
+summary="">
+  <TBODY>
+  <TR>
+    <TD style="WIDTH: 33%" align=left>
+      <TABLE class="simple oac_no_warn" cellspacing=0 cellpadding=0 width=98 
+      align=left summary="">
+        <TBODY>
+        <TR>
+          <TD valign=top align=middle><A 
+            href="http://oraclesvca2.oracle.com/docs/cd/B19306_01/backup.102/b14191/osrecov007.htm"><IMG 
+            alt="Go to previous page" src="OracleDBRecovery_files/leftnav.gif" 
+            border=0 /><BR /><SPAN class=icon>Previous</SPAN></A></TD>
+          <TD valign=top align=middle><A 
+            href="http://oraclesvca2.oracle.com/docs/cd/B19306_01/backup.102/b14191/osrecov009.htm"><IMG 
+            alt="Go to next page" src="OracleDBRecovery_files/rightnav.gif" 
+            border=0 /><BR /><SPAN class=icon>Next</SPAN></A></TD></TR></TBODY></TABLE></TD>
+    <TD class=copyrightlogo style="WIDTH: 34%" align=middle><IMG alt=Oracle 
+      src="OracleDBRecovery_files/oracle.gif" /><BR /><A 
+      href="http://oraclesvca2.oracle.com/docs/cd/B19306_01/dcommon/html/cpyr.htm">Copyright&nbsp;©&nbsp;2003, 
+      2005,&nbsp;Oracle.&nbsp;All&nbsp;rights&nbsp;reserved.</A></TD>
+    <TD style="WIDTH: 33%" align=right>
+      <TABLE class="icons oac_no_warn" cellspacing=0 cellpadding=0 width=294 
+      summary="">
+        <TBODY>
+        <TR>
+          <TD valign=top align=middle><A 
+            href="http://www.oracle.com/pls/db102/homepage"><IMG 
+            alt="Go to Documentation Home" 
+            src="OracleDBRecovery_files/doclib.gif" border=0 /><BR /><SPAN 
+            class=icon>Home</SPAN></A></TD>
+          <TD valign=top align=middle><A 
+            href="http://www.oracle.com/pls/db102/portal.all_books"><IMG 
+            alt="Go to Book List" src="OracleDBRecovery_files/booklist.gif" 
+            border=0 /><BR /><SPAN class=icon>Book List</SPAN></A></TD>
+          <TD valign=top align=middle><A 
+            href="http://oraclesvca2.oracle.com/docs/cd/B19306_01/backup.102/b14191/toc.htm"><IMG 
+            alt="Go to Table of Contents" src="OracleDBRecovery_files/toc.gif" 
+            border=0 /><BR /><SPAN class=icon>Contents</SPAN></A></TD>
+          <TD valign=top align=middle><A 
+            href="http://oraclesvca2.oracle.com/docs/cd/B19306_01/backup.102/b14191/index.htm"><IMG 
+            alt="Go to Index" src="OracleDBRecovery_files/index.gif" 
+            border=0 /><BR /><SPAN class=icon>Index</SPAN></A></TD>
+          <TD valign=top align=middle><A 
+            href="http://www.oracle.com/pls/db102/show_mindex"><IMG 
+            alt="Go to Master Index" src="OracleDBRecovery_files/masterix.gif" 
+            border=0 /><BR /><SPAN class=icon>Master Index</SPAN></A></TD>
+          <TD valign=top align=middle><A 
+            href="http://oraclesvca2.oracle.com/docs/cd/B19306_01/dcommon/html/feedback.htm"><IMG 
+            alt="Go to Feedback page" src="OracleDBRecovery_files/feedbck2.gif" 
+            border=0 /><BR /><SPAN 
+    class=icon>Feedback</SPAN></A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV></BODY></HTML>

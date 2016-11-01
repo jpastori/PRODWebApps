@@ -1,0 +1,307 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<!--Last Modified by John R. Pastori using HTML PRO 97 on 07/13/2001 -->
+<!-- Script starts here ---->
+<SCRIPT LANGUAGE=JavaScript1.1>
+	window.defaultStatus = "Welcome to Love Library's Absense Request Form";
+	function alertuser(alertMsg) {
+		alert(alertMsg);
+	}
+	function popUp(url) {                  sealWin=window.open(url,"win",'toolbar=0,location=0,directories=0,status=1,menubar=1,scrollbars=1,resizable=1,width=650,height=550');
+                  self.name = "mainWin"; }
+	function validateText(varName, textData)	{
+			if (textData == null  || textData == "") {
+				alertuser (varName +  ",  Field can not be BLANK");
+				if (varName == "Date") {
+					document.absense.Date.focus();
+				}
+				if (varName == "RealName") {
+					document.absense.RealName.focus();
+				}
+				if (varName == "Email") {
+					document.absense.Email.focus();
+				}
+				if (varName == "Supervisor") {
+					document.absense.Supervisor.focus();
+				}
+				if (varName == "Dates1") {
+					document.absense.Dates1.focus();
+				}
+				if (varName == "Hours1") {
+					document.absense.Hours1.focus();
+				}
+				if (varName == "Days1") {
+					document.absense.Days1.focus();
+				}				
+				return false;	
+			}
+			else {
+				return true;
+			} 
+	}
+	function validateReqDatess() {
+		if (!validateText(document.absense.Date.name, document.absense.Date.value)) {
+			return false;
+		}
+		if (!validateText(document.absense.RealName.name, document.absense.RealName.value)) {
+			return false;
+		}		
+		if (!validateText(document.absense.Email.name, document.absense.Email.value)) {
+			return false;
+		}
+		emailedit = document.absense.Email.value; 
+		if (emailedit == null  || emailedit == "") {
+			alertuser ("Your E-Mail address CANNOT be blank.");
+			document.absense.Email.focus();
+			return false;
+		}
+		else {
+			document.absense.Email.value = emailedit.toLowerCase();
+		}
+		if (!validateText(document.absense.Supervisor.name, document.absense.Supervisor.value)) {
+			return false;
+		}
+		supervisoredit = document.absense.Supervisor.value;
+		if (supervisoredit.substr(0,1) == '@') {
+			alertuser ("Please insert your supervisor's E-Mail name before the AT sign '@' address.");					
+			document.absense.Supervisor.focus();
+			return false;
+		}
+		else {
+			document.absense.Supervisor.value = supervisoredit.toLowerCase();
+		}		
+		if (!validateText(document.absense.Dates1.name, document.absense.Dates1.value)) {
+			return false;
+		}
+		if (!validateText(document.absense.Hours1.name, document.absense.Hours1.value)) {
+			return false;
+		}
+		if (!validateText(document.absense.Days1.name, document.absense.Days1.value)) {
+			return false;
+		}
+		if ((document.absense.Vacation.value == null  || document.absense.Vacation.value == "") 
+		   && (document.absense.Jury.value == null  || document.absense.Jury.value == "") 
+		   && (document.absense.SickSelf.value == null  || document.absense.SickSelf.value == "") 
+		   && (document.absense.SickFamily.value == null  || document.absense.SickFamily.value == "") 
+		   && (document.absense.SickDeath.value == null  || document.absense.SickDeath.value == "") 
+		   && (document.absense.Funeral.value == null  || document.absense.Funeral.value == "") 
+		   && (document.absense.PersonalHoliday.value == null  || document.absense.PersonalHoliday.value == "") 
+		   && (document.absense.Military.value == null  || document.absense.Military.value == "") 
+		   && (document.absense.CompTime.value == null  || document.absense.CompTime.value == "") 
+		   && (document.absense.LWOP.value == null  || document.absense.LWOP.value == "")
+		   && (document.absense.Other.value == null  || document.absense.Other.value == "")) {
+			alertuser ('At least one of the "REQUEST USE OF"  fields must be filled in.');
+			document.absense.Vacation.focus();
+			return false;
+		}
+	}
+//	
+</SCRIPT>
+<!--Script ends here -->
+<html>
+<head>
+	<title>Library Information Systems Online Electronic Absence Request 
+Form		
+		</title>
+		<link rel="STYLESHEET" href="/style/main.css" type="text/css">
+		<meta name="GENERATOR" content="Arachnophilia 4.0">
+		<meta name="FORMATTER" content="Arachnophilia 4.0">
+	</head>
+	
+	<body>
+		
+		<!--#config timefmt="%A %B %d, %Y %H:%M %Z" -->
+		<!--#include virtual="/include/header.shtml"-->
+		<!--#set var="content_updated" value="July 13, 2001" -->
+		<!--#set var="author_name" value="Brian Lenz" -->
+		<!--#set var="author_email" value="blenz@mail.sdsu.edu" -->
+		
+	
+
+  
+
+<body background="/images/back40.gif" onLoad="document.absense.Date.focus();
+document.absense.Date.select();">
+<P ALIGN=center><IMG SRC="/images/dom2_mod.gif" ALT="Malcolm A. Love Library"></P>
+<HR>
+<center>
+<h1>
+Electronic Absence Request</h1></center>
+<form Name="absense" method="POST" onSubmit="return validateReqDatess();" action="/cgi-bin/absence.cgi">
+<table BORDER WIDTH="75%" >
+<tr>
+<td></td>
+
+<td>Date Submitted:&nbsp;<input width=10 MAXLENGTH=20 NAME="Date"></td>
+</tr>
+
+<tr>
+<td><b>Name&nbsp;</b></td>
+
+<td><input width="40" MAXLENGTH="60" VALUE="" NAME="RealName"></td>
+</tr>
+
+<tr>
+<td><b>Email Address&nbsp;</b></td>
+
+<td><input width="40" MAXLENGTH="60" VALUE="" NAME="Email"></td>
+</tr>
+
+<tr>
+<td><b>Supervisor's Email&nbsp;</b></td>
+
+<td><input width="40" MAXLENGTH="60" VALUE="@mail.sdsu.edu" NAME="Supervisor"></td>
+</tr>
+</table>
+
+<input type="checkbox" name="Carbon" value="1" checked >A Check will 
+Carbon Copy Recipient<br>
+
+<br>
+<table BORDER WIDTH="60%" >
+<tr>
+<td><b>Date(s) Requested</b></td>
+
+<td><b># Hrs</b></td>
+
+<td><b>From - To</b></td>
+</tr>
+
+<tr>
+<td><input MAXLENGTH=30 VALUE="" NAME="Dates1"></td>
+
+<td><input MAXLENGTH=6 VALUE="" NAME="Hours1" size="3"></td>
+
+<td><input MAXLENGTH=20 VALUE="" NAME="Days1"></td>
+</tr>
+
+<tr>
+<td><input MAXLENGTH=30 VALUE="" NAME="Dates2"></td>
+
+<td><input MAXLENGTH=6 VALUE="" NAME="Hours2" size="3"></td>
+
+<td><input MAXLENGTH=20 VALUE="" NAME="Days2"></td>
+</tr>
+
+<tr>
+<td><input MAXLENGTH=30 VALUE="" NAME="Dates3"></td>
+
+<td><input MAXLENGTH=6 VALUE="" NAME="Hours3" size="3"></td>
+
+<td><input MAXLENGTH=20 VALUE="" NAME="Days3"></td>
+</tr>
+
+<tr>
+<td><input MAXLENGTH=30 VALUE="" NAME="Dates4"></td>
+
+<td><input MAXLENGTH=6 VALUE="" NAME="Hours4" size="3"></td>
+
+<td><input MAXLENGTH=20 VALUE="" NAME="Days4"></td>
+</tr>
+</table>
+
+<p><b>REQUEST USE OF: (fill in # hours)</b>
+<table BORDER WIDTH="75%" >
+<tr>
+<td>Vacation</td>
+
+<td><input MAXLENGTH=20 VALUE="" NAME="Vacation"></td>
+
+<td>Jury Duty</td>
+
+<td><input MAXLENGTH=20 VALUE="" NAME="Jury"></td>
+</tr>
+
+<tr>
+<td>Sick Leave Self</td>
+
+<td><input MAXLENGTH=20 VALUE="" NAME="SickSelf"></td>
+
+<td>Sick Leave Family*</td>
+
+<td><input MAXLENGTH=20 VALUE="" NAME="SickFamily"></td>
+</tr>
+
+<tr>
+<td>Sick Leave Death*</td>
+
+<td><input MAXLENGTH=20 VALUE="" NAME="SickDeath"></td>
+
+<td>Funeral Leave*</td>
+
+<td><input MAXLENGTH=20 VALUE="" NAME="Funeral"></td>
+</tr>
+
+<tr>
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+</tr>
+
+<tr>
+<td>Personal Holiday</td>
+
+<td><input MAXLENGTH=20 VALUE="" NAME="PersonalHoliday"></td>
+
+<td>Military Leave</td>
+
+<td><input MAXLENGTH=20 VALUE="" NAME="Military"></td>
+</tr>
+
+<tr>
+<td>Compensatory Time Off</td>
+
+<td><input MAXLENGTH=20 VALUE="" NAME="CompTime"></td>
+
+<td><font color="#FF0000">LWOP</font></td>
+
+<td><input MAXLENGTH=20 VALUE="" NAME="LWOP"></td>
+</tr>
+
+<tr>
+<td></td>
+
+<td></td>
+
+<td>Other</td>
+
+<td><input MAXLENGTH=20 VALUE="" NAME="Other"></td>
+</tr>
+</table>
+
+*Give Relationship
+<br><input MAXLENGTH=25 VALUE="" NAME="Relate">
+
+<p>REASON FOR ABSENCE (Sick Leave / LWOP):
+<br><textarea NAME="Reason" WRAP=HARD ROWS=3 COLS=50></textarea>
+<p><input TYPE="submit" VALUE="Submit Request To Supervisor">
+	<input TYPE="reset" VALUE="Clear Form">
+</form>
+
+<p>Clicking <b>SUBMIT</b> will forward this electronic request to your
+supervisor via email.
+<p>&nbsp;Supervisors are to forward their recommendation for approval/denial of all requests
+for <b>vacation, personal holiday, CTO, or any other use of accruals requiring
+scheduling</b> to their division head/manager and the employee.
+<p>&nbsp;<b>All approved requests for LWOP (Leave Without Pay)</b> need
+to be copied to Library Payroll (Jamie Boyer) in order to avoid having a hold
+placed on your paycheck.
+<p>Please direct all questions about this form or any payroll issue to
+Jamie Boyer (x42534 or <a href="mailto:jboyer@mail.sdsu.edu">jboyer@mail.sdsu.edu</a>.)
+<p>Information regarding vacations and leaves can be found at 
+	<a href="http://www.calstate.edu/tier3/EmpRel/Contracts_HTML/contracts.html">
+	Contract Information</a>
+<A HREF="javascript:popUp('https://digitalid.verisign.com/as2/6c957d17c629c843e76df84753df0b
+3b')">
+    <IMG SRC="/images/VeriSignSeal.gif"WIDTH="98"HEIGHT="100" BORDER="0" alt="VeriSign Secure Site Seal"></A>
+<!--
+<p>Electronic forms provided by <a 
+href="mailto:infosys@library.sdsu.edu?subject=Electronic forms">Library 
+Information Systems and Technology.</a>
+-->
+<P>Last Modified: &nbsp;07/13/2001</P>
+</body>
+</html>

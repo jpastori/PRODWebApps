@@ -1,0 +1,81 @@
+<!doctype html public "-//w3c//dtd html 3.2//en">
+
+<HTML>
+
+<HEAD>
+<LINK rel="STYLESHEET" href="/style/main.css" type="text/css" />
+<STYLE type="text/css"></STYLE>
+<TITLE>Information Systems and Technology - Ops Manual</TITLE>
+<META name="GENERATOR" content="Arachnophilia 4.0" />
+<META name="FORMATTER" content="Arachnophilia 4.0" />
+</HEAD>
+
+<BODY>
+
+<!--#config timefmt="%A %B %d, %Y %H:%M %Z" -->
+<!--#include virtual="/include/header.shtml"-->
+
+<!--#set var="author_name" value="Carol Phillips" -->
+<!--#set var="author_email" value="phillips@rohan.sdsu.edu" -->
+<!--#set var="content_updated" value="March 29, 2002" -->
+
+
+<H2>InfoSys Operations Manual</H2>
+<CENTER> 
+<P></P>
+ <A href="index.shtml">Info. & Tech. Support</A>   |  <A href="indexpac.shtml">PAC Support</A>  | <A href="indexsans.shtml">SANS/ACS</A>  |  <A href="indexsat.shtml">SAT</A>   |  <!A HREF="indexscc.shtml">SCC<BR /><BR />   
+
+<P></P>
+<FONT color="#FF0000"><EM>NOTE:  Most resources below are in .pdf format and will require the use of Adobe Acrobat Reader.</EM></FONT><BR /><BR />
+
+<P></P>
+<H2>Student Computing Center Procedures</H2>
+<STRONG><A name="Quick Index">Quick Index</A></STRONG><BR />
+<A href="#Accounting">Academic Computing Accounting </A>   |  <A href="#Databases">Databases</A>  |  <A href="#Maintenance">Ghosting and Maintenance</A>  
+</CENTER>
+<HR />
+
+<P>
+<BIG><STRONG><A name="Accounting">Academic Computing Accounting </A></STRONG></BIG><BR />
+</P><UL>
+<LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/acacct.pdf">Academic Computing Account Services     </A><BR />
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/rsrohan.pdf">ROHAN Accounting Procedures     </A><BR />
+</LI></UL>
+
+
+<P></P>
+<P>
+Return to <A href="#Quick Index">Quick Index</A>
+</P>
+<HR />
+<P>
+<BIG><STRONG><A name="Databases">Databases </A></STRONG></BIG><BR />
+</P><UL>
+<LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/2ndfloordbs.pdf">Access to 2nd Floor Databases     </A><BR />
+</LI></UL>
+
+
+<P></P>
+<P>
+Return to <A href="#Quick Index">Quick Index</A>
+</P>
+<HR />
+<P>
+<BIG><STRONG><A name="Maintenance">Ghosting and Maintenance</A></STRONG></BIG><BR />
+</P><UL>
+<LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/ghost4scc.pdf">Ghost Login for SCC     </A>
+</LI></UL>
+
+<P></P>
+<P>
+Return to <A href="#Quick Index">Quick Index</A>
+</P>
+
+<P>
+</P>
+
+<!--#include virtual="/include/footer.shtml"-->
+
+</BODY>
+
+</HTML>

@@ -1,0 +1,40 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- Last modified by John R. Pastori on 02/28/2006 using ColdFusion Studio. -->
+<HTML>
+<HEAD>
+	<TITLE>Procedure 9:  Oracle Database Recovery</TITLE>
+	<LINK rel="stylesheet" type="text/css" href="/webapps.css" />
+</HEAD>
+
+<BODY>
+<DIV align="center"><H1>Procedure 9:  Oracle Database Recovery.</H1></DIV>
+
+<STRONG><u>Oracle Database Recovery Feature</u></STRONG><BR /><BR />
+
+&nbsp;&nbsp;&nbsp;&nbsp; The following steps will perform a time-based recovery of the database:<BR /><BR />
+<UL>
+	<OL>
+		<LI>		Start the secure shell (ssh) software to create a telnet style session.</LI><BR />
+
+		<LI>		Login  as user oracle.  (See Barry, Carol, John or Ron for current user account passwords.)</LI><BR />
+
+		<LI>		If you are not currently using the TCSH shell, start it by typing: <STRONG><EM>tcsh [return]</EM></STRONG>.</LI><BR />
+
+		<LI>		Set the instance you want to run SQL commands against by typing: <STRONG><EM>setenv ORACLE_SID PRODAPPS [return]</EM></STRONG>. (Production instance name.)  <BR />If you want to run against the development instance replace PRODAPPS with devapps.  PRODAPPS must be uppercase and devapps must be lower case for the name to be set properly.</LI><BR />
+
+		<LI>		Start the SQLPLUS program without the login option by typing: <STRONG><EM>sqlplus /nolog [return]</EM></STRONG>.  You will see the line prompt change to sql>.</LI><BR />
+
+		<LI>		Next, you must connect to the oracle instance by typing: <STRONG><EM>connect / as sysdba [return]</EM></STRONG>.  This command gives you superuser privileges in Oracle.</LI><BR />
+
+		<LI>		Next, you type :  <STRONG><EM>ALTER DATABASE RECOVER AUTOMATIC UNTIL TIME '2006-03-10:14:00:00'; [return].</EM></STRONG> </LI><BR />
+		<LI>		To exit SQLPLUS type: <STRONG><EM>quit [return]</EM></STRONG>.</LI><BR />
+
+		<LI>		Log out of the secure shell (ssh) software by typing: <STRONG><EM>exit [return]</EM></STRONG> and closing the window.</LI>
+
+	</OL>
+</UL>
+<BR /><BR />
+&nbsp;&nbsp;&nbsp;&nbsp; Further information can be found in the <A href="OracleDBRecovery.html" name="Oracle Data Base Recovery">Oracle DB Recovery html</A> document.
+
+</BODY>
+</HTML>

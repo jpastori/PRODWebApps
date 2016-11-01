@@ -1,0 +1,32 @@
+<!doctype html public "-//w3c//dtd html 3.2//en">
+
+<html>
+
+<head>
+<link rel="STYLESHEET" href="/style/main.css" type="text/css">
+<style type="text/css"></style>
+<title>LFOLKS Online Absence Request Receipt</title>
+<meta name="GENERATOR" content="Arachnophilia 4.0">
+<meta name="FORMATTER" content="Arachnophilia 4.0">
+</head>
+
+<body>
+
+<!--#config timefmt="%A %B %d, %Y %H:%M %Z" -->
+<!--#include virtual="/include/header.shtml"-->
+
+<!--#set var="author_name" value="a CGI script" -->
+<!--#set var="author_email" value="blenz@mail.sdsu.edu" -->
+<!--#set var="content_updated" value="dynamically" -->
+
+<p>
+
+CGI-OUTPUT-HERE
+
+</p>
+
+<!--#include virtual="/include/footer.shtml"-->
+
+</body>
+
+</html>

@@ -1,0 +1,253 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><title>DROP TABLE</title>
+
+<!-- Last modified by John R. Pastori on 03/08/2006 using ColdFusion Studio. -->
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="en" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="robots" content="all" scheme="http://www.robotstxt.org/" />
+<meta name="doctitle" content="Oracle® Database SQL Reference 10g Release 1 (10.1)" />
+<meta name="partno" content="B10759-01" />
+<meta name="docid" content="SQLRF" />
+<link rel="Start" href="http://download-west.oracle.com/docs/cd/B14117_01/index.htm" title="Home" type="text/html" />
+<link rel="Copyright" href="http://download-west.oracle.com/docs/cd/B14117_01/dcommon/html/cpyr.htm" title="Copyright" type="text/html" />
+<link rel="Stylesheet" href="SQLDropStatement_files/doccd.css" title="Default" type="text/css" />
+<link rel="Contents" href="http://download-west.oracle.com/docs/cd/B14117_01/server.101/b10759/toc.htm" title="Contents" type="text/html" />
+<link rel="Index" href="http://download-west.oracle.com/docs/cd/B14117_01/server.101/b10759/index.htm" title="Index" type="text/html" />
+<link rel="Prev" href="http://download-west.oracle.com/docs/cd/B14117_01/server.101/b10759/statements_9002.htm" title="Previous" type="text/html" />
+<link rel="Next" href="http://download-west.oracle.com/docs/cd/B14117_01/server.101/b10759/statements_9004.htm" title="Next" type="text/html" />
+<link rel="alternate" href="http://download-west.oracle.com/docs/cd/B14117_01/server.101/b10759.pdf" title="PDF version" type="application/pdf" /></head><body>
+<div class="header">
+<p><a name="top" id="top" href="#BEGIN">Skip Headers</a></p>
+<table summary="" cellpadding="0" cellspacing="0" width="100%">
+<tbody><tr>
+<td align="left" valign="top"><font color="#330099" face="Helvetica, Arial, sans-serif"><strong>Oracle® Database SQL Reference<br />
+10<i>g</i> Release 1 (10.1)</strong><br />
+ Part Number B10759-01</font></td>
+<td align="right" valign="bottom">
+<table summary="" cellpadding="0" cellspacing="0" width="270">
+<tbody><tr>
+<td align="center" valign="top"><a href="http://download-west.oracle.com/docs/cd/B14117_01/index.htm"><img src="SQLDropStatement_files/prodicon.gif" alt="Go to Documentation Home" border="0" /><br />
+<font size="-2">Home</font></a></td>
+<td align="center" valign="top"><a href="http://download-west.oracle.com/docs/cd/B14117_01/nav/portal_3.htm"><img src="SQLDropStatement_files/bookicon.gif" alt="Go to Book List" border="0" /><br />
+<font size="-2">Book List</font></a></td>
+<td align="center" valign="top"><a href="http://download-west.oracle.com/docs/cd/B14117_01/server.101/b10759/toc.htm"><img src="SQLDropStatement_files/conticon.gif" alt="Go to Table of Contents" border="0" /><br />
+<font size="-2">Contents</font></a></td>
+<td align="center" valign="top"><a href="http://download-west.oracle.com/docs/cd/B14117_01/server.101/b10759/index.htm"><img src="SQLDropStatement_files/indxicon.gif" alt="Go to Index" border="0" /><br />
+<font size="-2">Index</font></a></td>
+<td align="center" valign="top"><a href="http://download-west.oracle.com/docs/cd/B14117_01/mix.101/b12039/toc.htm"><img src="SQLDropStatement_files/mix.gif" alt="Go to Master Index" border="0" /><br />
+<font size="-2">Master&nbsp;Index</font></a></td>
+<td align="center" valign="top"><a href="http://download-west.oracle.com/docs/cd/B14117_01/dcommon/html/feedback.htm"><img src="SQLDropStatement_files/feedback.gif" alt="Go to Feedback page" border="0" /><br />
+<font size="-2">Feedback</font></a></td></tr></tbody></table></td></tr></tbody></table>
+<hr />
+<table summary="layout table" cellpadding="0" cellspacing="0" width="100%">
+<tbody><tr>
+<td align="left" valign="top">
+<table summary="layout table" align="left" cellpadding="0" cellspacing="0" width="90">
+<tbody><tr>
+<td align="center" valign="top"><a href="http://download-west.oracle.com/docs/cd/B14117_01/server.101/b10759/statements_9002.htm"><img src="SQLDropStatement_files/larrow.gif" alt="Go to previous page" border="0" /><br />
+<font size="-2">Previous</font></a></td>
+<td align="center" valign="top"><a href="http://download-west.oracle.com/docs/cd/B14117_01/server.101/b10759/statements_9004.htm"><img src="SQLDropStatement_files/rarrow.gif" alt="Go to next page" border="0" /><br />
+<font size="-2">Next</font></a></td></tr></tbody></table></td>
+<td align="right" valign="middle">Go back to <a href="/ist/ops/OracleImport.html">Oracle Import </a> tcsh script parameters page.</td></tr></tbody></table>
+<a name="BEGIN" id="BEGIN"></a></div>
+<div class="IND"><a id="i2061306" name="i2061306"></a> 
+<hr noshade="noshade" size="3" />
+<div class="refsect1"><a id="sthref6369" name="sthref6369"></a> 
+<h2><font color="#330099" face="arial, helvetica, sans-serif"><a name="SQLRF01806" id="SQLRF01806"></a>DROP TABLE <a id="sthref6370" name="sthref6370"></a></font></h2>
+<a id="sthref6371" name="sthref6371"></a> 
+<p><strong><font color="#330099" face="arial, helvetica, sans-serif">Purpose</font></strong></p>
+<p><a id="sthref6372" name="sthref6372"></a>Use the <code>DROP</code> <code>TABLE</code>
+statement to move a table or object table to the recycle bin or to
+remove the table and all its data from the database entirely.</p>
+<div align="center">
+<div class="inftblnote"><br />
+<table class="note" summary="This is a layout table to format a note" title="This is a layout table to format a note" dir="ltr" border="1" cellpadding="3" cellspacing="0" frame="hsides" rules="groups" width="80%">
+<tbody>
+<tr>
+<td align="left">
+<p><font face="arial, helvetica, sans-serif"><strong>Caution:</strong></font></p>
+Unless you specify the <code>PURGE</code> clause, the <code>DROP</code> <code>TABLE</code>
+statement does not result in space being released back to the
+tablespace for use by other objects, and the space continues to count
+toward the user's space quota.</td></tr></tbody></table>
+<br /></div>
+</div>
+<p>For an external table, this statement removes only the table
+metadata in the database. It has no affect on the actual data, which
+resides outside of the database.</p>
+<p>When you drop a table that is part of a cluster, the table is moved
+to the recycle bin. However, if you subsequently drop the cluster, the
+table is purged from the recycle bin and can no longer be recovered
+with a <code>FLASHBACK TABLE</code> operation.</p>
+<p>Dropping a table invalidates dependent objects and removes object
+privileges on the table. If you want to re-create the table, then you
+must regrant object privileges on the table, re-create the indexes,
+integrity constraints, and triggers for the table, and respecify its
+storage parameters. Truncating has none of these effects. Therefore,
+removing rows with the <code>TRUNCATE</code> statement can be more efficient than dropping and re-creating a table.</p>
+<div align="center">
+<div class="inftblnotealso"><br />
+<table class="notealso" summary="This is a layout table to format a tip" title="This is a layout table to format a tip" dir="ltr" border="1" cellpadding="3" cellspacing="0" frame="hsides" rules="groups" width="80%">
+<tbody>
+<tr>
+<td align="left">
+<p><font face="arial, helvetica, sans-serif"><strong>See Also:</strong></font></p>
+<ul>
+<li type="disc">
+<p><a href="http://download-west.oracle.com/docs/cd/B14117_01/server.101/b10759/statements_7002.htm#i2095331">CREATE TABLE</a> and <a href="http://download-west.oracle.com/docs/cd/B14117_01/server.101/b10759/statements_3001.htm#CJAHHIBI">ALTER TABLE</a> for information on creating and modifying tables</p></li>
+<li type="disc">
+<p><a href="http://download-west.oracle.com/docs/cd/B14117_01/server.101/b10759/statements_10006.htm#i2067571">TRUNCATE</a> and <a href="http://download-west.oracle.com/docs/cd/B14117_01/server.101/b10759/statements_8005.htm#i2117787">DELETE</a> for information on removing data from a table</p></li>
+<li type="disc">
+<p><a href="http://download-west.oracle.com/docs/cd/B14117_01/server.101/b10759/statements_9012.htm#i2172752">FLASHBACK TABLE</a> for information on retrieving a dropped table from the recycle bin</p></li></ul></td></tr></tbody></table>
+<br /></div>
+</div>
+<a id="sthref6373" name="sthref6373"></a> 
+<p><strong><font color="#330099" face="arial, helvetica, sans-serif">Prerequisites</font></strong></p>
+<p>The table must be in your own schema or you must have the <code>DROP</code> <code>ANY</code> <code>TABLE</code> system privilege.</p>
+<p>You can perform DDL operations (such as <code>ALTER</code> <code>TABLE</code>, <code>DROP</code> <code>TABLE</code>, <code>CREATE</code> <code>INDEX</code>) on a temporary table only when no session is bound to it. A session becomes bound to a temporary table by performing an <code>INSERT</code> operation on the table. A session becomes unbound to the temporary table by issuing a <code>TRUNCATE</code> statement or at session termination, or, for a transaction-specific temporary table, by issuing a <code>COMMIT</code> or <code>ROLLBACK</code> statement.</p>
+<a id="sthref6374" name="sthref6374"></a> 
+<p><strong><font color="#330099" face="arial, helvetica, sans-serif">Syntax</font></strong></p>
+<br />
+<strong><font face="arial, helvetica, sans-serif">drop_table::=</font></strong><br />
+<img src="SQLDropStatement_files/drop_table.gif" alt="Description of drop_table.gif follows" /><br />
+<a id="sthref6375" name="sthref6375" href="http://download-west.oracle.com/docs/cd/B14117_01/server.101/b10759/img_text/drop_table.htm">Description of the illustration drop_table.gif</a><br />
+<br />
+<a id="sthref6376" name="sthref6376"></a> 
+<p><strong><font color="#330099" face="arial, helvetica, sans-serif">Semantics</font></strong></p>
+<br />
+<strong><font face="arial, helvetica, sans-serif" size="+1"><em>schema</em></font></strong><br />
+<p>Specify the schema containing the table. If you omit <em><code>schema</code></em>, then Oracle Database assumes the table is in your own schema.</p>
+<br />
+<strong><font face="arial, helvetica, sans-serif" size="+1"><em>table</em> <em><a id="sthref6377" name="sthref6377"></a><a id="sthref6378" name="sthref6378"></a><a id="sthref6379" name="sthref6379"></a><a id="sthref6380" name="sthref6380"></a><a id="sthref6381" name="sthref6381"></a><a id="sthref6382" name="sthref6382"></a></em></font></strong><br />
+<p>Specify the name of the table to be dropped. Oracle Database automatically performs the following operations:</p>
+<ul>
+<li type="disc">
+<p>All rows from the table are dropped.</p></li>
+<li type="disc">
+<p>All table indexes and domain indexes are dropped, as well as any
+triggers defined on the table, regardless of who created them or whose
+schema contains them. If <em><code>table</code></em> is partitioned, then any corresponding local index partitions are also dropped.</p></li>
+<li type="disc">
+<p>All the storage tables of nested tables and LOBs of <em><code>table</code></em> are dropped.</p></li>
+<li type="disc">
+<p>If you drop a range-, hash-, or list-partitioned table, then the
+database drops all the table partitions. If you drop a
+composite-partitioned table, then all the partitions and subpartitions
+are also dropped.</p></li>
+<li type="disc">
+<p>For an index-organized table, any mapping tables defined on the index-organized table are dropped.</p></li>
+<li type="disc">
+<p>For a domain index, the appropriate drop routines are invoked. Please refer to <em><a class="olinkSRC ADDCI" href="http://download-west.oracle.com/docs/cd/B14117_01/appdev.101/b10800/toc.htm">Oracle Data Cartridge Developer's Guide</a></em> for more information on these routines.</p></li>
+<li type="disc">
+<p>If any statistic types are associated with the table, then the database disassociates the statistics types with the <code>FORCE</code> clause and removes any user-defined statistics collected with the statistics type.</p>
+<div class="inftblnotealso"><br />
+<table class="notealso" summary="This is a layout table to format a tip" title="This is a layout table to format a tip" dir="ltr" border="1" cellpadding="3" cellspacing="0" frame="hsides" rules="groups" width="80%">
+<tbody>
+<tr>
+<td align="left">
+<p><font face="arial, helvetica, sans-serif"><strong>See Also:</strong></font></p>
+<a href="http://download-west.oracle.com/docs/cd/B14117_01/server.101/b10759/statements_4006.htm#i2058947">ASSOCIATE STATISTICS</a> and <a href="http://download-west.oracle.com/docs/cd/B14117_01/server.101/b10759/statements_8006.htm#i2066266">DISASSOCIATE STATISTICS</a> for more information on statistics type associations</td></tr></tbody></table>
+<br /></div>
+</li>
+<li type="disc">
+<p>If the table is not part of a cluster, then the database returns all
+data blocks allocated to the table and its indexes to the tablespaces
+containing the table and its indexes.</p>
+<p>To drop a cluster and all its the tables, use the <code>DROP</code> <code>CLUSTER</code> statement with the <code>INCLUDING</code> <code>TABLES</code> clause to avoid dropping each table individually. See <a href="http://download-west.oracle.com/docs/cd/B14117_01/server.101/b10759/statements_8007.htm#i2066309">DROP CLUSTER</a> .</p></li>
+<li type="disc">
+<p>If the table is a base table for a view, a container or master table
+of a materialized view, or if it is referenced in a stored procedure,
+function, or package, then the database invalidates these dependent
+objects but does not drop them. You cannot use these objects unless you
+re-create the table or drop and re-create the objects so that they no
+longer depend on the table.</p>
+<p>If you choose to re-create the table, then it must contain all the
+columns selected by the subqueries originally used to define the
+materialized views and all the columns referenced in the stored
+procedures, functions, or packages. Any users previously granted object
+privileges on the views, stored procedures, functions, or packages need
+not be regranted these privileges.</p>
+<p>If the table is a master table for a materialized view, then the
+materialized view can still be queried, but it cannot be refreshed
+unless the table is re-created so that it contains all the columns
+selected by the defining query of the materialized view.</p>
+<p>If the table has a materialized view log, then the database drops this log and any other direct-path <code>INSERT</code> refresh information associated with the table.</p></li></ul>
+<br />
+<strong><font face="arial, helvetica, sans-serif">Restriction on Dropping Tables</font></strong><br />
+<p>You cannot directly drop the storage table of a nested table. Instead, you must drop the nested table column using the <code>ALTER</code> <code>TABLE</code> ... <code>DROP</code> <code>COLUMN</code> clause.</p>
+<br />
+<strong><font face="arial, helvetica, sans-serif" size="+1">CASCADE CONSTRAINTS <a id="sthref6383" name="sthref6383"></a></font></strong><br />
+<p>Specify <code>CASCADE</code> <code>CONSTRAINTS</code> to drop all
+referential integrity constraints that refer to primary and unique keys
+in the dropped table. If you omit this clause, and such referential
+integrity constraints exist, then the database returns an error and
+does not drop the table.</p>
+<br />
+<strong><font face="arial, helvetica, sans-serif" size="+1">PURGE</font></strong><br />
+<p>Specify <code>PURGE</code> if you want to drop the table and release the space associated with it in a single step. If you specify <code>PURGE</code>, then the database does not place the table and its dependent objects into the recycle bin.</p>
+<div align="center">
+<div class="inftblnote"><br />
+<table class="note" summary="This is a layout table to format a note" title="This is a layout table to format a note" dir="ltr" border="1" cellpadding="3" cellspacing="0" frame="hsides" rules="groups" width="80%">
+<tbody>
+<tr>
+<td align="left">
+<p><font face="arial, helvetica, sans-serif"><strong>Caution:</strong></font></p>
+You cannot roll back a <code>DROP</code> <code>TABLE</code> statement with the <code>PURGE</code> clause, nor can you recover the table if you have dropped it with the <code>PURGE</code> clause.</td></tr></tbody></table>
+<br /></div>
+</div>
+<p>Using this clause is equivalent to first dropping the table and then
+purging it from the recycle bin. This clause lets you save one step in
+the process. It also provides enhanced security if you wish to prevent
+sensitive material from appearing in the recycle bin.</p>
+<div align="center">
+<div class="inftblnotealso"><br />
+<table class="notealso" summary="This is a layout table to format a tip" title="This is a layout table to format a tip" dir="ltr" border="1" cellpadding="3" cellspacing="0" frame="hsides" rules="groups" width="80%">
+<tbody>
+<tr>
+<td align="left">
+<p><font face="arial, helvetica, sans-serif"><strong>See Also:</strong></font></p>
+<em><a class="xlinkSRC ADMIN01511" href="http://download-west.oracle.com/docs/cd/B14117_01/server.101/b10739/tables.htm#ADMIN01511">Oracle Database Administrator's Guide</a></em> for information on the recycle bin and naming conventions for objects in the recycle bin</td></tr></tbody></table>
+<br /></div>
+</div>
+<a id="sthref6384" name="sthref6384"></a> 
+<p><strong><font color="#330099" face="arial, helvetica, sans-serif">Example</font></strong></p>
+<br />
+<strong><font face="arial, helvetica, sans-serif">Dropping a Table: Example</font></strong><br />
+<p>The following statement drops the <code>oe.list_customers</code> table created in <a href="http://download-west.oracle.com/docs/cd/B14117_01/server.101/b10759/statements_7002.htm#i2115317">"List Partitioning Example"</a>.</p>
+<pre xml:space="preserve">DROP TABLE list_customers PURGE; 
+</pre>
+</div>
+</div>
+<div class="footer">
+<hr />
+<table summary="" cellpadding="0" cellspacing="0" width="100%">
+<tbody><tr>
+<td style="width: 33%;" align="left">
+<table summary="layout table" align="left" cellpadding="0" cellspacing="0" width="90">
+<tbody><tr>
+<td align="center" valign="top"><a href="http://download-west.oracle.com/docs/cd/B14117_01/server.101/b10759/statements_9002.htm"><img src="SQLDropStatement_files/larrow.gif" alt="Go to previous page" border="0" /><br />
+<font size="-2">Previous</font></a></td>
+<td align="center" valign="top"><a href="http://download-west.oracle.com/docs/cd/B14117_01/server.101/b10759/statements_9004.htm"><img src="SQLDropStatement_files/rarrow.gif" alt="Go to next page" border="0" /><br />
+<font size="-2">Next</font></a></td></tr></tbody></table></td>
+<td style="width: 34%;" align="center"><img src="SQLDropStatement_files/oracle.gif" alt="Oracle" /><br />
+<a href="http://download-west.oracle.com/docs/cd/B14117_01/dcommon/html/cpyr.htm"><font size="-2">Copyright&nbsp;©&nbsp;1996, 2003&nbsp;Oracle&nbsp;Corporation</font></a><br />
+<font size="-2">All Rights Reserved.</font></td>
+<td style="width: 33%;" align="right">
+<table summary="" cellpadding="0" cellspacing="0" width="270">
+<tbody><tr>
+<td align="center" valign="top"><a href="http://download-west.oracle.com/docs/cd/B14117_01/index.htm"><img src="SQLDropStatement_files/prodicon.gif" alt="Go to Documentation Home" border="0" /><br />
+<font size="-2">Home</font></a></td>
+<td align="center" valign="top"><a href="http://download-west.oracle.com/docs/cd/B14117_01/nav/portal_3.htm"><img src="SQLDropStatement_files/bookicon.gif" alt="Go to Book List" border="0" /><br />
+<font size="-2">Book List</font></a></td>
+<td align="center" valign="top"><a href="http://download-west.oracle.com/docs/cd/B14117_01/server.101/b10759/toc.htm"><img src="SQLDropStatement_files/conticon.gif" alt="Go to Table of Contents" border="0" /><br />
+<font size="-2">Contents</font></a></td>
+<td align="center" valign="top"><a href="http://download-west.oracle.com/docs/cd/B14117_01/server.101/b10759/index.htm"><img src="SQLDropStatement_files/indxicon.gif" alt="Go to Index" border="0" /><br />
+<font size="-2">Index</font></a></td>
+<td align="center" valign="top"><a href="http://download-west.oracle.com/docs/cd/B14117_01/mix.101/b12039/toc.htm"><img src="SQLDropStatement_files/mix.gif" alt="Go to Master Index" border="0" /><br />
+<font size="-2">Master&nbsp;Index</font></a></td>
+<td align="center" valign="top"><a href="http://download-west.oracle.com/docs/cd/B14117_01/dcommon/html/feedback.htm"><img src="SQLDropStatement_files/feedback.gif" alt="Go to Feedback page" border="0" /><br />
+<font size="-2">Feedback</font></a></td></tr></tbody></table></td></tr></tbody></table></div>
+</body></html>

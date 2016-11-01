@@ -1,0 +1,286 @@
+<!doctype html public "-//w3c//dtd html 3.2//en">
+<html>
+<head>
+<link rel="STYLESHEET" href="/style/main.css" type="text/css">
+<style type="text/css"></style>
+<title>InfoSys - Submit Service Request </title>
+<meta name="GENERATOR" content="Arachnophilia 4.0">
+<meta name="FORMATTER" content="Arachnophilia 4.0">
+</head>
+<body>
+<!--#config timefmt="%A %B %d, %Y %H:%M %Z" -->
+<!--#include virtual="/include/header.shtml"-->
+<!--#set var="author_name" value="Carol Phillips" -->
+<!--#set var="author_email" value="phillips@rohan.sdsu.edu" -->
+<!--#set var="content_updated" value="August 5, 2005" -->
+<A NAME="top"></A>
+<h2>Submit An InfoSys Service Request</h2>
+
+<!--Framing Table-->
+<TABLE WIDTH=640 BORDER=0 CELLSPACING=0 CELLPADDING=0>
+<TR>
+<TD><CENTER>
+<p></p>
+Library faculty and staff may complete the fields below to submit a new InfoSys Service Request. <font color="#FF0000"><em>NOTE: If this request is a CRISIS priority, do NOT use this form. You should call the InfoSys Service Desk at 46753.</em></font>
+<p></p><p></p>
+
+<!--Content Table-->
+</center><TABLE WIDTH=100% BORDER=0 CELLSPACING=0 CELLPADDING=5><CENTER>
+
+<!--Intro-->
+</center><TR><TD>
+<FORM method=post action=http://www.sdsu.edu/cgi-bin/MailForm/submit/infosys@library.sdsu.edu>
+<CENTER>
+<TABLE WIDTH=100% BORDER=0 CELLSPACING=0 CELLPADDING=5>
+<TR>
+<TD><strong>Your Name:</strong> (required)  </td><td>
+<SELECT NAME="Name">
+<option selected value="click here">Please click here to select your Name.</OPTION>
+<option selected value="AMY TSUJI">AMY TSUJI</OPTION>
+<option selected value="ANN NEVITT">ANN NEVITT</OPTION>
+<option selected value="ANNALYNN AVENDANO">ANNALYNN AVENDANO</OPTION>
+<option selected value="BARRY DWORAK">BARRY DWORAK</OPTION>
+<option selected value="BEATRICE BRIGGS">BEATRICE BRIGGS</OPTION>
+<option selected value="BONNIE MADSEN">BONNIE MADSEN</OPTION>
+<option selected value="BRIAN LENZ">BRIAN LENZ</OPTION>
+<option selected value="BRIAN MOORE">BRIAN MOORE</OPTION>
+<option selected value="BRUCE HARLEY">BRUCE HARLEY</OPTION>
+<option selected value="C. ANNE TURHOLLOW">C. ANNE TURHOLLOW</OPTION>
+<option selected value="CAROL PHILLIPS">CAROL PHILLIPS</OPTION>
+<option selected value="CAROLE F. WILSON">CAROLE F. WILSON</OPTION>
+<option selected value="CAROLYN BABER">CAROLYN BABER</OPTION>
+<option selected value="CECILIA PUERTO">CECILIA PUERTO</OPTION>
+<option selected value="CHIMENE TUCKER">CHIMENE TUCKER</OPTION>
+<option selected value="CHUCK DINTRONE">CHUCK DINTRONE</OPTION>
+<option selected value="CLIFTON GUO">CLIFTON GUO</OPTION>
+<option selected value="CONNIE V. DOWELL">CONNIE V. DOWELL</OPTION>
+<option selected value="DAN MCCREADY">DAN MCCREADY</OPTION>
+<option selected value="DARLENE NOWAK">DARLENE NOWAK</OPTION>
+<option selected value="DENNIS SHANNON">DENNIS SHANNON</OPTION>
+<option selected value="DOROTHY PATTERSON">DOROTHY PATTERSON</OPTION>
+<option selected value="EDWARD DI BELLA">EDWARD DI BELLA</OPTION>
+<option selected value="ELLIE DWORAK">ELLIE DWORAK</OPTION>
+<option selected value="GLORIA RHODES">GLORIA RHODES</OPTION>
+<option selected value="GWEN PATRICK-BUIE">GWEN PATRICK-BUIE</OPTION>
+<option selected value="HANNELORE HEVESY">HANNELORE HEVESY</OPTION>
+<option selected value="HARRY KEEHAN">HARRY KEEHAN</OPTION>
+<option selected value="HELEN K. HENRY">HELEN K. HENRY</OPTION>
+<option selected value="INFOSYS SERVICE DESK">INFOSYS SERVICE DESK</OPTION>
+<option selected value="JENNIFER ANDERSON">JENNIFER ANDERSON</OPTION>
+<option selected value="JENNIFER PATTERSON">JENNIFER PATTERSON</OPTION>
+<option selected value="JESICA BRUBAKER">JESICA BRUBAKER</OPTION>
+<option selected value="JOAN FREEMAN GOODWIN">JOAN FREEMAN GOODWIN</OPTION>
+<option selected value="JOAN SHELBY">JOAN SHELBY</OPTION>
+<option selected value="JOHN PASTORI">JOHN PASTORI</OPTION>
+<option selected value="JON CAWTHORNE">JON CAWTHORNE</OPTION>
+<option selected value="JOSIE ACEVEDO">JOSIE ACEVEDO</OPTION>
+<option selected value="JOSSIE CHAVEZ">JOSSIE CHAVEZ</OPTION>
+<option selected value="JULIE SU">JULIE SU</OPTION>
+<option selected value="KATALIN HARKANYI">KATALIN HARKANYI</OPTION>
+<option selected value="KATHLEEN TAYLOR">KATHLEEN TAYLOR</OPTION>
+<option selected value="KATHRYN NEAL">KATHRYN NEAL</OPTION>
+<option selected value="KELLEY MARTIN">KELLEY MARTIN</OPTION>
+<option selected value="LEAH ROSENBLUM">LEAH ROSENBLUM</option>
+<option selected value="LEON GEIS">LEON GEIS</OPTION>
+<option selected value="LINDA JACKSON-COYLE">LINDA JACKSON-COYLE</OPTION>
+<option selected value="LINDA S. MUROI">LINDA S. MUROI</OPTION>
+<option selected value="LINDA SALEM">LINDA SALEM</OPTION>
+<option selected value="LISA ELKINS">LISA ELKINS</OPTION>
+<option selected value="LISA PETERS">LISA PETERS</OPTION>
+<option selected value="LORRAINE QUINTERO">LORRAINE QUINTERO</OPTION>
+<option selected value="LUPITA  LOPEZ">LUPITA  LOPEZ</OPTION>
+<option selected value="LYN OLSSON">LYN OLSSON</OPTION>
+<option selected value="LYNN HAWKES">LYNN HAWKES</OPTION>
+<option selected value="MARCIA PULLIN">MARCIA PULLIN</OPTION>
+<option selected value="MARGARET THEALL">MARGARET THEALL</OPTION>
+<option selected value="MARILYN E. HALL">MARILYN E. HALL</OPTION>
+<option selected value="MARK BURGESON">MARK BURGESON</OPTION>
+<option selected value="MARK FIGUEROA">MARK FIGUEROA</OPTION>
+<option selected value="MARK LESTER">MARK LESTER</OPTION>
+<option selected value="MARK STOVER">MARK STOVER</OPTION>
+<option selected value="MARKEL TUMLIN">MARKEL TUMLIN</OPTION>
+<option selected value="MARSHA SHEA">MARSHA SHEA</OPTION>
+<option selected value="MARTHA MCPHAIL">MARTHA MCPHAIL</OPTION>
+<option selected value="MARY BETH LINK">MARY BETH LINK</OPTION>
+<option selected value="MAUREEN DOTSON">MAUREEN DOTSON</OPTION>
+<option selected value="MICHAEL DIMAIO">MICHAEL DIMAIO</OPTION>
+<option selected value="MICHAEL J. PERKINS">MICHAEL J. PERKINS</OPTION>
+<option selected value="MINA MUESSIGMANN">MINA MUESSIGMANN</OPTION>
+<option selected value="MORLIN BROWN">MORLIN BROWN</OPTION>
+<option selected value="PAMELA HALL">PAMELA HALL</OPTION>
+<option selected value="PAMELA JACKSON">PAMELA JACKSON</OPTION>
+<option selected value="PATRICIA MEYERS">PAT MEYER</OPTION>
+<option selected value="PATRICIA JONES">PATRICIA JONES</OPTION>
+<option selected value="PATRICK SULLIVAN">PATRICK SULLIVAN</OPTION>
+<option selected value="PEG WILLIAMS">PEG WILLIAMS</OPTION>
+<option selected value="PHILLIP M. WHITE">PHILLIP M. WHITE</OPTION>
+<option selected value="ROBERT CARANDE">ROBERT CARANDE</OPTION>
+<option selected value="ROBERT FIKES">ROBERT FIKES</OPTION>
+<option selected value="ROBERTA NIEDERJOHN">ROBERTA NIEDERJOHN</OPTION>
+<option selected value="RON NASH">RON NASH</OPTION>
+<option selected value="SANDY NEER">SANDY NEER</OPTION>
+<option selected value="SARA BAIRD">SARA BAIRD</OPTION>
+<option selected value="SEAN STOWE">SEAN STOWE</option>
+<option selected value="STEVE VOELKER">STEVE VOELKER</OPTION>
+<option selected value="STEVEN SAVAGE">STEVEN SAVAGE</OPTION>
+<option selected value="SUE HOLLANDER">SUE HOLLANDER</OPTION>
+<option selected value="SUSAN SOTO">SUSAN SOTO</OPTION>
+<option selected value="TERRY VENTURA">TERRY VENTURA</OPTION>
+<option selected value="TONI WHITLEY">TONI WHITLEY</OPTION>
+<option selected value="WENDY SCHMIDT">WENDY SCHMIDT</OPTION>
+<option selected value="WILLIAM STANINGER">WILLIAM STANINGER</OPTION>
+<option selected value="YUAN LIANG">YUAN LIANG</OPTION>
+<option selected value="click here">Please click here to select your Name.</OPTION>
+</SELECT><p></p>
+</TD></TR>
+
+<TR>
+<TD><strong>Your Library Unit</strong>  (required) </TD><TD>
+<SELECT NAME="Unit">
+<option selected value="click here">Please click here to select your Unit.</OPTION>
+<option selected value="CIRC">CIRC</OPTION>
+<option selected value="COLLDEV">COLLDEV</OPTION>
+<option selected value="COPY">COPY</OPTION>
+<option selected value="CPMC">CPMC</OPTION>
+<option selected value="GPM-CATLGS">GPM-CATLGS</OPTION>
+<option selected value="ILL">ILL</OPTION>
+<option selected value="INFO SUP">INFO SUP</OPTION>
+<option selected value="INFOSYS">INFOSYS</OPTION>
+<option selected value="INSTR">INSTR</OPTION>
+<option selected value="IVC-LIB">IVC-LIB</OPTION>
+<option selected value="LIBADMIN">LIBADMIN</OPTION>
+<option selected value="MEDIA">MEDIA</OPTION>
+<option selected value="MONOGRAPHS">MONOGRAPHS</OPTION>
+<option selected value="PAC SUP">PAC SUP</OPTION>
+<option selected value="REF_SRV">REF_SRV</OPTION>
+<option selected value="RBR">RBR</OPTION>
+<option selected value="SANS">SANS</OPTION>
+<option selected value="SAT">SAT</OPTION>
+<option selected value="SERIALS">SERIALS</OPTION>
+<option selected value="SCC">SCC</OPTION>
+<option selected value="SPECCOLL">SPECCOLL</OPTION>
+<option selected value="STKMAIN">STKMAIN</OPTION>
+<option selected value="click here">Please click here to select your Unit.</OPTION>
+</SELECT><p></p>
+</TD></TR>
+
+<TR><TD><strong>Your Email address:</strong>  (required) </TD><TD><INPUT TYPE=text NAME="Email" size=35><p></p></TD></TR>
+<TR><TD><strong>Your Phone:</strong>  (required) </TD><TD><INPUT TYPE=text NAME="Phone" size=20><p></p>
+
+</TD></TR>
+<TR>
+<TD><strong>Best day/time to be contacted</strong></TD><TD>
+<INPUT TYPE="Text" NAME="ContactHRS" VALUE="" SIZE=20><p></p></TD>
+</TR>
+<TR>
+<TD><strong>Best means of contact</strong></TD><TD>
+				<INPUT Type="radio" Name="ContactBY" Value="Phone">Phone&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<INPUT Type="radio" Name="ContactBY" Value="Email">Email <p></p>	</TD>
+</TR>
+<TR>
+<TD><strong>This is a request for <A HREF="/ist/pcatsub.shtml">Service/Problem Category:</A></strong> (category explanation)</TD>
+<TD>
+<SELECT NAME="PCAT">
+<option selected value="click here">Please click here to select your Service/Problem Category.</OPTION>
+<option selected value="A. ACCOUNTS">A. ACCOUNTS</OPTION>
+<option selected value="B. EVAL/PURCHASE">B. EVAL/PURCHASE</OPTION>
+<option selected value="C. FACILITIES">C. FACILITIES</OPTION>
+<option selected value="D. HARDWARE">D. HARDWARE</OPTION> 
+<option selected value="E. INFORMATION">E. INFORMATION </OPTION>
+<option selected value="F. LIBRARY OTHER">F. LIBRARY OTHER </OPTION>
+<option selected value="G. LIBRARY SERVICES">G. LIBRARY SERVICES</OPTION>
+<option selected value="H. LIBRARY SOFTWARE">H. LIBRARY SOFTWARE</OPTION>
+<option selected value="I. NETWORK ACCESS">I. NETWORK ACCESS</OPTION>
+<option selected value="J. NETWORKED PRINTING ">J. NETWORKED PRINTING </OPTION>
+<option selected value="K. PROGRAMMING">K. PROGRAMMING</OPTION> 
+<option selected value="L. RESERVATIONS">L. RESERVATIONS</OPTION>
+<option selected value="M. SPECIAL PROJECTS">M. SPECIAL PROJECTS</OPTION>
+<option selected value="N. TRAINING">N. TRAINING</OPTION>
+<option selected value="click here">Please click here to select your Service/Problem Category.</OPTION>
+</SELECT><p></p>
+</TD></TR>
+</TABLE>
+<TABLE HALIGN=CENTER WIDTH=200 BORDER=0 CELLSPACING=0 CELLPADDING=10>
+<TR><TD COLSPAN=2><HR></TD></TR>
+<TR><TD></TD><TD  WIDTH=640><p></p><p></p><strong>Please describe your service needs or problem in detail.  Include what you are trying to do, what appears on the screen or printer display, what noises are made, error message text, if any, etc.:</strong> (required)<BR>
+<p></p><p></p>
+<TEXTAREA NAME="Comments" ROWS=15 COLS=66 WRAP=Physical></TEXTAREA></TD>
+</TR>
+<TR>
+<TD></TD><TD><strong>Please provide the Barcode of the affected equipment (Use only the numbers after 3 0650 00... [e.g. 924 8990] include the space): &nbsp; &nbsp;</strong>
+<INPUT TYPE="Text" NAME="Barcode#" VALUE="" SIZE=8>  (required)<p>
+<strong>This equipment is located in room:  (e.g. LL-109, LA-2250, etc.)</strong> <INPUT TYPE="Text" NAME="Room" VALUE="" SIZE=10>   (required)</TD>
+</TR>
+<TR><TD></TD><TD><strong>If this is a Public workstation, please also provide the affected equipment's Division Number (e.g. GRC1-7, SCI2-4, GP3-5):</strong> &nbsp; &nbsp;
+<INPUT TYPE="Text" NAME="Division#" VALUE="" SIZE=10></TD>
+</TR>
+<TR><TD></TD><TD><strong>What have you done so far?</strong> (Please check all that apply)<p></p><p></p><strong>
+<INPUT TYPE="Checkbox" NAME="Cords" VALUE="Yes">Checked & pushed in power cords<BR>
+<INPUT TYPE="Checkbox" NAME="Cables" VALUE="Yes">Checked  & pushed in keyboard/mouse cables<BR>
+<INPUT TYPE="Checkbox" NAME="Network" VALUE="Yes">Checked  & pushed in network cable<BR>
+<INPUT TYPE="Checkbox" NAME="Reboot" VALUE="Yes">Rebooted workstation<br><br><p></p><p></p>
+Please describe anything else tried:</strong><p></p>
+<textarea name="Tried" rows=2 cols=60 wrap=physical></textarea><br>
+</TD>
+</TR>
+<TR><TD></TD><TD><strong>What Urgency do you assign to this request?:</strong>
+<p></p><p></p>
+<SELECT NAME="Urgency">
+<option selected value="click here">Please click here to select Urgency.</OPTION>
+<option selected value="Very High">Very High - Deadline work is stopped.</OPTION>
+<option  selected value="High">High - Backlog could develop, while using other equipment capable of same function. </OPTION>
+<option  selected value="Medium">Medium - Needed, but function can be absorbed by other equipment</OPTION>
+<option  selected value="Low">Low - Unit will not be affected by its non-use.</OPTION> 
+<option selected value="click here">Please click here to select Urgency.</OPTION>
+</SELECT>
+</TD>
+</TR>
+<TR><TD></TD><TD><strong>Do you wish to be present, when/if IST visits your office?:</strong><p></p><p></p>
+				<INPUT Type="radio" Name="Present" Value="Yes">Yes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<INPUT Type="radio" Name="Present" Value="No">No 	
+</TD>
+</TR>
+</TABLE>
+</center>
+<INPUT TYPE=hidden NAME=MF_cc VALUE="$Email">
+<INPUT TYPE=hidden NAME=MF_reply_to VALUE="$Email">
+<INPUT TYPE=hidden NAME=MF_next_url VALUE="http://lfolks.sdsu.edu/forms/istforms/sthanks.shtml">
+<INPUT TYPE=hidden NAME=MF_subject VALUE="New SR">
+<INPUT TYPE=hidden NAME=MF_indent VALUE="20">
+<INPUT TYPE=hidden NAME=MF_order VALUE="Name,Unit,Email,Phone,ContactHRS,ContactBY,PCAT,Comments,Barcode#,Room,Division#,Cords,Cables,Network,Reboot,Tried,Urgency,Present">
+<INPUT TYPE=hidden NAME=MF_required VALUE="Name,Unit,Email,Phone,Comments,Barcode#,Room">
+<INPUT TYPE=hidden NAME=MF_hide_empty VALUE="ContactHRS,ContactBY,PCAT,Division#,Cords,Cables,Network,Reboot,Tried,Urgency,Present"> 
+
+<BR>
+<CENTER>
+<INPUT type=submit value="Submit SR">&nbsp; &nbsp;
+<INPUT type=reset value="Clear form"><p></p>
+</CENTER>
+
+</FORM>
+</TD>
+</TR>
+<!--Close Content Table-->
+</TABLE>
+
+<!--Footer-->
+<P ALIGN=Center>
+<FONT SIZE=-1>
+<A HREF="#top">Top of This Page</A> <BR>
+</FONT>
+</P>
+
+<!--Close Framing Table-->
+</TD>
+</TR>
+</TABLE>
+
+
+<p>
+</p>
+
+<!--#include virtual="/include/footer.shtml"-->
+
+</body>
+</html>
+

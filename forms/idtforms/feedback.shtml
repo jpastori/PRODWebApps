@@ -1,0 +1,299 @@
+<!doctype html public "-//w3c//dtd html 3.2//en">
+
+<HTML>
+
+<HEAD>
+<LINK rel="STYLESHEET" href="/style/main.css" type="text/css">
+<STYLE type="text/css"></STYLE>
+<TITLE>InfoSys Feedback </TITLE>
+<META name="GENERATOR" content="Arachnophilia 4.0">
+<META name="FORMATTER" content="Arachnophilia 4.0">
+</HEAD>
+
+<BODY>
+
+<!--#config timefmt="%A %B %d, %Y %H:%M %Z" -->
+<!--#include virtual="/include/header.shtml"-->
+
+<!--#set var="author_name" value="Carol Phillips" -->
+<!--#set var="author_email" value="phillips@rohan.sdsu.edu" -->
+<!--#set var="content_updated" value="August 5, 2005" -->
+
+
+<H2>Information Systems and Technology (IST)</H2>
+<P></P>
+<A name="top"></A>
+<!--Framing Table-->
+<CENTER>
+<TABLE width=540 border=0 cellspacing=0 cellpadding=0>
+<TR>
+<TD>
+
+<!--Content Table-->
+<TABLE width=100% border=0 cellspacing=0 cellpadding=5>
+
+<!--Intro-->
+<TR>
+<TD>
+<H2 align=CENTER>Share Your Comments</H2>
+
+<FORM method=post action=http://www.sdsu.edu/cgi-bin/MailForm/submit/infosys@library.sdsu.edu>
+
+Information Systems and Technology wants to give you the best service possible. To help us, please feel free to give us your comments. We welcome any suggestions that may help us improve our services or web site. We would also like to know of any problems that you may encounter while using our services or web site.
+<P>
+
+<TABLE width=100% border=0 cellspacing=0 cellpadding=5>
+<TD><STRONG>Your Name:</STRONG> (required)  </TD>
+                    <TD> 
+                      <SELECT name="Name">
+                        <OPTION selected value="click here">Please click here 
+                        to select your Name.</OPTION>
+                        <OPTION selected value="AMY TSUJI">AMY TSUJI</OPTION>
+                        <OPTION selected value="ANN NEVITT">ANN NEVITT</OPTION>
+                        <OPTION selected value="ANNALYNN AVENDANO">ANNALYNN AVENDANO</OPTION>
+                        <OPTION selected value="BARRY DWORAK">BARRY DWORAK</OPTION>
+                        <OPTION selected value="BEATRICE BRIGGS">BEATRICE BRIGGS</OPTION>
+                        <OPTION selected value="BONNIE MADSEN">BONNIE MADSEN</OPTION>
+                        <OPTION selected value="BRIAN LENZ">BRIAN LENZ</OPTION>
+                        <OPTION selected value="BRIAN MOORE">BRIAN MOORE</OPTION>
+                        <OPTION selected value="BRUCE HARLEY">BRUCE HARLEY</OPTION>
+                        <OPTION selected value="C. ANNE TURHOLLOW">C. ANNE TURHOLLOW</OPTION>
+                        <OPTION selected value="CAROL PHILLIPS">CAROL PHILLIPS</OPTION>      
+                        <OPTION selected value="CAROLE F. WILSON">CAROLE F. WILSON</OPTION>
+                        <OPTION selected value="CAROLYN BABER">CAROLYN BABER</OPTION>
+                        <OPTION selected value="CECILIA PUERTO">CECILIA PUERTO</OPTION>
+                        <OPTION selected value="CHIMENE TUCKER">CHIMENE TUCKER</OPTION>
+						<OPTION selected value="CHUCK DINTRONE">CHUCK DINTRONE</OPTION>
+                        <OPTION selected value="CLIFTON GUO">CLIFTON GUO</OPTION>
+                        <OPTION selected value="CONNIE V. DOWELL">CONNIE V. DOWELL</OPTION>
+                        <OPTION selected value="DAN MCCREADY">DAN MCCREADY</OPTION>
+                        <OPTION selected value="DARLENE NOWAK">DARLENE NOWAK</OPTION>
+                        <OPTION selected value="DENNIS SHANNON">DENNIS SHANNON</OPTION>
+                        <OPTION selected value="DOROTHY PATTERSON">DOROTHY PATTERSON</OPTION>
+                        <OPTION selected value="EDWARD DI BELLA">EDWARD DI BELLA</OPTION>
+                        <OPTION selected value="ELLIE DWORAK">ELLIE DWORAK</OPTION>
+						<OPTION selected value="GLORIA RHODES">GLORIA RHODES</OPTION>
+                        <OPTION selected value="GWEN PATRICK-BUIE">GWEN PATRICK-BUIE</OPTION>
+                        <OPTION selected value="HANNELORE HEVESY">HANNELORE HEVESY</OPTION>
+                        <OPTION selected value="HARRY KEEHAN">HARRY KEEHAN</OPTION>
+                        <OPTION selected value="HELEN K. HENRY">HELEN K. HENRY</OPTION>
+                        <OPTION selected value="INFOSYS SERVICE DESK">INFOSYS 
+                        SERVICE DESK</OPTION>
+                        <OPTION selected value="JENNIFER ANDERSON">JENNIFER ANDERSON</OPTION>
+                        <OPTION selected value="JENNIFER PATTERSON">JENNIFER PATTERSON</OPTION>
+                        <OPTION selected value="JESICA BRUBAKER">JESICA BRUBAKER</OPTION>
+                        <OPTION selected value="JOAN FREEMAN GOODWIN">JOAN FREEMAN 
+                        GOODWIN</OPTION>
+                        <OPTION selected value="JOAN SHELBY">JOAN SHELBY</OPTION>
+                        <OPTION selected value="JOHN PASTORI">JOHN PASTORI</OPTION>
+                        <OPTION selected value="JON CAWTHORNE">JON CAWTHORNE</OPTION>
+                        <OPTION selected value="JOSIE ACEVEDO">JOSIE ACEVEDO</OPTION>
+                        <OPTION selected value="JOSSIE CHAVEZ">JOSSIE CHAVEZ</OPTION>
+                        <OPTION selected value="JULIE SU">JULIE SU</OPTION>
+                        <OPTION selected value="KATALIN HARKANYI">KATALIN HARKANYI</OPTION>
+                        <OPTION selected value="KATHLEEN TAYLOR">KATHLEEN TAYLOR</OPTION>
+                        <OPTION selected value="KATHRYN NEAL">KATHRYN NEAL</OPTION>
+                        <OPTION selected value="KELLEY MARTIN">KELLEY MARTIN</OPTION>
+                        <OPTION selected value="LEAH ROSENBLUM">LEAH ROSENBLUM</OPTION>
+                        <OPTION selected value="LEON GEIS">LEON GEIS</OPTION>
+                        <OPTION selected value="LINDA JACKSON-COYLE">LINDA JACKSON-COYLE</OPTION>
+                        <OPTION selected value="LINDA S. MUROI">LINDA S. MUROI</OPTION>
+                        <OPTION selected value="LINDA SALEM">LINDA SALEM</OPTION>
+                        <OPTION selected value="LISA ELKINS">LISA ELKINS</OPTION>
+                        <OPTION selected value="LISA PETERS">LISA PETERS</OPTION>
+                        <OPTION selected value="LORRAINE QUINTERO">LORRAINE QUINTERO</OPTION>
+                        <OPTION selected value="LUPITA  LOPEZ">LUPITA LOPEZ</OPTION>
+                        <OPTION selected value="LYN OLSSON">LYN OLSSON</OPTION>
+                        <OPTION selected value="LYNN HAWKES">LYNN HAWKES</OPTION>
+                        <OPTION selected value="MARCIA PULLIN">MARCIA PULLIN</OPTION>
+                        <OPTION selected value="MARGARET THEALL">MARGARET THEALL</OPTION>
+                        <OPTION selected value="MARILYN E. HALL">MARILYN E. HALL</OPTION>
+                        <OPTION selected value="MARK BURGESON">MARK BURGESON</OPTION>
+                        <OPTION selected value="MARK FIGUEROA">MARK FIGUEROA</OPTION>
+                        <OPTION selected value="MARK LESTER">MARK LESTER</OPTION>
+                        <OPTION selected value="MARK STOVER">MARK STOVER</OPTION>
+                        <OPTION selected value="MARKEL TUMLIN">MARKEL TUMLIN</OPTION>
+                        <OPTION selected value="MARSHA SHEA">MARSHA SHEA</OPTION>
+                        <OPTION selected value="MARTHA MCPHAIL">MARTHA MCPHAIL</OPTION>
+                        <OPTION selected value="MARY BETH LINK">MARY BETH LINK</OPTION>
+                        <OPTION selected value="MAUREEN DOTSON">MAUREEN DOTSON</OPTION>
+                        <OPTION selected value="MICHAEL DIMAIO">MICHAEL DIMAIO</OPTION>
+                        <OPTION selected value="MICHAEL J. PERKINS">MICHAEL J. 
+                        PERKINS</OPTION>
+                        <OPTION selected value="MINA MUESSIGMANN">MINA MUESSIGMANN</OPTION>
+                        <OPTION selected value="MORLIN BROWN">MORLIN BROWN</OPTION>
+                        <OPTION selected value="PAMELA HALL">PAMELA HALL</OPTION>
+                        <OPTION selected value="PAMELA JACKSON">PAMELA JACKSON</OPTION>
+						<OPTION selected value="PATRICIA MEYERS">PAT MEYER</OPTION>
+						<OPTION selected value="PATRICIA JONES">PATRICIA JONES</OPTION>
+                        <OPTION selected value="PATRICK SULLIVAN">PATRICK SULLIVAN</OPTION>
+                        <OPTION selected value="PEG WILLIAMS">PEG WILLIAMS</OPTION>
+                        <OPTION selected value="PHILLIP M. WHITE">PHILLIP M. WHITE</OPTION>
+                        <OPTION selected value="ROBERT CARANDE">ROBERT CARANDE</OPTION>
+                        <OPTION selected value="ROBERT FIKES">ROBERT FIKES</OPTION>
+                        <OPTION selected value="ROBERTA NIEDERJOHN">ROBERTA NIEDERJOHN</OPTION>
+                        <OPTION selected value="RON NASH">RON NASH</OPTION>
+                        <OPTION selected value="SANDY NEER">SANDY NEER</OPTION>
+                        <OPTION selected value="SARA BAIRD">SARA BAIRD</OPTION>
+                        <OPTION selected value="SEAN STOWE">SEAN STOWE</OPTION>
+                        <OPTION selected value="STEVE VOELKER">STEVE VOELKER</OPTION>
+                        <OPTION selected value="STEVEN SAVAGE">STEVEN SAVAGE</OPTION>
+						<OPTION selected value="SUSAN SOTO">SUSAN SOTO</OPTION>
+                        <OPTION selected value="TERRY VENTURA">TERRY VENTURA</OPTION>
+                        <OPTION selected value="TONI WHITLEY">TONI WHITLEY</OPTION>
+                        <OPTION selected value="WENDY SCHMIDT">WENDY SCHMIDT</OPTION>
+                        <OPTION selected value="WILLIAM STANINGER">WILLIAM STANINGER</OPTION>
+                        <OPTION selected value="YUAN LIANG">YUAN LIANG</OPTION>
+                        <OPTION selected value="click here">Please click here 
+                        to select your Name.</OPTION>
+                      </SELECT>
+                      <P></P>
+</TD></TR>
+
+<TR>
+<TD><STRONG>Your Library Unit</STRONG>  (required) </TD><TD>
+<SELECT name="Unit">
+<OPTION selected value="click here">Please click here to select your Unit.</OPTION>
+<OPTION selected value="CIRC">CIRC</OPTION>
+<OPTION selected value="COLLDEV">COLLDEV</OPTION>
+<OPTION selected value="COPY">COPY</OPTION>
+<OPTION selected value="CPMC">CPMC</OPTION>
+<OPTION selected value="GPM-CATLGS">GPM-CATLGS</OPTION>
+<OPTION selected value="ILL">ILL</OPTION>
+<OPTION selected value="INFO SUP">INFO SUP</OPTION>
+<OPTION selected value="INFOSYS">INFOSYS</OPTION>
+<OPTION selected value="INSTR">INSTR</OPTION>
+<OPTION selected value="IVC-LIB">IVC-LIB</OPTION>
+<OPTION selected value="LIBADMIN">LIBADMIN</OPTION>
+<OPTION selected value="MEDIA">MEDIA</OPTION>
+<OPTION selected value="MONOGRAPHS">MONOGRAPHS</OPTION>
+<OPTION selected value="PAC SUP">PAC SUP</OPTION>
+<OPTION selected value="REF_SRV">REF_SRV</OPTION>
+<OPTION selected value="RBR">RBR</OPTION>
+<OPTION selected value="SANS">SANS</OPTION>
+<OPTION selected value="SAT">SAT</OPTION>
+<OPTION selected value="SERIALS">SERIALS</OPTION>
+<OPTION selected value="SCC">SCC</OPTION>
+<OPTION selected value="SPECCOLL">SPECCOLL</OPTION>
+<OPTION selected value="STKMAIN">STKMAIN</OPTION>
+<OPTION selected value="click here">Please click here to select your Unit.</OPTION>
+</SELECT><P></P>
+</TD></TR>
+
+ 
+<TR><TD><STRONG>Your Email address:</STRONG>  (required) </TD><TD><INPUT type=text name="Email" size=35><P></P></TD></TR>
+<TR><TD><STRONG>Your Phone:</STRONG>  (required) </TD><TD><INPUT type=text name="Phone" size=20><P></P>
+</TD></TR>
+
+
+<TR>
+<TD><STRONG>Best day/time to be contacted</STRONG></TD><TD>
+<INPUT type="Text" name="ContactHRS" value="" size=20><P></P></TD>
+</TR>
+<TR>
+<TD><STRONG>Best means of contact</STRONG></TD><TD>
+<INPUT type="radio" name="ContactBY" value="Phone">Phone
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<INPUT type="radio" name="ContactBY" value="Email">Email 
+<P></P>	
+</TD>
+</TR>
+
+<TR>
+<TD><B>This is a:</B></TD>
+<TD>
+<SELECT name=MF_subject>
+<OPTION value="InfoSys Feedback: Request for Info">Request for Information
+<OPTION value="InfoSys Feedback: Question">Question
+<OPTION value="InfoSys Feedback: Suggestion">Suggestion
+<OPTION value="InfoSys Feedback: Broken Link">Broken Link
+<OPTION value="InfoSys Feedback: Compliment">Compliment
+<OPTION value="InfoSys Feedback: Complaint">Complaint
+<OPTION value="InfoSys Feedback: Other">Other
+</SELECT>
+</TD>
+</TR>
+
+<TR><TD valign=TOP><B>Your Comments:</B></TD>
+<TD>
+<TEXTAREA name="Comments" rows=10 cols=46 wrap=Physical></TEXTAREA></TD>
+</TR>
+
+<TR>
+<TD width=200><B>Your Comments are for the Calendar Date of:</B> <BR><FONT size=-1>(MM/DD/YY)</FONT></TD>
+<TD><INPUT type="Text" name="Date" value="" size=20></TD>
+</TR>
+
+<TR>
+<TD width=200><B>Your Comments are for the Time of:</B></TD>
+<TD> <INPUT type="Text" name="Time" value="" size=10>
+</TD>
+</TR>
+
+<TR>
+<TD width=200 valign=TOP><B>InfoSys Services are? </B><BR>
+</TD>
+<TD>
+<INPUT type="Checkbox" name="ServExcellent" value="Yes">Excellent<BR>
+<INPUT type="Checkbox" name="ServGood" value="Yes">Good<BR>
+<INPUT type="Checkbox" name="ServAverage" value="Yes">Average<BR>
+<INPUT type="Checkbox" name="ServPoor" value="Yes">Poor<BR>
+</TD>
+</TR>
+
+<TR>
+<TD width=200 valign=TOP><B>InfoSys Employees are? </B><BR>
+</TD>
+<TD>
+<INPUT type="Checkbox" name="EmplExcellent" value="Yes">Excellent<BR>
+<INPUT type="Checkbox" name="EmplGood" value="Yes">Good<BR>
+<INPUT type="Checkbox" name="EmplAverage" value="Yes">Average<BR>
+<INPUT type="Checkbox" name="EmplPoor" value="Yes">Poor<BR>
+</TD>
+</TR>
+</TABLE>
+<INPUT type=hidden name=MF_cc value="$Email">
+<INPUT type=hidden name=MF_reply_to value=$Email>
+<INPUT type=hidden name=MF_next_url 
+value="http://lfolkstest.sdsu.edu/forms/istforms/feedthanks.shtml">
+<INPUT type=hidden name=MF_indent value=20>
+<INPUT type=hidden name=MF_order value="Name,Unit,Email,Phone,ContactHRS,ContactBY,Comments,Date,Time,ServExcellent,ServGood,ServAverage,ServPoor,EmplExcellent,EmplGood,EmplAverage,EmplPoor">
+<INPUT type=hidden name=MF_required value="Name,Unit,Email,Phone">
+<INPUT type=hidden name=MF_hide_empty value="Comments,Date,Time,ServExcellent,ServGood,ServAverage,ServPoor,EmplExcellent,EmplGood,EmplAverage,EmplPoor"> 
+
+<BR>
+<CENTER>
+<INPUT type=submit value="Send Feedback">
+<INPUT type=reset value="Clear Form">
+</CENTER>
+
+</FORM>
+</TD>
+</TR>
+
+<!--Close Content Table-->
+</TABLE>
+
+<!--Footer-->
+<P align=Center>
+<FONT size=-1>
+<A href="#top">Top of This Page</A> <BR>
+<BR>
+</FONT>
+
+</P>
+
+<!--Close Framing Table-->
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+
+<P>
+</P>
+
+<!--#include virtual="/include/footer.shtml"-->
+
+</BODY>
+
+</HTML>

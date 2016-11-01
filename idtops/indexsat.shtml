@@ -1,0 +1,82 @@
+<!doctype html public "-//w3c//dtd html 3.2//en">
+<!-- Last modified by John R. Pastori on 04/12/2007 using ColdFusion Studio. -->
+<HTML>
+
+<HEAD>
+<LINK rel="STYLESHEET" href="/style/main.css" type="text/css" />
+<STYLE type="text/css"></STYLE>
+<TITLE>Information Systems and Technology - Ops Manual</TITLE>
+<META name="GENERATOR" content="Arachnophilia 4.0" />
+<META name="FORMATTER" content="Arachnophilia 4.0" />
+</HEAD>
+
+<BODY>
+
+<!--#config timefmt="%A %B %d, %Y %H:%M %Z" -->
+<!--#include virtual="/include/header.shtml"-->
+
+<!--#set var="author_name" value="Carol Phillips" -->
+<!--#set var="author_email" value="phillips@rohan.sdsu.edu" -->
+<!--#set var="content_updated" value="April 12, 2007" -->
+
+
+<H2>InfoSys Operations Manual</H2>
+<CENTER> 
+<P></P>
+ <A href="index.shtml">Info. & Tech. Support</A>   |  <A href="indexpac.shtml">PAC Support</A>  | <A href="indexsans.shtml">SANS/ACS</A>  |  <!A HREF="indexsat.shtml">SAT   |  <A href="indexscc.shtml">SCC</A><BR /><BR />   
+
+<P></P>
+<FONT color="#FF0000"><EM>NOTE:  Most resources below are in .pdf format and will require the use of Adobe Acrobat Reader.</EM></FONT><BR /><BR />
+
+<P></P>
+<H2>Server Applications Team (SAT) Procedures</H2>
+<STRONG><A name="Quick Index">Quick Index</A></STRONG><BR />
+<A href="#News">Announcements, Contacts and News</A>   |  <A href="#Updates">Updates</A>   |  <A href="#Maintenance">Maintenance</A>
+</CENTER>
+<HR />
+<P>
+<BIG><STRONG><A name="News">Announcements, Contacts and News </A></STRONG></BIG><BR />
+</P><UL>
+<LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/aftercontfull.pdf">After Hours/Weekend Service
+Contacts (Full List)</A>
+</LI><LI><A href="https://arwen.sdsu.edu/share/minutes/infosys/4th_floor/">IST 4th Floor Minutes  </A>
+</LI></UL>
+<P></P><P>
+Return to <A href="#Quick Index">Quick Index</A>
+</P>
+<HR />
+
+<P>
+<BIG><STRONG><A name="Updates">Updates </A></STRONG></BIG><BR />
+</P><UL>
+<LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/satnews.pdf">SAT News     </A>
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/stateofserv.pdf">State of IST Servers     </A>
+</LI></UL>
+<P></P>
+<P>
+Return to <A href="#Quick Index">Quick Index</A>
+</P>
+<HR />
+<P>
+<BIG><STRONG><A name="Maintenance"> Maintenance</A></STRONG></BIG><BR />
+</P><UL>
+	<LI><A href="/ist/ops/LibintLibwebColdFusion.cfm">ColdFusion SysAdmin Procedures for LIBINT.SDSU.EDU and LIBWEB.SDSU.EDU</A>
+	</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/ghost4scc.pdf">Ghost Login for SCC</A>
+	</LI><LI><A href="/ist/ops/GandalfOracle.cfm">Oracle SysAdmin Procedures for GANDALF.SDSU.EDU</A>
+	</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/ovidproc.pdf">Ovid Procedures</A>
+	</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/deproxy.pdf">Regarding PROXY Services</A>
+	</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/andurilfm.pdf">Troubleshooting Anduril Services</A>
+</LI></UL>
+<P></P>
+<P>
+Return to <A href="#Quick Index">Quick Index</A>
+</P>
+
+<P>
+</P>
+
+<!--#include virtual="/include/footer.shtml"-->
+
+</BODY>
+
+</HTML>

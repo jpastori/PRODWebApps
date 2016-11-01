@@ -1,0 +1,76 @@
+<!doctype html public "-//w3c//dtd html 3.2//en">
+
+<HTML>
+
+<HEAD>
+<LINK rel="STYLESHEET" href="/style/main.css" type="text/css">
+<STYLE type="text/css"></STYLE>
+<TITLE>InfoSys Feedback Accepted</TITLE>
+<META name="GENERATOR" content="Arachnophilia 4.0">
+<META name="FORMATTER" content="Arachnophilia 4.0">
+</HEAD>
+
+<BODY>
+
+<!--#config timefmt="%A %B %d, %Y %H:%M %Z" -->
+<!--#include virtual="/include/header.shtml"-->
+
+<!--#set var="author_name" value="Carol Phillips" -->
+<!--#set var="author_email" value="phillips@rohan.sdsu.edu" -->
+<!--#set var="content_updated" value="February 25, 2002" -->
+
+
+<H2>Information Systems and Technology (IST)</H2>
+<P></P>
+
+<A name="top"></A>
+<!--Framing Table-->
+<CENTER>
+<TABLE width=540 border=0 cellspacing=0 cellpadding=0>
+<TR>
+<TD>
+
+<!--Content Table-->
+<TABLE width=100% border=0 cellspacing=0 cellpadding=5>
+
+<!--Intro-->
+<TR>
+<TD>
+<H2 align=CENTER>Thank You</H2>
+
+<P align=Center>
+Thanks for taking the time to send us your comments.<BR><BR>
+Your feedback have been forwarded to <A href="mailto:infosys@library.sdsu.edu">infosys@library.sdsu.edu</A>
+</P>
+<P>
+</TD>
+</TR>
+
+<!--Close Content Table-->
+</TABLE>
+
+<!--Footer-->
+<BR>
+
+<P align=Center>
+<FONT size=-1>
+<A href="#top">Top of This Page</A> | 
+<A href="/forms/istforms/feedback.shtml">Feedback</A><BR>
+<BR>
+</FONT>
+</P>
+
+<!--Close Framing Table-->
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+
+<P>
+</P>
+
+<!--#include virtual="/include/footer.shtml"-->
+
+</BODY>
+
+</HTML>

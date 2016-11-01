@@ -1,0 +1,1 @@
+<meta http-equiv="Refresh" content="0; URL=http://lfolkswiki.sdsu.edu/index.php/Files" />

@@ -1,0 +1,216 @@
+<!doctype html public "-//w3c//dtd html 3.2//en">
+<html>
+<head>
+<link rel="STYLESHEET" href="/style/main.css" type="text/css">
+<style type="text/css"></style>
+<title>InfoSys - Status Query Service Request </title>
+<meta name="GENERATOR" content="Arachnophilia 4.0">
+<meta name="FORMATTER" content="Arachnophilia 4.0">
+</head>
+<body>
+<!--#config timefmt="%A %B %d, %Y %H:%M %Z" -->
+<!--#include virtual="/include/header.shtml"-->
+<!--#set var="author_name" value="Carol Phillips" -->
+<!--#set var="author_email" value="phillips@rohan.sdsu.edu" -->
+<!--#set var="content_updated" value="August 5, 2005" -->
+<A NAME="top"></A>
+<h2>Status Query on InfoSys Service Request(s)</h2>
+
+<!--Framing Table-->
+<TABLE WIDTH=640 BORDER=0 CELLSPACING=0 CELLPADDING=0>
+<TR>
+<TD><CENTER>
+<p></p>
+Library faculty and staff may complete the fields below to query for InfoSys Service Request status for up to six SRs.  <font color="#FF0000"><em>NOTE: An SR Number is required for this query</em></font>
+<p></p><p></p>
+
+<!--Content Table-->
+</center><TABLE WIDTH=100% BORDER=0 CELLSPACING=0 CELLPADDING=5><CENTER>
+
+<!--Intro-->
+</center><TR><TD>
+<FORM method=post action=http://www.sdsu.edu/cgi-bin/MailForm/submit/infosys@library.sdsu.edu>
+<CENTER>
+<TABLE WIDTH=100% BORDER=0 CELLSPACING=0 CELLPADDING=5>
+<TR>
+<TD><strong>Your Name:</strong> (required)  </td><td>
+<SELECT NAME="Name">
+<option selected value="click here">Please click here to select your Name.</OPTION>
+<option selected value="AMY TSUJI">AMY TSUJI</OPTION>
+<option selected value="ANN NEVITT">ANN NEVITT</OPTION>
+<option selected value="ANNALYNN AVENDANO">ANNALYNN AVENDANO</OPTION>
+<option selected value="BARRY DWORAK">BARRY DWORAK</OPTION>
+<option selected value="BEATRICE BRIGGS">BEATRICE BRIGGS</OPTION>
+<option selected value="BONNIE MADSEN">BONNIE MADSEN</OPTION>
+<option selected value="BRIAN LENZ">BRIAN LENZ</OPTION>
+<option selected value="BRIAN MOORE">BRIAN MOORE</OPTION>
+<option selected value="BRUCE HARLEY">BRUCE HARLEY</OPTION>
+<option selected value="C. ANNE TURHOLLOW">C. ANNE TURHOLLOW</OPTION>
+<option selected value="CAROL PHILLIPS">CAROL PHILLIPS</OPTION>
+<option selected value="CAROLE F. WILSON">CAROLE F. WILSON</OPTION>
+<option selected value="CAROLYN BABER">CAROLYN BABER</OPTION>
+<option selected value="CECILIA PUERTO">CECILIA PUERTO</OPTION>
+<option selected value="CHIMENE TUCKER">CHIMENE TUCKER</OPTION>
+<option selected value="CHUCK DINTRONE">CHUCK DINTRONE</OPTION>
+<option selected value="CLIFTON GUO">CLIFTON GUO</OPTION>
+<option selected value="CONNIE V. DOWELL">CONNIE V. DOWELL</OPTION>
+<option selected value="DAN MCCREADY">DAN MCCREADY</OPTION>
+<option selected value="DARLENE NOWAK">DARLENE NOWAK</OPTION>
+<option selected value="DENNIS SHANNON">DENNIS SHANNON</OPTION>
+<option selected value="DOROTHY PATTERSON">DOROTHY PATTERSON</OPTION>
+<option selected value="EDWARD DI BELLA">EDWARD DI BELLA</OPTION>
+<option selected value="ELLIE DWORAK">ELLIE DWORAK</OPTION>
+<option selected value="GLORIA RHODES">GLORIA RHODES</OPTION>
+<option selected value="GWEN PATRICK-BUIE">GWEN PATRICK-BUIE</OPTION>
+<option selected value="HANNELORE HEVESY">HANNELORE HEVESY</OPTION>
+<option selected value="HARRY KEEHAN">HARRY KEEHAN</OPTION>
+<option selected value="HELEN K. HENRY">HELEN K. HENRY</OPTION>
+<option selected value="INFOSYS SERVICE DESK">INFOSYS SERVICE DESK</OPTION>
+<option selected value="JENNIFER ANDERSON">JENNIFER ANDERSON</OPTION>
+<option selected value="JENNIFER PATTERSON">JENNIFER PATTERSON</OPTION>
+<option selected value="JESICA BRUBAKER">JESICA BRUBAKER</OPTION>
+<option selected value="JOAN FREEMAN GOODWIN">JOAN FREEMAN GOODWIN</OPTION>
+<option selected value="JOAN SHELBY">JOAN SHELBY</OPTION>
+<option selected value="JOHN PASTORI">JOHN PASTORI</OPTION>
+<option selected value="JON CAWTHORNE">JON CAWTHORNE</OPTION>
+<option selected value="JOSIE ACEVEDO">JOSIE ACEVEDO</OPTION>
+<option selected value="JOSSIE CHAVEZ">JOSSIE CHAVEZ</OPTION>
+<option selected value="JULIE SU">JULIE SU</OPTION>
+<option selected value="KATALIN HARKANYI">KATALIN HARKANYI</OPTION>
+<option selected value="KATHLEEN TAYLOR">KATHLEEN TAYLOR</OPTION>
+<option selected value="KATHRYN NEAL">KATHRYN NEAL</OPTION>
+<option selected value="KELLEY MARTIN">KELLEY MARTIN</OPTION>
+<option selected value="LEAH ROSENBLUM">LEAH ROSENBLUM</option>
+<option selected value="LEON GEIS">LEON GEIS</OPTION>
+<option selected value="LINDA JACKSON-COYLE">LINDA JACKSON-COYLE</OPTION>
+<option selected value="LINDA S. MUROI">LINDA S. MUROI</OPTION>
+<option selected value="LINDA SALEM">LINDA SALEM</OPTION>
+<option selected value="LISA ELKINS">LISA ELKINS</OPTION>
+<option selected value="LISA PETERS">LISA PETERS</OPTION>
+<option selected value="LORRAINE QUINTERO">LORRAINE QUINTERO</OPTION>
+<option selected value="LUPITA  LOPEZ">LUPITA  LOPEZ</OPTION>
+<option selected value="LYN OLSSON">LYN OLSSON</OPTION>
+<option selected value="LYNN HAWKES">LYNN HAWKES</OPTION>
+<option selected value="MARCIA PULLIN">MARCIA PULLIN</OPTION>
+<option selected value="MARGARET THEALL">MARGARET THEALL</OPTION>
+<option selected value="MARILYN E. HALL">MARILYN E. HALL</OPTION>
+<option selected value="MARK BURGESON">MARK BURGESON</OPTION>
+<option selected value="MARK FIGUEROA">MARK FIGUEROA</OPTION>
+<option selected value="MARK LESTER">MARK LESTER</OPTION>
+<option selected value="MARK STOVER">MARK STOVER</OPTION>
+<option selected value="MARKEL TUMLIN">MARKEL TUMLIN</OPTION>
+<option selected value="MARSHA SHEA">MARSHA SHEA</OPTION>
+<option selected value="MARTHA MCPHAIL">MARTHA MCPHAIL</OPTION>
+<option selected value="MARY BETH LINK">MARY BETH LINK</OPTION>
+<option selected value="MAUREEN DOTSON">MAUREEN DOTSON</OPTION>
+<option selected value="MICHAEL DIMAIO">MICHAEL DIMAIO</OPTION>
+<option selected value="MICHAEL J. PERKINS">MICHAEL J. PERKINS</OPTION>
+<option selected value="MINA MUESSIGMANN">MINA MUESSIGMANN</OPTION>
+<option selected value="MORLIN BROWN">MORLIN BROWN</OPTION>
+<option selected value="PAMELA HALL">PAMELA HALL</OPTION>
+<option selected value="PAMELA JACKSON">PAMELA JACKSON</OPTION>
+<option selected value="PATRICIA MEYERS">PAT MEYER</OPTION>
+<option selected value="PATRICIA JONES">PATRICIA JONES</OPTION>
+<option selected value="PATRICK SULLIVAN">PATRICK SULLIVAN</OPTION>
+<option selected value="PEG WILLIAMS">PEG WILLIAMS</OPTION>
+<option selected value="PHILLIP M. WHITE">PHILLIP M. WHITE</OPTION>
+<option selected value="ROBERT CARANDE">ROBERT CARANDE</OPTION>
+<option selected value="ROBERT FIKES">ROBERT FIKES</OPTION>
+<option selected value="ROBERTA NIEDERJOHN">ROBERTA NIEDERJOHN</OPTION>
+<option selected value="RON NASH">RON NASH</OPTION>
+<option selected value="SANDY NEER">SANDY NEER</OPTION>
+<option selected value="SARA BAIRD">SARA BAIRD</OPTION>
+<option selected value="SEAN STOWE">SEAN STOWE</option>
+<option selected value="STEVE VOELKER">STEVE VOELKER</OPTION>
+<option selected value="STEVEN SAVAGE">STEVEN SAVAGE</OPTION>
+<option selected value="SUE HOLLANDER">SUE HOLLANDER</OPTION>
+<option selected value="SUSAN SOTO">SUSAN SOTO</OPTION>
+<option selected value="TERRY VENTURA">TERRY VENTURA</OPTION>
+<option selected value="TONI WHITLEY">TONI WHITLEY</OPTION>
+<option selected value="WENDY SCHMIDT">WENDY SCHMIDT</OPTION>
+<option selected value="WILLIAM STANINGER">WILLIAM STANINGER</OPTION>
+<option selected value="YUAN LIANG">YUAN LIANG</OPTION>
+<option selected value="click here">Please click here to select your Name.</OPTION>
+</SELECT><p></p>
+</TD></TR>
+
+<TR><TD><strong>Your Email address:</strong>  (required) </TD><TD><INPUT TYPE=text NAME="Email" size=35><p></p></TD></TR>
+<TR><TD><strong>Your Phone:</strong>  (required) </TD><TD><INPUT TYPE=text NAME="Phone" size=20><p></p>
+</TD></TR>
+<TR>
+<TD><strong>Best hours to be contacted</strong></TD><TD>
+<INPUT TYPE="Text" NAME="ContactHRS" VALUE="" SIZE=20><p></p></TD>
+</TR>
+<TR>
+<TD><strong>Best means of contact</strong></TD><TD>
+				<INPUT Type="radio" Name="ContactBY" Value="Phone">Phone&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<INPUT Type="radio" Name="ContactBY" Value="Email">Email <p></p>	</TD>
+</TR>
+</TABLE>
+<TABLE HALIGN=CENTER WIDTH=100% BORDER=0 CELLSPACING=0 CELLPADDING=5>
+<hr>
+<TR>
+<TD><p></p><p></p><p></p><p></p><strong>Please provide the SR number for:<p></p><p></p>
+ Your 1st query.</strong> &nbsp; &nbsp;
+<INPUT TYPE="Text" NAME="SR1_Status" VALUE="" SIZE=20> (required)<BR><p></p><p></p><p></p><p></p><strong>Your 2nd query.</strong> &nbsp; &nbsp;
+<INPUT TYPE="Text" NAME="SR2_Status" VALUE="" SIZE=20><BR><p></p><p></p><p></p><p></p></TD>
+</TR>
+<TR>
+<TD><p></p><p></p><p></p><p></p><strong>Your 3rd query.</strong> &nbsp; &nbsp;
+<INPUT TYPE="Text" NAME="SR3_Status" VALUE="" SIZE=20><BR><p></p><p></p><p></p><p></p><strong>Your 4th query.</strong> &nbsp; &nbsp;
+<INPUT TYPE="Text" NAME="SR4_Status" VALUE="" SIZE=20><BR><p></p><p></p><p></p><p></p></TD>
+</TR>
+<TR>
+<TD><p></p><p></p><p></p><p></p><strong>Your 5th query.</strong> &nbsp; &nbsp;
+<INPUT TYPE="Text" NAME="SR5_Status" VALUE="" SIZE=20><BR><p></p><p></p><p></p><p></p><strong>Your 6th query.</strong> &nbsp; &nbsp;
+<INPUT TYPE="Text" NAME="SR6_Status" VALUE="" SIZE=20><BR><p></p><p></p><p></p><p></p></TD>
+</TR>
+<TR>
+<TD><strong>Please provide any additional comments concerning your queries.</strong> <br><br>
+<TEXTAREA NAME="Comments" ROWS=10 COLS=66 WRAP=Physical></TEXTAREA></TD>
+</TR>
+
+</TABLE>
+</center>
+<INPUT TYPE=hidden NAME=MF_cc VALUE="$Email">
+<INPUT TYPE=hidden NAME=MF_reply_to VALUE="$Email">
+<INPUT TYPE=hidden NAME=MF_next_url VALUE="http://lfolks.sdsu.edu/forms/istforms/qthanks.shtml">
+<INPUT TYPE=hidden NAME=MF_subject VALUE="SR Status Query">
+<INPUT TYPE=hidden NAME=MF_indent VALUE="20">
+<INPUT TYPE=hidden NAME=MF_order VALUE="Name,Email,Phone,ContactHRS,ContactBY,SR1_Status,SR2_Status,SR3_Status,SR4_Status,SR5_Status,SR6_Status,Comments">
+<INPUT TYPE=hidden NAME=MF_required VALUE="Name,Email,Phone,SR1_Status">
+<INPUT TYPE=hidden NAME=MF_hide_empty VALUE="ContactHRS,ContactBY,SR1_Status,SR2_Status,SR3_Status,SR4_Status,SR5_Status,SR6_Status,Comments"> 
+
+<BR>
+<CENTER>
+<INPUT type=submit value="Submit Status Query"> &nbsp; &nbsp;
+<INPUT type=reset value="Clear Form"><p></p>
+</CENTER>
+
+</FORM>
+</TD>
+</TR>
+<!--Close Content Table-->
+</TABLE>
+
+<!--Footer-->
+<P ALIGN=Center>
+<FONT SIZE=-1>
+<A HREF="#top">Top of This Page</A> <BR>
+</FONT>
+</P>
+
+<!--Close Framing Table-->
+</TD>
+</TR>
+</TABLE>
+
+
+<p>
+</p>
+
+<!--#include virtual="/include/footer.shtml"-->
+
+</body>
+</html>
+

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="Application.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128637129682968750" remote="128637128470000000" Dst="-1" />
+<file name="category.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128776663945312500" remote="129881668490000000" Dst="2" />
+<file name="categorydbreport.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128363566615312500" remote="128463922310000000" Dst="-1" />
+<file name="department.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128776660450625000" remote="128776658720000000" Dst="-1" />
+<file name="departmentdbreport.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128125235309843750" remote="128463922330000000" Dst="-1" />
+<file name="hasstatdeptsreport.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128125222152500000" remote="128463922340000000" Dst="-1" />
+<file name="index.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128939716057187500" remote="128939722210000000" Dst="-1" />
+<file name="instructiondeptrpts.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128777516130000000" remote="128777516130000000" Dst="-1" />
+<file name="instruct_global_variables.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="129088613955000000" remote="129088613760000000" Dst="-1" />
+<file name="nostatdeptsreport.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128125235806875000" remote="128463922600000000" Dst="-1" />
+<file name="orientstats.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="129855004878593750" remote="129855045820000000" Dst="1" />
+<file name="orientstatscountrpts.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128958896580937500" remote="128958893790000000" Dst="-1" />
+<file name="orientstatsdbreport.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="129854986261562500" remote="129855023750000000" Dst="1" />
+<file name="presentlength.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128776669590156250" remote="128776667860000000" Dst="-1" />
+<file name="presentlengthdbreport.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128363566611562500" remote="128463922780000000" Dst="-1" />
+<file name="processcategory.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128463042891406250" remote="128463922790000000" Dst="-1" />
+<file name="processdepartment.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128463042856562500" remote="128463922800000000" Dst="-1" />
+<file name="processorientstats.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="129854983586406250" remote="129855023750000000" Dst="1" />
+<file name="processpresentlength.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128463042716562500" remote="128463922820000000" Dst="-1" />
+<file name="processrooms.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128463042500156250" remote="128463922830000000" Dst="-1" />
+<file name="processstatus.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128463042414062500" remote="128463922850000000" Dst="-1" />
+<file name="returnindex.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="129854990564375000" remote="129854990620000000" Dst="-1" />
+<file name="rooms.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128776672210000000" remote="128776694840000000" Dst="-1" />
+<file name="roomsdbreport.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128363566607500000" remote="128463922880000000" Dst="-1" />
+<file name="status.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128776673855937500" remote="128776672120000000" Dst="-1" />
+<file name="statusdbreport.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128363566597812500" remote="128463922930000000" Dst="-1" />
+<file name="affiliation.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="129881677266210000" remote="129881685340000000" Dst="-1" />
+<file name="affiliationdbreport.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128363563055468750" remote="129881668460000000" Dst="-1" />
+<file name="marketing.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128776666451250000" remote="129881668490000000" Dst="-1" />
+<file name="marketingdbreport.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128105383815000000" remote="129881668490000000" Dst="-1" />
+<file name="processaffiliation.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128486254272187500" remote="129881668490000000" Dst="-1" />
+<file name="processmarketing.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128486254799687500" remote="129881668490000000" Dst="-1" />
+<file name="processprofessor.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128486255891718750" remote="129881668490000000" Dst="-1" />
+<file name="processregaccept.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128486257340000000" remote="129881668490000000" Dst="-1" />
+<file name="processsdsucourses.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128486258614375000" remote="129881668490000000" Dst="-1" />
+<file name="professor.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128776670323281250" remote="129881668490000000" Dst="-1" />
+<file name="professordbreport.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128124373471250000" remote="129881668490000000" Dst="-1" />
+<file name="regaccept.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128776670817187500" remote="129881668500000000" Dst="-1" />
+<file name="regacceptdbreport.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128125017147031250" remote="129881668500000000" Dst="-1" />
+<file name="sdsucourses.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128776673340312500" remote="129881668500000000" Dst="-1" />
+<file name="sdsucoursesdbreport.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="128124378441562500" remote="129881668500000000" Dst="-1" />
+<file name="orientstatsfileextract.cfm" server="libint.sdsu.edu//home/www/lfolkscf/htdocs/PRODapps/" local="130126207303141537" remote="130126211830000000" Dst="-1" />
+</dwsync>

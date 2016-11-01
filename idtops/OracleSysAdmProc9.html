@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<!-- Last modified by John R. Pastori on 03/10/2006 using ColdFusion Studio. -->
+
+<HTML>
+<HEAD>
+	<TITLE>Procedure 9: Restore data from export or rollback to recover from Oracle data file corruption.</TITLE>
+</HEAD>
+
+<BODY>
+<DIV align="center"><H1>Procedure 9: Restore data from export or rollback to recover<BR> from Oracle data file corruption.</H1></DIV>
+<BR>
+<P><H2><U>Overview</U></H2>
+&nbsp;&nbsp;&nbsp;&nbsp;Two restore options have been developed to recreate corrupted oracle tables with clean data.  
+
+&nbsp;&nbsp;&nbsp;&nbsp;The two restore options currently available are: 
+<ul>
+	<ol>
+		<LI> Use Oracle Import tcsh script (<STRONG><EM>/oracle/oracle102gserver/dbexports/oraimport</EM></STRONG>) to import all of a specific user's tables
+			or a specific table for a specific user.  The users and tables need to imported in a specific order so that foreign index links
+			are copied properly when the table data is imported.  The list of Oracle Schema user names and table names can be accessed by going to the 
+			THORIN Windows 2003 Server for the <a href="http://thorin.sdsu.edu/OracleDBA/tabledefs.html"> table definitions </a> of all the applications.<BR></LI>
+<BR><BR>
+		<LI> Use Oracle's rollback feature that allows you to reset the contents of a table to a specific time and date.</LI>
+	</ol>
+</ul>
+<BR><BR>
+<P>
+  <H2><U>Detailed Description</U></H2>
+
+<ul>
+	<ol>
+		<LI>The <a href="/ist/ops/SchemaInfo.html">Schema Information page</a> details the order in which Oracle Schema Account names must be restored and briefly describes each Application..<BR></LI>
+<BR><BR>
+		<LI>The <a href="/ist/ops/OracleImport.html">Oracle Import tcsh script parameters page</a> details how to use the oraimport script parameters to control data import selection..<BR></LI>
+<BR><BR>
+		<LI>The <a href="/ist/ops/OracleDBRecoveryCommands.html">Oracle Database Recovery Feature page</a> details how to use the Oracle Alter Table Recovery command to return a table to a specific point in time.<BR></LI>
+	</ol>
+</ul>
+<BR>
+</BODY>
+</HTML>

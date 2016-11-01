@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- Last modified by John R. Pastori on 02/28/2006 using ColdFusion Studio. -->
+<html>
+<head>
+	<title>Procedures 7 & 8:  Restore Gandalf Firewall Port Parameter File and Check Available Disk Space </title>
+	<link rel="stylesheet" type="text/css" href="/webapps.css">
+</head>
+
+<body>
+<DIV ALIGN="center"><H1>Procedure 7:  Restore Gandalf Firewall port parameter file from backup copy.</H1></DIV>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This procedure fixes the firewall parameter file override problem created when the redhat-config-securitylevel GUI 
+program is used to update Gandalf’s firewall settings.  The current version of the gui program does not allow for entry 
+of other ports such as those needed for the Oracle Listener program.  The Oracle Listener listens on Port 1521 for requests 
+to the Oracle Development Instance, devapps.  The Oracle Listener listens on Port 1522 for requests to the Oracle Production Instance, PRODAPPS.
+<BR><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To copy the backup firewall parameter file to the copy used by the system:
+<UL>
+	<OL>
+		<LI>		Start the secure shell (ssh) software to create a telnet style session.</LI><BR>
+
+		<LI>		Login  as user oracle.  (See Barry, Carol, John or Ron for current user account passwords.)</LI><BR>
+
+		<LI>		Change to user root with the su command:  <STRONG><EM>su [return]</EM></STRONG>, Enter root password [return].</LI><BR>
+
+		<LI>		Change to the sysconfig directory by typing: <STRONG><EM>cd /etc/sysconfig [return]</EM></STRONG>.</LI><BR>
+
+		<LI>		Copy the backup firewall parameter file to the copy used by the system by typing: 
+				<STRONG><EM>cp redhat-config-securitylevel.bkup redhat-config-securitylevel [return]</EM></STRONG>.</LI><BR>
+
+		<LI>		Log out of the secure shell (ssh) software by typing: <STRONG><EM>exit [return]</EM></STRONG> and closing the window.</LI>
+	</OL>
+</UL>
+
+<BR><BR><BR>
+<A NAME="PROC8"></A>
+<DIV ALIGN="center"><H1>Procedure 8:  Check available disk space on the Gandalf server.</H1></DIV>
+<BR>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One of the major issues to keep track of is available disk space on the <u>/oracle/</u> Oracle System server software volume, 
+the <u>/ora/data/</u> oracle table data volume, and the <u>/ora/archive/</u> data volume.
+<BR><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To check available disk space:
+
+<UL>
+	<OL>
+		<LI>		Start the secure shell (ssh) software to create a telnet style session.</LI><BR>
+
+		<LI>		Login  as user oracle.  (See Barry, Carol, John or Ron for current user account passwords.)</LI><BR>
+
+		<LI>		Display the available disk space on each system volume by typing: df –k [return].
+<PRE>
+Filesystem            1K-blocks      Used      Available     Use%      Mounted on
+----------------------------------------------------------------------------------
+/dev/sda10             2063504      506892      1451792       26%      /
+/dev/sda3               194449       37417       146992       21%      /boot
+/dev/sda6              8254240       32884      7802064        1%      /tmp
+/dev/sda5              8254240     2364872      5470076       31%      /usr
+/dev/sda7              3020140      529964      2336760       19%      /var
+/dev/sda2              8934132      347708      8132588        5%      /home
+/dev/sdb5             16033796    10411008      4808296       69%      /oracle*
+/dev/sdb6             35278540     5417828     28068664       17%      /ora/data*
+/dev/sdb7             60476036    17260024     40143984       31%      /ora/archive*
+*These three volumes are the most critical for having sufficient Available disk space.</PRE></LI><BR>
+
+		<LI>		Log out of the secure shell (ssh) software by typing: <STRONG><EM>exit [return]</EM></STRONG> and closing the window.</LI>
+	</OL>
+</UL>
+
+</body>
+</html>

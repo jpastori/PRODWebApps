@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- Last modified by John R. Pastori on 02/28/2006 using ColdFusion Studio. -->
+<HTML>
+<HEAD>
+	<TITLE>Procedures 1 & 2:  Oracle System Server Software Startup and Shutdown</TITLE>
+	<LINK rel="stylesheet" type="text/css" href="/webapps.css" />
+</HEAD>
+
+<BODY>
+<DIV ALIGN="center"><H1>Procedure 1:  Oracle System Server Software Startup <BR />(S99zoracle start).</H1></DIV>
+<BR />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Oracle system server software startup procedure is done automatically when the GANDALF.SDSU.EDU 
+server is started.  It can also be done manually from the command line in a secure shell (ssh) session:
+<UL>
+	<OL>
+		<LI>		Start the secure shell (ssh) software to create a telnet style session.</LI><BR />
+
+		<LI>		Login  as user oracle.  (See Barry, Carol, John or Ron for current user account passwords.)</LI><BR />
+
+		<LI>		Change to user root with the su command:  <STRONG><EM>su [return]</EM></STRONG>, Enter root password [return].</LI><BR />
+
+		<LI>		Change to the /etc/rc3.d directory: <STRONG><EM>cd /etc/rc3.d [return]</EM></STRONG>.</LI><BR />
+
+		<LI>		Run the Oracle System Server software startup script S99zoracle:  <STRONG><EM>./S99zoracle start [return]</EM></STRONG>.</LI><BR />
+
+		<LI>		Check the status of the startup procedure by using the psgrep command:  <STRONG><EM>psgrep oracle [return]</EM></STRONG>.</LI><BR />
+
+		<LI>		Log out of the secure shell (ssh) software by typing: <STRONG><EM>exit [return]</EM></STRONG> and closing the window.</LI>
+	</OL>
+</UL>
+
+<BR /><BR /><BR />
+<A NAME="PROC2"></A>
+<DIV ALIGN="center"><H1>Procedure 2:  Oracle System Server Software Shutdown <BR />(S99zoracle stop).</H1></DIV>
+<BR />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Oracle system server software shutdown procedure is done automatically when the GANDALF.SDSU.EDU server 
+is shutdown. It can also be done manually from the command line in a secure shell (ssh) session:
+<UL>
+	<OL>
+		<LI>		Start the secure shell (ssh) software to create a telnet style session.</LI><BR />
+
+		<LI>		Login  as user oracle.  (See Barry, Carol, John or Ron for current user account passwords.)</LI><BR />
+
+		<LI>		Change to user root with the su command:  <STRONG><EM>su [return]</EM></STRONG>, Enter root password [return].</LI><BR />
+
+		<LI>		Change to the /etc/rc3.d directory:  <STRONG><EM>cd /etc/rc3.d [return]</EM></STRONG>.</LI><BR />
+
+		<LI>		Run the Oracle System Server software shutdown script S99zoracle:  <STRONG><EM>./S99zoracle stop [return]</EM></STRONG>.</LI><BR />
+
+		<LI>		Check the status of the startup procedure by using the psgrep command:  <STRONG><EM>psgrep oracle [return]</EM></STRONG>.</LI><BR />
+
+			<LI>		Check that all Oracle shared memory segments have been released by typing: <STRONG><EM>ipcs [return]</EM></STRONG>.</LI><BR />
+
+		<LI>		Log out of the secure shell (ssh) software by typing: <STRONG><EM>exit [return]</EM></STRONG> and closing the window.</LI>
+	</OL>
+</UL>
+
+</BODY>
+</HTML>

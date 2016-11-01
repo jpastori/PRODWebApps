@@ -1,0 +1,23 @@
+<!doctype html public "-//w3c//dtd html 3.2//en">
+
+<html>
+
+<head>
+<link rel="STYLESHEET" href="/style/main.css" type="text/css">
+<style type="text/css"></style>
+<title><!--#echo var="page_title" --></title>
+</head>
+<body>
+<a name="TOP"></a>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td align="left">
+			<a href="http://lfolks.sdsu.edu"><img src="/images/smheader.jpg" width="195" height="44" alt="lfolks" border="0"></a>
+		</td>
+		<td align="right">
+			<big><i>Go to </i><strong><a href="http://InfoDome.sdsu.edu"><font color=#dd0000>InfoDome</font></a></strong></big>
+		</td>
+	</tr>
+</table>
+<!--#include virtual="/include/navbar1.shtml" -->
+<hr>

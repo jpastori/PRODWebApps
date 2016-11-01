@@ -1,0 +1,152 @@
+<html>
+
+<head>
+<link rel="STYLESHEET" href="/style/front.css" type="text/css">
+<style type="text/css"></style>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>LFOLKS</title>
+</head>
+
+<body>
+
+<!--#include virtual="/include/topheader.shtml" -->
+<!--#set var="author_name" value="Brian Lenz" -->
+<!--#set var="author_email" value="blenz@mail.sdsu.edu" -->
+<!--#set var="content_updated" value="April 17, 2007" -->
+
+
+<table border="0" width="100%" cellspacing="0" cellpadding="4">
+	<tr>
+		<td valign="top" rowspan="2">
+
+    	<big><strong><a href="/calendars/">Calendars and Hours</a></strong></big>
+		<br>
+        <a href="http://infodome.sdsu.edu/about/hours.shtml">Library</a>,
+        <a href="http://infodome.sdsu.edu/about/sphours.shtml">Service Points</a>, 
+        <a href="http://events.sdsu.edu">SDSU Events</a>, 
+        <a href="/calendars/">More...</a>
+        <p>
+
+
+		<big><strong><a href="/contact/">Contact</a></big></strong>
+        <br>
+        <a href="http://infodome.sdsu.edu/about/libdirectory.shtml">Library Directory</a>, 
+        <a href="http://www-tns.sdsu.edu/cgi-bin/ph_form.pl">SDSU Directory</a>,
+        <a href="https://arwen.sdsu.edu/share/EMAILLISTS/">E-mail Lists</a>,                
+        <a href="/contact/">More...</a>
+        <p>
+
+
+
+
+		<big><strong><a href="/forms/">Forms</a></big></strong>
+        <br>
+        <a href="/forms/absence_form.shtml">Absence Request</a>, 
+        <a href="http://bfa.sdsu.edu/ap/forms.htm#travelforms">Travel Request</a>, 
+        <a href="/forms/">More...</a>
+        <p>
+
+
+
+     	<big><strong><a href="/files/">Access to Files, Resources, and Tools</a></big></strong>
+        <br>
+         
+		 <img src="/include/newred.gif" width="50" height="25" border="0" alt="new"><a href="https://arwen.sdsu.edu/netstorage/"><font color=#dd0000><strong>NetStorage,</a></strong></font>
+		 <a href="/files/usingnetstorage.pdf">(Learn more about NetStorage), </a>  
+         <a href="/files/">More...</a>
+        <p>
+
+
+
+		<big><strong><a href="/groups/">Groups, Committees & Teams</a></big></strong>
+        <br>
+        <a href="http://www-rohan.sdsu.edu/~ellied/wordpress/">Web Team</a>,  
+        <a href="https://arwen.sdsu.edu/share/MINUTES/">Minutes</a>, 
+        <a href="/groups/">More...</a>
+        <p>
+
+
+
+		<big><strong><a href="/hrinfo/">HR Info</a></big></strong>
+        <br> 
+        <a href="http://www.sci.sdsu.edu/ODE/">Diversity & Equity</a>,
+        <a href="http://bfa.sdsu.edu/hr/payday_holiday07.htm">Pay & Holidays</a>,
+        <a href="/hrinfo/">More...</a>
+        <p>
+
+</tr>
+</td>
+<td align="left" valign="top">
+
+		<big><strong><a href="/blogs/">Library Blogs and Wikis</a></STRONG></big>
+        <br> 
+        <a href="http://publicdesks.blogspot.com/">Public Desk Blog</a>,
+        <a href="http://www-rohan.sdsu.edu/wordpress/">Lfolks News Blog</a>,
+        <a href="/blogs/">More...</a>
+<BR><BR>
+
+
+		<big><strong><a href="/faculty/">Library Faculty Resources</a></big></strong>
+        <br>
+        <a href="/faculty/policyfile/policyfile.pdf">Policy File</a>, 
+        <a href=https://arwen.sdsu.edu/share/LIBFACULTY/Faculty_Docs/TTrack/>Tenure Track</a>, 
+        <a href="/faculty/">More...</a>
+		<p>
+
+   <!-- </td>
+    <form>
+    <td align="left" valign="top">
+      <big><strong><left>Announcements</big></strong>
+	</left>
+      <br>
+      		<textarea name="annc" rows="12" cols="30" wrap="virtual">Posted <!--#config timefmt="%B %d, %Y %H:%M %Z" --><!--#flastmod file="announce/latest.txt" -->:
+<!--#include virtual="announce/latest.txt" --></textarea>
+    <br>
+    <a href="announce/">More...</a>
+    </td>
+    </form>
+  </tr>
+  
+  <tr>
+    <td>
+ -->
+
+<big><strong><a href="/ist/">InfoSys</a></big></strong>
+        <br>
+        <a href="/ist/desk.shtml">Service Desk</A>,
+        <a href="ist/requests.shtml">Forms</A>,
+        <a href="/ist/status/">System Status</a>
+        <a href="/ist/"> and More...</a>
+        <p>
+
+      <big><strong><a href="/training/">Training</a></big></strong>
+        <br>
+        <a href="http://www-rohan.sdsu.edu/~bats">BATS</A>,
+        <a href="http://www.sa.sdsu.edu/career/current2.html">Career Services</A>,
+        <a href="/ist/units/services2a.shtml#Training">IST</A>,
+        <a href="/training/orient.shtml">New Employee Orientation</a>,
+        <a href="/training/">More...</a>
+        <p>
+
+
+
+
+       <big><strong><a href="/othersites/">Campus Links</a></big></strong>
+	  <br>
+        <a href="http://www.sdsu.edu">SDSU</a>, 
+        <a href="http://tns.sdsu.edu/">TNS</a>,
+        <a href="http://bfa.sdsu.edu/hr/">HR</a>,
+		<a href="http://bfa.sdsu.edu/emergency/">Emergency Preparedness</a>,
+        <a href="/othersites/">More...</a>
+        <p>
+
+    </td>
+  </tr>
+</table>
+
+<!--#include virtual="/include/footer.shtml" -->
+
+</body>
+
+</html>

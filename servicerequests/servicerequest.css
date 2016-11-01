@@ -1,0 +1,54 @@
+#HColor {
+	VISIBILITY: visible; BACKGROUND-COLOR: #999
+}
+#Btn1 {
+	VISIBILITY: visible; POSITION: absolute
+}
+
+#Fld1 {
+	VERTICAL-ALIGN: middle; TEXT-ALIGN: center
+}
+
+#Lbl1 {
+	VERTICAL-ALIGN: middle; TEXT-ALIGN: center
+}
+
+#Btn1 {
+	VERTICAL-ALIGN: middle; TEXT-ALIGN: right
+}
+
+.BtnStyle1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #fff; LINE-HEIGHT: 18px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+.
+.InfoStyle1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #fff; LINE-HEIGHT: 20px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+
+.InputStyle1 {
+	FONT-SIZE: 9px; COLOR: #000; FONT-FAMILY: Osaka, Verdana, Arial, Helvetica, sans-serif; TEXT-ALIGN: right
+}
+.DataStyle1 {
+	FONT-SIZE: 10px; COLOR: #000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.LinkStyle1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #fff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+A {
+	COLOR: #fff
+}
+A:active {
+	COLOR: #000
+}
+A:hover {
+	COLOR: #4c4c4c
+}
+A:visited {
+	COLOR: #fff
+}
+TABLE {
+	FONT-SIZE: 10px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+TD {
+	FONT-SIZE: 10px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}

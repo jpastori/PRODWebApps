@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- Last modified by John R. Pastori on 04/12/2007 using ColdFusion Studio. -->
+<html>
+<head>
+	<title>Procedures 1 & 2:  ColdFusion Server Software Startup and Shutdown</title>
+	<link rel="stylesheet" type="text/css" href="/webapps.css">
+</head>
+
+<body>
+These procedures apply to both the LIBINT.SDSU.EDU and LIBWEB.SDSU.EDU servers.<br><br>
+<DIV ALIGN="center"><H1>Procedure 1:  ColdFusion Server Software Startup <BR>(jrun -start cfusion).</H1></DIV>
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The ColdFusion server software startup procedure is done automatically when the 
+LIBINT.SDSU.EDU and LIBWEB.SDSU.EDU servers are started.  It can also be done manually from the command line in a secure shell (ssh) session:
+
+<UL>
+	<OL>
+		<LI>		Start the secure shell (ssh) software to create a telnet style session.</LI><BR>
+
+		<LI>		Login  as user oracle.  (See Barry, Carol, John or Ron for current user account passwords.)</LI><BR>
+
+		<LI>		Change to user root with the su command:  <STRONG><EM>su [return]</EM></STRONG>, Enter root password [return].</LI><BR>
+
+		<LI>		Change to the /etc/init.d directory: <STRONG><EM>cd /etc/init.d [return]</EM></STRONG>.</LI><BR>
+
+		<LI>		List the rc.local file to copy Coldfusion MX 7 startup command:  <STRONG><EM>cat rc.local [return]</EM></STRONG>.</LI><BR>
+
+		<LI>		Copy and paste the ColdFusion MX 7 Server software startup command from from under the 'start' label in the rc.local file to the command prompt:<br>
+				<STRONG><EM>>/opt/coldfusionmx7/bin/jrun -start cfusion & [return]</EM></STRONG>.<br>
+				Note: the ampersand at the end of the line is necessary so that the ColdFusion MX 7 Server software starts as a background process.</LI><BR>
+
+		<LI>		Check the status of the startup procedure by using the psgrep command:  <STRONG><EM>psgrep cfusion [return]</EM></STRONG>.</LI><BR>
+
+		<LI>		Log out of the secure shell (ssh) software by typing: <STRONG><EM>exit [return]</EM></STRONG> and closing the window.</LI>
+	</OL>
+</UL>
+
+<BR><BR><BR>
+<A NAME="PROC2"></A>
+<DIV ALIGN="center"><H1>Procedure 2:  ColdFusion Server Software Shutdown <BR>(jrun -stop cfusion).</H1></DIV>
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The ColdFusion server software shutdown procedure is done automatically when the LIBINT.SDSU.EDU and LIBWEB.SDSU.EDU servers
+ are shutdown.  It can also be done manually from the command line in a secure shell (ssh) session
+<UL>
+	<OL>
+		<LI>		Start the secure shell (ssh) software to create a telnet style session.</LI><BR>
+
+		<LI>		Login  as user oracle.  (See Barry, Carol, John or Ron for current user account passwords.)</LI><BR>
+
+		<LI>		Change to user root with the su command:  <STRONG><EM>su [return]</EM></STRONG>, Enter root password [return].</LI><BR>
+
+		<LI>		Change to the /etc/init.d directory: <STRONG><EM>cd /etc/init.d [return]</EM></STRONG>.</LI><BR>
+
+		<LI>		List the rc.local file to copy Coldfusion MX 7 startup command:  <STRONG><EM>cat rc.local [return]</EM></STRONG>.</LI><BR>
+
+		<LI>		Copy and paste the ColdFusion MX 7 Server software shutdown command from under the 'stop' label in the rc.local file to the command prompt:<br>
+				<STRONG><EM>>/opt/coldfusionmx7/bin/jrun -stop cfusion [return]</EM></STRONG>.  The ampersand is not required for this command.<br></LI><BR>
+
+		<LI>		Check the status of the shutdown procedure by using the psgrep command:  <STRONG><EM>psgrep cfusion [return]</EM></STRONG>.</LI><BR>
+
+		<LI>		Log out of the secure shell (ssh) software by typing: <STRONG><EM>exit [return]</EM></STRONG> and closing the window.</LI>
+	</OL>
+</UL>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- Last modified by John R. Pastori on 04/17/2007 using ColdFusion Studio. -->
+<html>
+<head>
+	<title>Procedure 5:  Oracle Development Instance Export (oradbbkup PRODAPPS)</title>
+	<link rel="stylesheet" type="text/css" href="/webapps.css">
+</head>
+
+<body>
+<DIV ALIGN="center"><H1>Procedure 5:  Oracle Development Instance Export <BR>(oradbbkup PRODAPPS).</H1></DIV>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The oradbbkup script is run on GANDALF.SDSU.EDU as a cron job.  It calls the oracledbbackup Perl program to backup all the data files
+of the PRODAPPS Oracle instance. It copies the files in the /ora/data/PRODAPPS directory to the  /ora/archive/PRODAPPS directory.  
+<BR><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The *.log and *.ctl files are copied as is.  The *.dbf files are tarred into oracle.tar.  The table data is also exported into a *.dmp file
+using the Oracle exp utility program.   All Oracle programs are found in the /oracle/oracle102gserver/bin directory.  The *.dmp files are
+named for the instance and date they were created.  Finally, the perl program deletes any *.dmp files older than 7 days.
+<BR><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The oradbbkup script and the oracledbbackup Perl program are stored in the /oracle/oracle102gserver/dbexports directory.  The oradbbkup script
+can be run manually from this directory.
+<BR><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To look at or change the timing of the cron job:
+
+<UL>
+	<OL>
+		<LI>		Start the secure shell (ssh) software to create a telnet style session.</LI><BR>
+
+		<LI>		Login  as user oracle.  (See Barry, Carol, John or Ron for current user account passwords.)</LI><BR>
+
+		<LI>		Change to user root with the su command:  <STRONG><EM>su [return]</EM></STRONG>, Enter root password [return].</LI><BR>
+
+		<LI>		Change to the cron directory by typing: <STRONG><EM>cd /var/spool/cron [return]</EM></STRONG>.</LI><BR>
+
+		<LI>		You can display the contents of the cron file by typing: <STRONG><EM>cat oracle [return]</EM></STRONG>.</LI><BR>
+
+		<LI>		You can change the timing of the cron job by typing: <STRONG><EM>crontab -e -u oracle [return]</EM></STRONG>. 
+				The first line that ends in PRODAPPS is the line to change.  It says that at 00 minutes, 23 hours (11:00pm) 
+				every day of every month, Monday(1) to Friday(5) run the job:  /oracle/oracle102gserver/dbexports/oradbbkup PRODAPPS.</LI><BR>
+
+		<LI>		Log out of the secure shell (ssh) software by typing: <STRONG><EM>exit [return]</EM></STRONG> and closing the window.</LI>
+
+	</OL>
+</UL>
+
+</body>
+</html>

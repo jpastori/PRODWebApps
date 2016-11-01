@@ -1,0 +1,33 @@
+<!doctype html public "-//w3c//dtd html 3.2//en">
+
+<html>
+
+<head>
+<link rel="STYLESHEET" href="/style/main.css" type="text/css">
+<style type="text/css"></style>
+<title>LFOLKS [Page Title]</title>
+<meta name="GENERATOR" content="Arachnophilia 4.0">
+<meta name="FORMATTER" content="Arachnophilia 4.0">
+</head>
+
+<body>
+
+<!--#config timefmt="%A %B %d, %Y %H:%M %Z" -->
+<!--#include virtual="/include/header.shtml"-->
+
+<!--#set var="author_name" value="INSERT AUTHOR HERE" -->
+<!--#set var="author_email" value="ENTER EMAIL HERE@mail.sdsu.edu" -->
+<!--#set var="content_updated" value="INSERT DATE HERE" -->
+
+
+<h2>Thanks</h2>
+
+Your form has been submitted. Thank you.
+
+</p>
+
+<!--#include virtual="/include/footer.shtml"-->
+
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+<hr>
+<!--#include virtual="/include/navbar1.shtml" -->
+<hr>
+
+	This page http://lfolks.sdsu.edu<!--#echo var="DOCUMENT_URI" -->
+						was last updated <!--#echo var="content_updated" -->
+						and is maintained by <!--#echo var="author_name" -->
+						<strong>(<A href="mailto:<!--#echo var="author_email" -->" ><!--#echo var="author_email" --></a>).
+						<br></strong>
+
+                                                <br>
+<i>This page last refreshed <!-#config timefmt="%B %d, %Y %H:%M"><!--#echo var="DATE_LOCAL" --></i>

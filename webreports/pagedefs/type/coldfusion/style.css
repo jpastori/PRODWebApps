@@ -1,0 +1,363 @@
+BODY{
+	background : #FFFFFF;
+	font-family : Verdana,Arial,Helvetica,sans-serif;
+	font-size : 11pt;
+	text-decoration : none;
+	}
+
+DL, DT, TH, LI, OL, UL, DL, DD, DIV{
+        background : #FFFFFF;
+        font-family : Verdana,Arial,Helvetica,sans-serif;
+        font-size : 11pt;
+        text-decoration : none;
+        }
+
+
+P{
+	font-family : Verdana,Arial,Helvetica,sans-serif;
+	font-size : 11pt;
+	text-decoration : none;
+	}
+	
+P.highlight {
+	BACKGROUND: #ffff99;
+	font-size : 9pt;
+}	
+	
+
+P.seealso, div.seealso{
+	font-size : 9pt;
+}
+
+
+P.indent { text-indent: 1em; }
+
+p.hang { text-indent: -1em; }
+
+BIG{
+	color : #990000;
+	font-family : Verdana,Arial,Helvetica,sans-serif;
+	font-size : 120%;
+	font-weight : bold;
+	}
+
+
+H1{
+	color : #000066;
+	font-family : Georgia, Times New Roman, Times, serif;
+	font-size : 150%;
+	}
+
+
+H2{
+	color : #990000;
+	font-family : Verdana,Arial,Helvetica,sans-serif;
+	font-size : 125%;
+	text-align : center;
+	}
+
+
+H3{
+	color : #990000;
+	font-family : Verdana,Arial,Helvetica,sans-serif;
+	font-size : 125%;
+	}
+
+	
+H3.index{
+	font-family : Verdana,Arial,Helvetica,sans-serif;
+	font-size : 125%;
+	}
+
+
+H4{
+	color : #990000;
+	font-family : Verdana,Arial,Helvetica,sans-serif;
+	font-size : 90%;
+	}
+
+
+TH.coltable{
+	font-size : 125%;
+	font-weight : 800;
+	}
+
+
+TH.coltablediv{
+	font-size : 125%;
+	font-weight : 800;
+	}
+
+
+STRONG.colheader{
+	color : #006633;
+	font-size : 150%;
+	font-weight : bold;
+	}
+
+
+TD 	{
+	background:#FFFFFF;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+TD.stripe{ 
+	background:#990000;
+	}
+	
+TD.head{
+	font-size : 14pt;
+	font-style : italic;
+	font-weight : 800;
+	text-align : left;
+	}
+
+TD.special{
+	background-color : #FFCCCC;
+	font-size : 80%;
+	border : 1px ridge Gray;
+}
+
+TD.specialnav{
+	border : 1px ridge Red;
+}
+
+TD.extraspecial{
+	background-color : #FFFFFF;
+	border : 1px ridge Gray;
+}
+
+TD.special2{
+	font-size : 80%;
+	border : 1px ridge Gray;
+}
+
+TD.navlinks{
+	font-size : 9pt;
+	text-align : right;
+	whitespace : nowrap;
+}
+
+TD.xref{
+	background : #FFFFFF;
+	}
+
+
+TD.pagetitle{
+	color : #FFFFFF;
+	font-size : 300%;
+	font-weight : 800;
+	}
+
+
+TD.archivessidebar{
+	background : #FFFFFF;
+	font-size : 80%;
+	}
+
+
+
+STRONG.dbtitle{
+	text-decoration : none;
+	}
+
+
+STRONG.article{
+	background : #FFCCCC;
+	}
+
+
+STRONG.header{
+	background : #990000;
+	}
+
+HR{
+	color : #000000;
+	}
+
+
+A.menuHeader:link{
+        color: #990000;
+}
+
+
+A{
+	text-decoration : none;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+
+A:link{
+	color : blue;
+	font-weight : 400;
+	}
+
+
+A:visited{
+	color : blue;
+	font-weight : 400;
+	}
+
+
+A:active{
+	color : #990000;
+}
+
+A:hover{
+	text-decoration : underline;
+	color : blue;
+	font-weight : 400;
+}
+
+UL.nav{
+	
+	padding-top : 0%;
+	padding-left : 0%;
+	margin-top : 0%;
+}
+
+LI.nav{
+	font-size : 91%;
+	padding-top: 0%;
+	margin-top : 0%;
+	margin-left : 0%;
+	list-style-type : disc;
+	}
+	
+LI.navigation{
+	padding-top: 0%;
+	margin-top : 0%;
+	margin-left : 0%;
+	list-style-type : circle;
+	}
+	
+LI.navigation2{
+	padding-top: 0%;
+	margin-top : 0%;
+	margin-left : 0%;
+	list-style-type : circle;
+	background:  #FFCCCC; 
+	font-size : 80%;
+	}
+
+A.H3:link, A.H3:visited{
+	color : #990000;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-weight : 800;
+}
+
+TD.hours{
+	font-size : 10pt;
+}
+
+A.navbar:link {
+	color: #000000;
+	text-decoration: none;
+	font-size : 80%;
+}
+
+A.navbar:visited {
+	color: #000000;
+	text-decoration: none;
+	font-size : 80%;
+}
+
+A.navbar:active {  
+  color: #990000;
+  text-decoration: none;
+  font-size : 80%;
+}
+
+A.navbar:hover {
+  color: #990000;
+  text-decoration: underline;
+  font-size : 80%;
+}
+
+A.navbartop:link {
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+	font-size : 80%;
+}
+
+A.navbartop:visited {
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+	font-size : 80%;
+}
+
+A.navbartop:active {  
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size : 80%;
+}
+
+A.navbartop:hover {
+  color: #000000;
+  text-decoration: underline;
+ font-weight: bold;
+ font-size : 80%;
+}
+
+.navgradient {
+			background-image: url(/images/gradient_nav.gif);
+			background-repeat: no-repeat;
+			background-position: top;
+			
+.warning{
+	color : Red;
+}
+
+	
+HR.header {
+	color : #999999;
+	border-width:  1;
+	text-align:  center;
+	}
+	
+UL.bullet {
+	list-style-image: url(/images/bullet_blue.gif)
+}
+
+Strong.navbar {
+font-weight : 800;
+ font-size : 80%;
+ }
+ 
+ TD.background {
+ background-image: url(http://dejavu.sdsu.edu/images/light-domephoto.jpg);
+ }
+ 
+ P.announcement { 
+ background:#CCCCFF;
+ }
+ 
+ .mandatory
+ {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #990000;
+}
+.legaltext {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #333333;
+}
+
+.tinybody {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #000000;
+}

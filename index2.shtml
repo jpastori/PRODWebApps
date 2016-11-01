@@ -1,0 +1,41 @@
+<HTML>
+<!-- Last modified by John R. Pastori on 06/03/2009 using ColdFusion Studio. -->
+<HEAD>
+	<LINK rel="STYLESHEET" href="/style/front.css" type="text/css" />
+	<STYLE type="text/css"></STYLE>
+	<META http-equiv="Content-Language" content="en-us" />
+	<META http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+	<TITLE>Javascript Disabled Page.</TITLE>
+</HEAD>
+
+<BODY>
+
+<!--#set var="author_name" value="John R. Pastori" -->
+<!--#set var="author_email" value="pastori@rohan.sdsu.edu" -->
+<!--#set var="content_updated" value="June 03, 2009" -->
+
+
+<TABLE width="100%" border="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD align="center">
+			<IMG src="/images/lfolks.jpg" alt="lfolks" /><BR />
+			<HR />
+		</TD>
+	</TR>
+	<TR>
+		<TD align="center" valign="MIDDLE">
+			<H4><FONT size=+3><STRONG><EM><CENTER><BLINK>The JavaScript option MUST BE turned on in your browser to use this site!</BLINK></CENTER></EM></STRONG></FONT></H4>
+		</TD>
+	</TR>
+	<TR>
+		<TD align="center">
+			<BR /><H1>Please change your browser's javascript setting and <A href="https://lfolkstest.sdsu.edu/DEVapps/index.cfm">login </A>for Applications, Forms and Resources.</H1><BR /><BR />
+		</TD>
+	</TR>
+</TABLE>
+
+<!--#include virtual="/include/footer.shtml" -->
+
+</BODY>
+
+</HTML>

@@ -1,0 +1,265 @@
+<!doctype html public "-//w3c//dtd html 3.2//en">
+<HTML>
+<HEAD>
+<LINK rel="STYLESHEET" href="/style/main.css" type="text/css" />
+<STYLE type="text/css"></STYLE>
+<TITLE>Information Systems and Technology - Ops Manual</TITLE>
+<META name="GENERATOR" content="Arachnophilia 4.0" />
+<META name="FORMATTER" content="Arachnophilia 4.0" />
+</HEAD>
+<BODY>
+<!--#config timefmt="%A %B %d, %Y %H:%M %Z" -->
+<!--#include virtual="/include/header.shtml"-->
+<!--#set var="author_name" value="Carol Phillips" -->
+<!--#set var="author_email" value="phillips@rohan.sdsu.edu" -->
+<!--#set var="content_updated" value="March 13, 2003" -->
+
+<H2>InfoSys Operations Manual</H2>
+<CENTER> 
+<P></P>
+ <!A HREF="index.shtml">Info. & Tech. Support   |  <A href="indexpac.shtml">PAC Support</A>  | <A href="indexsans.shtml">SANS/ACS</A>  |  <A href="indexsat.shtml">SAT</A>   |  <A href="indexscc.shtml">SCC</A><BR /><BR />   
+
+<P></P>
+<FONT color="#FF0000"><EM>NOTE:  Most resources below are in .pdf format and will require the use of Adobe Acrobat Reader.</EM></FONT><BR /><BR />
+
+<P></P>
+<H2>Info. & Tech. Support Procedures</H2>
+<STRONG><A name="Quick Index">Quick Index</A></STRONG><BR />
+<A href="#News">Announcements, Contacts and News</A>   |  <A href="#Documentation">Documentation</A>  |  <A href="#Info">Info Support</A>  <BR />
+<A href="#Operations">Operations</A>  |  <A href="#Desk">Service Desk</A>  |  <A href="#Tech">Tech Support</A>  |  <A href="#Training">Training</A>
+</CENTER>
+<HR />
+
+<P>
+<BIG><STRONG><A name="News">Announcements, Contacts and News </A></STRONG></BIG><BR />
+</P><UL>
+<LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/aftercontfull.pdf">After Hours/Weekend Service
+Contacts (Full List)</A>
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/announceproc.pdf">How to Update Announcements on LFOLKS  </A>
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/statusproc.pdf">How to Update System Status on LFOLKS  </A>
+</LI><LI><A href="https://arwen.sdsu.edu/share/minutes/infosys/4th_floor/">IST 4th Floor Minutes  </A>
+</LI></UL>
+<P></P><P>
+Return to <A href="#Quick Index">Quick Index</A>
+</P>
+<HR />
+
+<P>
+<BIG><STRONG><A name="Documentation">Documentation </A></STRONG></BIG><BR />
+Customer Resources - Pre-Release 
+</P><UL>
+<LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/macincbattery.pdf">Increasing Battery Performance in Mac Laptops    </A>
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/macmobile.pdf">Macintosh Mobile Computing     </A>
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/classicdtop.pdf">Making a "Classic" OS X Desktop   </A>
+<P></P>
+</LI></UL>
+<P>IST - Forms 
+</P><UL>
+<LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/sonyvaioacc.pdf">Sony Vaio Accessory Checklist</A>
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/tnsnetreq.pdf">TNS Network Request</A>
+</LI></UL>
+<P></P>
+
+<P>Unit Resources - Archive 
+</P><UL>
+<LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/cpmcfiche2.pdf">CPMC - MicroFilm/Fiche Reader Operations    </A>
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/cpmcfiche.pdf">CPMC - Scanning MicroFilm/Fiche images to a Floppy Disk    </A>
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/instrkiosk.pdf">INSTR - Kiosk Instructions    </A>
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/dc280camera.pdf">IST - Kodak DC280 Digital Camera Instructions    </A>
+</LI></UL>
+<P></P><P>
+Return to <A href="#Quick Index">Quick Index</A>
+</P>
+<HR />
+
+<P>
+<BIG><STRONG><A name="Info">Info Support</A></STRONG></BIG><BR />
+Files, Manuals and Hardcopy
+</P><UL>
+<LI><!A HREF="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/xxxxxxxx.pdf">Converting Documents to HTML Files     
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/pdfconvrt.pdf">Converting Documents to PDF Files     </A>
+</LI><LI><!A HREF="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/xxxxxxxx.pdf">File and Hardcopy Storage Guidelines    
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/istman.pdf">IST Unit Reference Libraries     </A>
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/rbrman.pdf">RBR Software Manual Procedures     </A>
+</LI></UL>
+<P></P>
+
+<P>LFOLKS/Gollum Web Guidelines
+</P><UL>
+<LI><!A HREF="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/xxxxxxxx.pdf">IST Directory Structure on Gollum     
+</LI><LI><!A HREF="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/xxxxxxxx.pdf">IST Directory Structure on LFOLKS          
+</LI><LI><!A HREF="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/xxxxxxxx.pdf">IST/Gollum Updating     
+</LI><LI><!A HREF="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/xxxxxxxx.pdf">IST/LFOLKS Updating    
+</LI></UL>
+<P></P>
+
+<P>Infodome/ROHAN Web Guidelines
+</P><UL>
+<LI><!A HREF="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/xxxxxxxx.pdf">Infodome Exhibits Procedures     
+</LI><LI><A href="http://lfolks.sdsu.edu/groups/webteam/pagemasters.html">Infodome PageMasters     </A>
+</LI><LI><A href="https://arwen.sdsu.edu/share/Training/handouts/html/">HTML Workshop Handouts     </A>
+</LI><LI><A href="http://lfolks.sdsu.edu/groups/webteam/index.html">Infodome Web Team </A>     
+</LI><LI><A href="http://rohan.sdsu.edu/aboutgraph.html">About the ROHAN Graphics</A>
+</LI><LI><A href="http://rohan.sdsu.edu/aboutserver.html">About the ROHAN Web Server</A>
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/rdirfiles.pdf">Explanation of Directories and Files on ROHAN</A>
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/rwebftp.pdf">FTP Instructions for the Academic Computing Web Site</A>
+</LI><LI><A href="http://rohan.sdsu.edu/hpguide.html">Guide to Making a Home Page on ROHAN</A>
+</LI><LI><A href="http://rohan.sdsu.edu/graphlib.html">ROHAN Graphics Library</A>
+</LI><LI><!A HREF="">ROHAN Web Document Guidelines
+</LI><LI><A href="http://rohan.sdsu.edu/aboutresp.html">ROHAN Web Responsibilities</A>
+</LI><LI><A href="http://www.sdsu.edu/styleguide/">WWW Style Guide for SDSU</A>
+</LI></UL>
+<P></P>
+
+<P>Software Installs
+</P><UL>
+<LI><!A HREF="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/xxxxxxxx.pdf">Installing Netware Client for Macintosh     
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/jdkinstallpc.pdf">Oracle (JDK) PC Download Procedures     </A>
+</LI><LI><!A HREF="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/xxxxxxxx.pdf">Upgrading to Office 2000 for Windows     
+</LI><LI><!A HREF="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/xxxxxxxx.pdf">Upgrading to Office 2001 for Macintosh     
+
+</LI></UL>
+<P></P>
+
+<P>System Maintenance
+</P><UL>
+Accounts and Rights<BR />
+<UL>
+<LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/acacct.pdf">Academic Computing Account Services </A>   
+</LI><LI><!A HREF="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/xxxxxx.pdf">Administering Rights via Net Admin 
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/disableacct.pdf">Guidelines for Disabling Accounts on ROHAN and Moria </A>
+</LI><LI><!A HREF="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/xxxxxx.pdf">InfoSys Directories on Timber 
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/acctrohan.pdf">ROHAN Accounts     </A>
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/rohannotes.pdf">ROHAN Usage Notes     </A>
+</LI><LI><!A HREF="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/xxxxxx.pdf">Running Survey.bat for Rights Review 
+</LI></UL>
+
+Email<BR />
+<UL>
+<LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/emailcoord.pdf">Email Coordinator Procedures    </A>
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/headfoot.pdf">How to Stop the Eudora Header or Footer from Printing    </A>
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/SPAMsteps.pdf">How to Switch to ROHAN for SPAM Filtering    </A>
+</LI></UL>
+
+PAC<BR />
+<UL>
+<LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/pacbackup.pdf">PAC and Circuit Unattended Backup Instructions    </A>
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/pacfail.pdf">What to do if PAC Control is Down OR PAC is not in Real Time    </A>
+</LI></UL>
+
+Service Requests<BR />
+<UL>
+<LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/srreferlib.pdf">SR Referrals for Arriving and Departing Library Employees     </A>
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/srreferacs.pdf">SR Referrals for Arriving and Departing ACS Customers   </A>
+</LI></UL>
+</UL>
+<P></P><P>
+Return to <A href="#Quick Index">Quick Index</A>
+</P>
+<HR />
+
+<P>
+<BIG><STRONG> <A name="Operations">Operations </A></STRONG></BIG><BR />
+Knowledge
+</P><UL>
+<LI><!A HREF="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/xxxxxxxx.pdf">Hardware Files     
+</LI></UL>
+<P></P>
+
+<P>Staff Tasks
+</P><UL>
+<LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/hardckin.pdf">Hardware Check-In and Assignment   </A>
+</LI><LI><!A HREF="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/xxxxxxxx.pdf">Hardware Survey Guidelines     
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/ltckoutprocfull.pdf">Laptop Check-Out Procedures     </A>
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/netjacktesting.pdf">Network Jack Testing with the Fluke </A>
+</LI></UL>
+<P></P><P>
+Return to <A href="#Quick Index">Quick Index</A>
+</P>
+<HR />
+
+<P>
+<BIG><STRONG>Service <A name="Desk">Desk </A></STRONG></BIG><BR />
+Knowledge
+</P><UL>
+<LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/istlsagde.pdf">InfoSys Student Assistant Guide     </A>
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/dbnotes.pdf">InfoSys Service Desk Database Notes     </A>
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/isdgdeline.pdf">InfoSys Service Desk Guidelines and Policies     </A>
+</LI><LI><!A HREF="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/xxxxxx.pdf">IST Emergency Procedures
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/pacbybrian.pdf">PAC Presentation given by Brian</A>
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/pcatsubscc.pdf">SCC Problem Category/Sub Categories</A>
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/serversfull.pdf">Server Services Managed by IST</A>
+</LI></UL>
+<P></P>
+
+<P>SA Tasks
+</P><UL>
+<LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/vms46753.pdf">46753 VMS Procedures   </A>  
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/dattape.pdf">DAT Tape Deliver and Pickup     </A>
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/isdeudora.pdf">
+Infosys@library.sdsu.edu Procedures     </A>
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/isdstartup.pdf">ISTDesk Startup and Shutdown     </A>
+</LI><LI><!A HREF="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/xxxxxxxx.pdf">Mail Deliver and Pickup     
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/offsupply.pdf">Office Supplies Ordering and Receiving     </A>
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/pacstats.pdf">PAC Statistics    </A>   <BR />
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/ponpass.pdf">Power On Password Requests     </A>
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/unithreport.pdf">Unit Hardware Reports     </A>
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/unitsrreport.pdf">Unit SR Reports     </A>
+</LI><LI><!A HREF="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/xxxxxx.pdf">SR Data Entry from Mail Forms     
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/phonebomb.pdf">Threatening Phone Call/Bomb Threat Checklist     </A>
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/isdequip.pdf">Xerox, FAX, Printer Supplies and Service     </A>
+</LI></UL>
+<P></P>
+
+<P>Staff Tasks
+</P><UL>
+<LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/fedex.pdf">Federal Express Procedures  </A>   
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/lsahire.pdf">Hiring Student Assistants    </A>
+</LI><LI><!A HREF="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/xxxxxxxx.pdf">Pager Repair Procedures     
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/vendorrep.pdf">Vendor Repair Procedures     </A>
+</LI></UL>
+<P></P><P>
+Return to <A href="#Quick Index">Quick Index</A>
+</P>
+<HR />
+
+<P>
+<BIG><STRONG><A name="Tech">Tech Support</A></STRONG></BIG><BR />
+Knowledge
+</P><UL>
+<LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/mslicagree.pdf">Microsoft Software License Agreement     </A>
+</LI><LI><!A HREF="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/xxxxxxxx.pdf">Site Licensing and Volume Purchasing    
+</LI><LI><!A HREF="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/xxxxxxxx.pdf">Software Files     
+</LI></UL>
+<P></P>
+
+<P>Staff Tasks
+</P><UL>
+<LI><!A HREF="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/xxxxxxxx.pdf">Central Stores Guidelines    
+</LI><LI><!A HREF="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/xxxxxxxx.pdf">Library Purchasing Procedures and IST     
+</LI><LI><!A HREF="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/xxxxxxxx.pdf">Open PO/Contract Procedures     
+</LI><LI><!A HREF="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/xxxxxxxx.pdf">Software Check-In and Assignment     
+</LI><LI><!A HREF="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/xxxxxxxx.pdf">Software Check-Out and Assignment     
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/mediadocgde.pdf">Software Media/Documentation Guidelines     </A>
+</LI><LI><!A HREF="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/xxxxxxxx.pdf">Spec'ing and the SR Process    
+</LI><LI><!A HREF="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/xxxxxxxx.pdf">TNS Network Request Procedures    
+</LI></UL>
+<P></P><P>
+Return to <A href="#Quick Index">Quick Index</A>
+</P>
+<HR />
+
+<P>
+<A name="Training"></A><BIG><STRONG>Training</STRONG></BIG><BR />
+</P><UL>
+<LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/wkshppub.pdf">Workshop Schedule Publicity </A>    
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/wkshpreg.pdf">Workshop On-line Registration Notes</A>
+</LI><LI><A href="https://arwen.sdsu.edu/share/Training/handouts/">Workshop Handouts     </A>
+</LI></UL>
+<P></P><P>
+Return to <A href="#Quick Index">Quick Index</A>
+</P>
+<P></P>
+<!--#include virtual="/include/footer.shtml"-->
+</BODY>
+</HTML>

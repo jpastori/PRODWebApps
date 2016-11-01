@@ -1,0 +1,181 @@
+<!--#config timefmt="%D %H:%M %Z" -->
+
+<!--#set var="onload_javascript_name" value="document.dbstatsrequest.processtype.focus()" -->
+<!--#set var="javascript_filename" value="dbstatsrequest.js" -->
+
+<!--#set var="page_title" value="Library Article Databases Usage Statistics Request" -->
+<!--#set var="use_title_as_content_header" value="yes" -->
+
+<!--#set var="author_name" value="John R. Pastori" -->
+<!--#set var="author_email" value="pastori@rohan.sdsu.edu" -->
+<!--#set var="content_updated" value="November 6, 2002" -->
+
+<!--#include virtual="/include/javatopheader.shtml" -->
+
+<!--LAST MODIFIED BY JOHN R.PASTORI ON November 06, 2002 USING Cold Fusion Studio-->
+<div align="center"><h1>LIBRARY ARTICLE DATABASES USAGE STATISTICS REPORT REQUEST</h1></div>
+<FORM Name="dbstatsrequest" onSubmit="return validateReqFields();" METHOD="POST" ACTION="/cgi-bin/dbstats.cgi">
+<TABLE WIDTH="50%" BORDER="0" CELLSPACING="0" CELLPADDING="0" ALIGN="CENTER">
+	<TR ALIGN="left" VALIGN="top">
+		<TD COLSPAN="4">
+			<div ALIGN="CENTER"><H3>Please select the desired process code and report date(s)</H3></DIV>
+			<div align="center">The default process is to run an Annual Report for the current fiscal year (ie. July 1 to June 30).<br>
+			If the Monthly Report is chosen, the default is to process the previous month's data.</div><br><br>
+			
+		</TD>
+	</TR>
+	<TR>
+		<TD VALIGN="TOP" ALIGN="RIGHT">
+			&nbsp;Choose your process type:
+		<TD VALIGN="TOP" ALIGN="LEFT">
+			&nbsp;&nbsp;<SELECT NAME="processtype" ID="processtype">
+				<OPTION SELECTED VALUE="a">Annual Report
+				<OPTION VALUE="m">Monthly Report
+				<OPTION VALUE="r">Range of Months Report.
+			</SELECT>
+		</TD>
+		<TD COLSPAN="2">
+			&nbsp;&nbsp;
+		</TD>
+	</TR>
+	<TR>
+		<TD COLSPAN="4">
+			&nbsp;&nbsp;
+		</TD>
+	</TR>
+	<TR>
+		<TD VALIGN="TOP" ALIGN="RIGHT">
+			&nbsp;Choose your Begin Month <br> for a Monthly Report or &nbsp;&nbsp;<br> Range Of Months Report:
+		</TD>
+		<TD VALIGN="TOP" ALIGN="LEFT">
+			&nbsp;&nbsp;<SELECT NAME="beginmonth">
+				<OPTION VALUE="" >Select A Month
+				<OPTION VALUE="01">January
+				<OPTION VALUE="02">February
+				<OPTION VALUE="03">March
+				<OPTION VALUE="04">April
+				<OPTION VALUE="05">May
+				<OPTION VALUE="06">June
+				<OPTION VALUE="07">July
+				<OPTION VALUE="08">August
+				<OPTION VALUE="09">September
+				<OPTION VALUE="10">October
+				<OPTION VALUE="11">November
+				<OPTION VALUE="12">December
+			</SELECT>
+		</TD>
+		<TD VALIGN="TOP" ALIGN="RIGHT">
+			&nbsp;Choose your Begin Year <br> for your chosen report:
+		</TD>
+		<TD VALIGN="TOP" ALIGN="LEFT">
+			&nbsp;&nbsp;<SELECT NAME="beginyear">
+				<OPTION VALUE="" >Select A Year
+				<OPTION VALUE="2002">2002
+				<OPTION VALUE="2003">2003
+				<OPTION VALUE="2004">2004
+				<OPTION VALUE="2005">2005
+				<OPTION VALUE="2006">2006
+				<OPTION VALUE="2007">2007
+				<OPTION VALUE="2008">2008
+				<OPTION VALUE="2009">2009
+				<OPTION VALUE="2010">2010
+				<OPTION VALUE="2011">2011
+				<OPTION VALUE="2012">2012
+				<OPTION VALUE="2013">2013
+				<OPTION VALUE="2014">2014
+				<OPTION VALUE="2015">2015
+				<OPTION VALUE="2016">2016
+				<OPTION VALUE="2017">2017
+				<OPTION VALUE="2019">2019
+				<OPTION VALUE="2020">2020
+				<OPTION VALUE="2021">2021
+				<OPTION VALUE="2022">2022
+				<OPTION VALUE="2023">2023
+				<OPTION VALUE="2024">2024
+				<OPTION VALUE="2025">2025
+				<OPTION VALUE="2026">2026
+				<OPTION VALUE="2027">2027
+				<OPTION VALUE="2028">2028
+				<OPTION VALUE="2029">2029
+				<OPTION VALUE="2030">2030
+			</SELECT>
+		</TD>
+	</TR>
+	<TR>
+		<TD COLSPAN="4">
+			&nbsp;&nbsp;
+		</TD>
+	</TR>
+	<TR>
+		<TD VALIGN="TOP" ALIGN="RIGHT">
+			&nbsp;Choose your End Month for <br> a Range Of Months Report: <br>
+		</TD>
+		<TD VALIGN="TOP" ALIGN="LEFT">
+			&nbsp;&nbsp;<SELECT NAME="endmonth">
+				<OPTION VALUE="" >Select A Month
+				<OPTION VALUE="01">January
+				<OPTION VALUE="02">February
+				<OPTION VALUE="03">March
+				<OPTION VALUE="04">April
+				<OPTION VALUE="05">May
+				<OPTION VALUE="06">June
+				<OPTION VALUE="07">July
+				<OPTION VALUE="08">August
+				<OPTION VALUE="09">September
+				<OPTION VALUE="10">October
+				<OPTION VALUE="11">November
+				<OPTION VALUE="12">December
+			</SELECT>
+		</TD>
+		<TD VALIGN="TOP" ALIGN="RIGHT">
+			&nbsp;Choose your End Year&nbsp;&nbsp;<br> for your chosen report:
+		</TD>
+		<TD VALIGN="TOP" ALIGN="LEFT">
+			&nbsp;&nbsp;<SELECT NAME="endyear">
+				<OPTION VALUE="" >Select A Year
+				<OPTION VALUE="2002">2002
+				<OPTION VALUE="2003">2003
+				<OPTION VALUE="2004">2004
+				<OPTION VALUE="2005">2005
+				<OPTION VALUE="2006">2006
+				<OPTION VALUE="2007">2007
+				<OPTION VALUE="2008">2008
+				<OPTION VALUE="2009">2009
+				<OPTION VALUE="2010">2010
+				<OPTION VALUE="2011">2011
+				<OPTION VALUE="2012">2012
+				<OPTION VALUE="2013">2013
+				<OPTION VALUE="2014">2014
+				<OPTION VALUE="2015">2015
+				<OPTION VALUE="2016">2016
+				<OPTION VALUE="2017">2017
+				<OPTION VALUE="2019">2019
+				<OPTION VALUE="2020">2020
+				<OPTION VALUE="2021">2021
+				<OPTION VALUE="2022">2022
+				<OPTION VALUE="2023">2023
+				<OPTION VALUE="2024">2024
+				<OPTION VALUE="2025">2025
+				<OPTION VALUE="2026">2026
+				<OPTION VALUE="2027">2027
+				<OPTION VALUE="2028">2028
+				<OPTION VALUE="2029">2029
+				<OPTION VALUE="2030">2030
+			</SELECT>
+		</TD>
+	</TR>
+	<TR>
+		<TD COLSPAN="2">
+			&nbsp;&nbsp;
+		</TD>
+	</TR>
+	<TR>
+		<TD COLSPAN="4">
+			<BR><div ALIGN="CENTER"><INPUT TYPE="SUBMIT" VALUE="REQUEST REPORT">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<INPUT TYPE="RESET" VALUE="CLEAR FORM" NAME="Reset button"></DIV>
+		</TD>
+	</TR>
+</TABLE>
+</FORM>
+<br><br>
+<!--#include virtual="/include/footer.shtml" -->

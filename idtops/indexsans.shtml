@@ -1,0 +1,95 @@
+<!doctype html public "-//w3c//dtd html 3.2//en">
+
+<HTML>
+
+<HEAD>
+<LINK rel="STYLESHEET" href="/style/main.css" type="text/css" />
+<STYLE type="text/css"></STYLE>
+<TITLE>Information Systems and Technology - Ops Manual</TITLE>
+<META name="GENERATOR" content="Arachnophilia 4.0" />
+<META name="FORMATTER" content="Arachnophilia 4.0" />
+</HEAD>
+
+<BODY>
+
+<!--#config timefmt="%A %B %d, %Y %H:%M %Z" -->
+<!--#include virtual="/include/header.shtml"-->
+
+<!--#set var="author_name" value="Carol Phillips" -->
+<!--#set var="author_email" value="phillips@rohan.sdsu.edu" -->
+<!--#set var="content_updated" value="October 30, 2006" -->
+
+
+<H2>InfoSys Operations Manual</H2>
+<CENTER> 
+<P></P>
+ <A href="index.shtml">Info. & Tech. Support</A>   |  <A href="indexpac.shtml">PAC Support</A>  | <!A HREF="indexsans.shtml">SANS/ACS  |  <A href="indexsat.shtml">SAT</A>   |  <A href="indexscc.shtml">SCC</A><BR /><BR />   
+
+<P></P>
+<FONT color="#FF0000"><EM>NOTE:  Most resources below are in .pdf format and will require the use of Adobe Acrobat Reader.</EM></FONT><BR /><BR />
+
+<P></P>
+<H2>SANS/ACS Procedures</H2>
+<STRONG><A name="Quick Index">Quick Index</A></STRONG><BR />
+<A href="#News">Announcements, Contacts and News</A>   | <A href="#Installs">Installation</A>   |   <A href="#Maintenance">Maintenance</A>   |   <A href="#Product">Product Evaluation</A> 
+</CENTER>
+<HR />
+
+<P>
+<BIG><STRONG><A name="News">Announcements, Contacts and News </A></STRONG></BIG><BR />
+</P><UL>
+<LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/aftercontfull.pdf">After Hours/Weekend Service
+Contacts (Full List)</A>
+</LI><LI><A href="https://arwen.sdsu.edu/share/minutes/infosys/4th_floor/">IST 4th Floor Minutes  </A>
+</LI></UL>
+<P></P><P>
+Return to <A href="#Quick Index">Quick Index</A>
+</P>
+<HR />
+<P>
+<BIG><STRONG><A name="Installs">Installation </A></STRONG></BIG><BR />
+</P><UL>
+Eudora<BR />
+<LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/cntrlnickname2.pdf">How to Install the Central Recipient List of Nicknames</A><BR />     
+Macintosh<BR />
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/osx2howtosetup.pdf">How to Setup Mac OS 10.2.4 (Jaguar)</A><BR />   
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/imacsetup.pdf">How to Setup the Media Center iMacs</A><BR />   
+Oracle<BR />
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/jdkinstallpc.pdf">Oracle (JDK) PC Download Procedures</A><BR />
+Time Clock<BR />
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/timeclocksetup.pdf">Student Time Clock Setup Instructions</A> <BR />  
+</LI></UL>
+<P></P>
+<P>
+Return to <A href="#Quick Index">Quick Index</A>
+</P>
+<HR />
+<P>
+<BIG><STRONG><A name="Maintenance"> Maintenance</A></STRONG></BIG><BR />
+</P><UL>
+<LI><A href="https://arwen.sdsu.edu/share/IST_BINDER/dellboot.pdf">Dell OptiPlex GX110 Booting Problem    </A><BR />
+</LI><LI><A href="https://arwen.sdsu.edu/share/IST_BINDER/sreportgde.pdf">InfoSys Service Report Guidelines    </A><BR />
+</LI><LI><A href="https://arwen.sdsu.edu/share/Info_Sys/ISTBinder/deproxy.pdf">Regarding PROXY services    </A><BR /></LI></UL>
+<P></P>
+<P>
+Return to <A href="#Quick Index">Quick Index</A>
+</P>
+<HR />
+<P>
+<BIG><STRONG> <A name="Product">Product </A>Evaluation</STRONG></BIG><BR />
+</P><UL>
+<LI><!A HREF="https://arwen.sdsu.edu/share/IST_BINDER/xxxxxx.pdf">Spec'ing and Quoting Instructions     <BR />
+</LI></UL>
+
+<P></P>
+<P>
+Return to <A href="#Quick Index">Quick Index</A>
+</P>
+
+<P></P>
+<P>
+<!--#include virtual="/include/footer.shtml"-->
+
+</P></BODY>
+
+</HTML>
